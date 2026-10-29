@@ -1,0 +1,2052 @@
+﻿Customer Description,故障问题分类,Issue Type / Professional Fault Term
+Camera not powering ON,Core Fault,camera cannot power on
+Cannot ON,Core Fault,camera cannot power on
+Flashing light in between RED and GREEN alternately (One RS),Core Fault,camera cannot power on
+My camera is not turning ON,Core Fault,camera cannot power on
+No power,Core Fault,camera cannot power on
+Not starting,Core Fault,camera cannot power on
+Unable to power on,Core Fault,camera cannot power on
+Unable to turn on,Core Fault,camera cannot power on
+Went off,Core Fault,camera cannot power on
+blackout,Core Fault,camera cannot power on
+camera power issue,Core Fault,camera cannot power on
+cannot ON my camera,Core Fault,camera cannot power on
+device can't ON,Core Fault,camera cannot power on
+unable to turn ON,Core Fault,camera cannot power on
+Customer feedback that he/she recording footage and put the camera on the cloth/comforter cause the camera to be overheating as well,Core Fault,Overheat
+Device heat-up,Core Fault,Overheat
+Device overheating,Core Fault,Overheat
+Excessive heat build-up,Core Fault,Overheat
+Heat spike,Core Fault,Overheat
+Heat-related malfunction,Core Fault,Overheat
+High temperature issue,Core Fault,Overheat
+Overtemperature condition,Core Fault,Overheat
+Temperature rise,Core Fault,Overheat
+Thermal overload,Core Fault,Overheat
+Thermal shutdown,Core Fault,Overheat
+heaty,Core Fault,Overheat
+hot,Core Fault,Overheat
+temperature went up,Core Fault,Overheat
+unstable,Core Fault,Overheat
+100mbps download upload speed required. Will have latency issue,APP Fault,Slow download speed
+Decreased download rate,APP Fault,Slow download speed
+Delayed download speed,APP Fault,Slow download speed
+Download speed insufficient,APP Fault,Slow download speed
+Download speed lag,APP Fault,Slow download speed
+Limited download speed,APP Fault,Slow download speed
+Low download velocity,APP Fault,Slow download speed
+Prolonged download time,APP Fault,Slow download speed
+Reduced download speed,APP Fault,Slow download speed
+Slow data transfer rate,APP Fault,Slow download speed
+Slow downloading performance,APP Fault,Slow download speed
+Slow file download,APP Fault,Slow download speed
+cannot download,APP Fault,Slow download speed
+download problem,APP Fault,Slow download speed
+download slow,APP Fault,Slow download speed
+Camera water damage,Core Fault,Liquid ingress into camera
+Fell into water,Core Fault,Liquid ingress into camera
+Fluid intrusion in camera,Core Fault,Liquid ingress into camera
+Fluid penetration in camera,Core Fault,Liquid ingress into camera
+Liquid leakage into camera,Core Fault,Liquid ingress into camera
+Moisture entry in camera,Core Fault,Liquid ingress into camera
+Moisture ingress in camera,Core Fault,Liquid ingress into camera
+Submerge,Core Fault,Liquid ingress into camera
+Submerged in water,Core Fault,Liquid ingress into camera
+Water exposure in camera,Core Fault,Liquid ingress into camera
+Water infiltration in camera,Core Fault,Liquid ingress into camera
+Water inside,Core Fault,Liquid ingress into camera
+Water intrusion in camera,Core Fault,Liquid ingress into camera
+Water seepage in camera,Core Fault,Liquid ingress into camera
+force dipped or certain intense speed water dipped like falling from high place can cause leak. Skydiving and snowboarding will likely to have water ingress issue,Core Fault,Liquid ingress into camera
+water inside,Core Fault,Liquid ingress into camera
+water went in,Core Fault,Liquid ingress into camera
+Cannot find Wi-Fi network,APP Fault,Unable to Detect Wi-Fi Signal
+Inability to detect Wi-Fi,APP Fault,Unable to Detect Wi-Fi Signal
+No Wi-Fi connection,APP Fault,Unable to Detect Wi-Fi Signal
+No wifi signal at all,APP Fault,Unable to Detect Wi-Fi Signal
+No wireless signal detected,APP Fault,Unable to Detect Wi-Fi Signal
+Unable to connect to Wi-Fi,APP Fault,Unable to Detect Wi-Fi Signal
+Unable to search for the wifi,APP Fault,Unable to Detect Wi-Fi Signal
+Wi-Fi access point not detected,APP Fault,Unable to Detect Wi-Fi Signal
+Wi-Fi can't connect,APP Fault,Unable to Detect Wi-Fi Signal
+Wi-Fi issue,APP Fault,Unable to Detect Wi-Fi Signal
+Wi-Fi network missing,APP Fault,Unable to Detect Wi-Fi Signal
+Wi-Fi not detected,APP Fault,Unable to Detect Wi-Fi Signal
+Wi-Fi problem,APP Fault,Unable to Detect Wi-Fi Signal
+Wi-Fi signal not found,APP Fault,Unable to Detect Wi-Fi Signal
+Wi-Fi signal unavailable,APP Fault,Unable to Detect Wi-Fi Signal
+Wi-Fi trouble,APP Fault,Unable to Detect Wi-Fi Signal
+certain mobile phone not supports searching 5GHz wifi signals,APP Fault,Unable to Detect Wi-Fi Signal
+Battery life not going up,Core Fault,Unable to charge
+Battery not charging,Core Fault,Unable to charge
+Can't charge,Core Fault,Unable to charge
+Charging failure,Core Fault,Unable to charge
+Charging malfunction,Core Fault,Unable to charge
+Charging port issue,Core Fault,Unable to charge
+Device fails to charge,Core Fault,Unable to charge
+Device won't charge,Core Fault,Unable to charge
+Inability to charge,Core Fault,Unable to charge
+Not charging,Core Fault,Unable to charge
+Not charging issue,Core Fault,Unable to charge
+Power connection problem,Core Fault,Unable to charge
+Unresponsive charging,Core Fault,Unable to charge
+tiny little hairline crack on the top case can cause it not be able to charge,Core Fault,Unable to charge
+Can access Wi-Fi,APP Fault,"Can detect WiFi, but unable to connect to mobile APP"
+Can find Wi-Fi but app connection fails,APP Fault,"Can detect WiFi, but unable to connect to mobile APP"
+Connected to Wi-Fi,APP Fault,"Can detect WiFi, but unable to connect to mobile APP"
+Unable to connect upon showing the WIFI,APP Fault,"Can detect WiFi, but unable to connect to mobile APP"
+Wi-Fi accessible,APP Fault,"Can detect WiFi, but unable to connect to mobile APP"
+Wi-Fi available,APP Fault,"Can detect WiFi, but unable to connect to mobile APP"
+Wi-Fi detected,APP Fault,"Can detect WiFi, but unable to connect to mobile APP"
+Wi-Fi detected but app not connecting,APP Fault,"Can detect WiFi, but unable to connect to mobile APP"
+Wi-Fi found,APP Fault,"Can detect WiFi, but unable to connect to mobile APP"
+Wi-Fi issue,APP Fault,"Can detect WiFi, but unable to connect to mobile APP"
+Wi-Fi problem,APP Fault,"Can detect WiFi, but unable to connect to mobile APP"
+Wi-Fi recognized but app fails to connect,APP Fault,"Can detect WiFi, but unable to connect to mobile APP"
+Wi-Fi signal present,APP Fault,"Can detect WiFi, but unable to connect to mobile APP"
+Wi-Fi trouble,APP Fault,"Can detect WiFi, but unable to connect to mobile APP"
+Wifi was searchable but failed to connect,APP Fault,"Can detect WiFi, but unable to connect to mobile APP"
+app connection issue,APP Fault,"Can detect WiFi, but unable to connect to mobile APP"
+app not responding,APP Fault,"Can detect WiFi, but unable to connect to mobile APP"
+app unable to link,APP Fault,"Can detect WiFi, but unable to connect to mobile APP"
+app unable to sync,APP Fault,"Can detect WiFi, but unable to connect to mobile APP"
+but app connection blocked,APP Fault,"Can detect WiFi, but unable to connect to mobile APP"
+but app connectivity problem,APP Fault,"Can detect WiFi, but unable to connect to mobile APP"
+but mobile app won't connect,APP Fault,"Can detect WiFi, but unable to connect to mobile APP"
+connected only with wired LAN cable. wireless not working,APP Fault,"Can detect WiFi, but unable to connect to mobile APP"
+After the camera is powered off,Core Fault,Cannot Fully Charge
+It's not charging fully,Core Fault,Cannot Fully Charge
+Not fully charge,Core Fault,Cannot Fully Charge
+Unable to charge to 100%,Core Fault,Cannot Fully Charge
+it calculates the charging duration for the core unit based on the remaining battery level of the main unit. Once the core unit is fully charged,Core Fault,Cannot Fully Charge
+it will not continue to charge it,Core Fault,Cannot Fully Charge
+Camera power issue,Core Fault,Camera auto restart
+Go on,Core Fault,Camera auto restart
+Keeps shutting it down and rebooting after not using for some time. Some uses our action camera during vacation trips that can happen within months,Core Fault,Camera auto restart
+Random restart,Core Fault,Camera auto restart
+Restart automatically,Core Fault,Camera auto restart
+Restart on it's own,Core Fault,Camera auto restart
+device auto ON/OFF,Core Fault,Camera auto restart
+reboot,Core Fault,Camera auto restart
+unsteady,Core Fault,Camera auto restart
+App disconnects from Wi-Fi,APP Fault,WiFi disconnect with app
+App loses Wi-Fi connectivity,APP Fault,WiFi disconnect with app
+App loses connection to Wi-Fi,APP Fault,WiFi disconnect with app
+App unable to maintain Wi-Fi connection,APP Fault,WiFi disconnect with app
+Block walls weaken signal wifi. Open space within router distance. Advise to use mash extended router around block spaces,APP Fault,WiFi disconnect with app
+Intermittent Wi-Fi connection with app,APP Fault,WiFi disconnect with app
+Loss of Wi-Fi connection with app,APP Fault,WiFi disconnect with app
+WIFI automatically disconnect,APP Fault,WiFi disconnect with app
+Wi-Fi connection drops while using app,APP Fault,WiFi disconnect with app
+Wi-Fi drop with app,APP Fault,WiFi disconnect with app
+Wi-Fi instability with app,APP Fault,WiFi disconnect with app
+Wi-Fi issue,APP Fault,WiFi disconnect with app
+Wi-Fi keeps disconnecting from app,APP Fault,WiFi disconnect with app
+Wi-Fi problem,APP Fault,WiFi disconnect with app
+Wi-Fi trouble,APP Fault,WiFi disconnect with app
+App shutdown,Core Fault,Crash
+App termination,Core Fault,Crash
+Application malfunction,Core Fault,Crash
+Freezing,Core Fault,Crash
+Interface lock-up,Core Fault,Crash
+Program stop,Core Fault,Crash
+Software failure,Core Fault,Crash
+Some users comments their camera keeps crashing due to battery related. After change battery it works fine,Core Fault,Crash
+System error,Core Fault,Crash
+System halt,Core Fault,Crash
+System hang,Core Fault,Crash
+blackout,Core Fault,Crash
+unsteady,Core Fault,Crash
+Automatic shut down,Core Fault,camera auto shut-off
+Micso SD card that is too slow (256gb v30) can be a reason specially for recording more than 30 minutes,Core Fault,camera auto shut-off
+Not starting,Core Fault,camera auto shut-off
+OFF while using,Core Fault,camera auto shut-off
+Power off automatically,Core Fault,camera auto shut-off
+Random shut down,Core Fault,camera auto shut-off
+SHUT DOWN while using,Core Fault,camera auto shut-off
+Shut down by itself,Core Fault,camera auto shut-off
+Went off,Core Fault,camera auto shut-off
+blackout,Core Fault,camera auto shut-off
+camera shut down,Core Fault,camera auto shut-off
+device shut down,Core Fault,camera auto shut-off
+power OFF while using,Core Fault,camera auto shut-off
+Battery discharge issue,Core Fault,Rapid Battery Drain/High Power Consumption
+Battery exhaustion,Core Fault,Rapid Battery Drain/High Power Consumption
+Battery level low,Core Fault,Rapid Battery Drain/High Power Consumption
+Battery life short,Core Fault,Rapid Battery Drain/High Power Consumption
+Battery running out quickly,Core Fault,Rapid Battery Drain/High Power Consumption
+Excessive battery usage,Core Fault,Rapid Battery Drain/High Power Consumption
+Fast battery depletion,Core Fault,Rapid Battery Drain/High Power Consumption
+High energy consumption,Core Fault,Rapid Battery Drain/High Power Consumption
+Increased battery usage,Core Fault,Rapid Battery Drain/High Power Consumption
+Power consumption spike,Core Fault,Rapid Battery Drain/High Power Consumption
+Power drain problem,Core Fault,Rapid Battery Drain/High Power Consumption
+Quick power drain,Core Fault,Rapid Battery Drain/High Power Consumption
+battery went down fast,Core Fault,Rapid Battery Drain/High Power Consumption
+turn off the wifi/bluetooth when not in use because if it is off the battery will be slightly draining,Core Fault,Rapid Battery Drain/High Power Consumption
+unstable battery life,Core Fault,Rapid Battery Drain/High Power Consumption
+Battery charges slowly,Core Fault,Charge Slow
+Battery life not going up,Core Fault,Charge Slow
+Below 15W power supply at certain country like Egypt can cause it slow charging even with 5V 3A,Core Fault,Charge Slow
+Can't charge,Core Fault,Charge Slow
+Charge duration is abnormal,Core Fault,Charge Slow
+Charge for too long,Core Fault,Charge Slow
+Charging inefficiency,Core Fault,Charge Slow
+Charging takes too long,Core Fault,Charge Slow
+Delayed charging,Core Fault,Charge Slow
+Extended charging time,Core Fault,Charge Slow
+Low charging rate,Core Fault,Charge Slow
+Not charging,Core Fault,Charge Slow
+Prolonged charging process,Core Fault,Charge Slow
+Reduced charging speed,Core Fault,Charge Slow
+Slow charging,Core Fault,Charge Slow
+Sluggish charging,Core Fault,Charge Slow
+Cloudy lens,Appearance Defect,Fog (Lens/Lens Guards)
+Common lines and glare from lens guard. Many not know it can be remove by the apps,Appearance Defect,Fog (Lens/Lens Guards)
+Condensation on lens,Appearance Defect,Fog (Lens/Lens Guards)
+Dew on lens,Appearance Defect,Fog (Lens/Lens Guards)
+Fog accumulation on lens,Appearance Defect,Fog (Lens/Lens Guards)
+Fogged lens,Appearance Defect,Fog (Lens/Lens Guards)
+Fogging issue,Appearance Defect,Fog (Lens/Lens Guards)
+Haze on lens,Appearance Defect,Fog (Lens/Lens Guards)
+Lens fogging,Appearance Defect,Fog (Lens/Lens Guards)
+Lens guard fog,Appearance Defect,Fog (Lens/Lens Guards)
+Moisture on lens,Appearance Defect,Fog (Lens/Lens Guards)
+blurry lens,Appearance Defect,Fog (Lens/Lens Guards)
+foggy,Appearance Defect,Fog (Lens/Lens Guards)
+water in lens,Appearance Defect,Fog (Lens/Lens Guards)
+19 Camera not showing up on computer,APP Fault,Unable to Recognize Camera when Connected to Computer
+23 Computer unable to find camera,APP Fault,Unable to Recognize Camera when Connected to Computer
+Cable,APP Fault,Unable to Recognize Camera when Connected to Computer
+Cable could be the issue. Use original charging cable,APP Fault,Unable to Recognize Camera when Connected to Computer
+Camera,APP Fault,Unable to Recognize Camera when Connected to Computer
+Camera can't connect to computer,APP Fault,Unable to Recognize Camera when Connected to Computer
+Camera cannot be detected,APP Fault,Unable to Recognize Camera when Connected to Computer
+Camera connected but not able to find the file name,APP Fault,Unable to Recognize Camera when Connected to Computer
+Camera connection error,APP Fault,Unable to Recognize Camera when Connected to Computer
+Camera connection failure,APP Fault,Unable to Recognize Camera when Connected to Computer
+Camera connection issue,APP Fault,Unable to Recognize Camera when Connected to Computer
+Camera connection issues,APP Fault,Unable to Recognize Camera when Connected to Computer
+Camera connection not recognized,APP Fault,Unable to Recognize Camera when Connected to Computer
+Camera connection to computer failed,APP Fault,Unable to Recognize Camera when Connected to Computer
+Camera device not recognized,APP Fault,Unable to Recognize Camera when Connected to Computer
+Camera linkage problem,APP Fault,Unable to Recognize Camera when Connected to Computer
+Camera not appearing on computer,APP Fault,Unable to Recognize Camera when Connected to Computer
+Camera not detected,APP Fault,Unable to Recognize Camera when Connected to Computer
+Camera not detected by computer,APP Fault,Unable to Recognize Camera when Connected to Computer
+Camera not found,APP Fault,Unable to Recognize Camera when Connected to Computer
+Camera not found on computer,APP Fault,Unable to Recognize Camera when Connected to Computer
+Camera not identified by PC,APP Fault,Unable to Recognize Camera when Connected to Computer
+Camera not recognize,APP Fault,Unable to Recognize Camera when Connected to Computer
+Camera not recognized,APP Fault,Unable to Recognize Camera when Connected to Computer
+Camera not recognized by computer,APP Fault,Unable to Recognize Camera when Connected to Computer
+Camera not registering on PC,APP Fault,Unable to Recognize Camera when Connected to Computer
+Camera not responding to computer,APP Fault,Unable to Recognize Camera when Connected to Computer
+Camera not showing up on PC,APP Fault,Unable to Recognize Camera when Connected to Computer
+Camera not showing up on computer,APP Fault,Unable to Recognize Camera when Connected to Computer
+Camera not visible on computer,APP Fault,Unable to Recognize Camera when Connected to Computer
+Camera not visible to computer,APP Fault,Unable to Recognize Camera when Connected to Computer
+Camera not working properly,APP Fault,Unable to Recognize Camera when Connected to Computer
+Camera undetected when connected to computer,APP Fault,Unable to Recognize Camera when Connected to Computer
+Cannot access camera from computer,APP Fault,Unable to Recognize Camera when Connected to Computer
+Cannot connect to the computer,APP Fault,Unable to Recognize Camera when Connected to Computer
+Cannot recognize,APP Fault,Unable to Recognize Camera when Connected to Computer
+Compatibility,APP Fault,Unable to Recognize Camera when Connected to Computer
+Computer,APP Fault,Unable to Recognize Camera when Connected to Computer
+Computer can't detect camera,APP Fault,Unable to Recognize Camera when Connected to Computer
+Computer can't read camera device,APP Fault,Unable to Recognize Camera when Connected to Computer
+Computer cannot identify camera,APP Fault,Unable to Recognize Camera when Connected to Computer
+Computer cannot recognize camera,APP Fault,Unable to Recognize Camera when Connected to Computer
+Computer failing to recognize camera,APP Fault,Unable to Recognize Camera when Connected to Computer
+Computer fails to detect camera,APP Fault,Unable to Recognize Camera when Connected to Computer
+Computer fails to recognize camera,APP Fault,Unable to Recognize Camera when Connected to Computer
+Computer unable to find connected camera,APP Fault,Unable to Recognize Camera when Connected to Computer
+Connect,APP Fault,Unable to Recognize Camera when Connected to Computer
+Connection,APP Fault,Unable to Recognize Camera when Connected to Computer
+Connection issue with camera,APP Fault,Unable to Recognize Camera when Connected to Computer
+Detect,APP Fault,Unable to Recognize Camera when Connected to Computer
+Device,APP Fault,Unable to Recognize Camera when Connected to Computer
+Device not recognized,APP Fault,Unable to Recognize Camera when Connected to Computer
+Drivers,APP Fault,Unable to Recognize Camera when Connected to Computer
+Error,APP Fault,Unable to Recognize Camera when Connected to Computer
+Failure,APP Fault,Unable to Recognize Camera when Connected to Computer
+No camera,APP Fault,Unable to Recognize Camera when Connected to Computer
+No camera detected by computer,APP Fault,Unable to Recognize Camera when Connected to Computer
+Not found,APP Fault,Unable to Recognize Camera when Connected to Computer
+PC unable to find camera,APP Fault,Unable to Recognize Camera when Connected to Computer
+Port,APP Fault,Unable to Recognize Camera when Connected to Computer
+Recognition,APP Fault,Unable to Recognize Camera when Connected to Computer
+Recognize,APP Fault,Unable to Recognize Camera when Connected to Computer
+Settings,APP Fault,Unable to Recognize Camera when Connected to Computer
+Software,APP Fault,Unable to Recognize Camera when Connected to Computer
+The camera screen displays USB mode,APP Fault,Unable to Recognize Camera when Connected to Computer
+The camera screen does not display USB mode,APP Fault,Unable to Recognize Camera when Connected to Computer
+Troubleshoot,APP Fault,Unable to Recognize Camera when Connected to Computer
+Troubleshooting,APP Fault,Unable to Recognize Camera when Connected to Computer
+USB,APP Fault,Unable to Recognize Camera when Connected to Computer
+USB camera connection issue,APP Fault,Unable to Recognize Camera when Connected to Computer
+Unable to connect camera,APP Fault,Unable to Recognize Camera when Connected to Computer
+Unable to connect camera to computer,APP Fault,Unable to Recognize Camera when Connected to Computer
+Unable to detect camera on computer,APP Fault,Unable to Recognize Camera when Connected to Computer
+Unable to identify camera,APP Fault,Unable to Recognize Camera when Connected to Computer
+Update,APP Fault,Unable to Recognize Camera when Connected to Computer
+Visibility,APP Fault,Unable to Recognize Camera when Connected to Computer
+but the computer cannot locate the camera's folder,APP Fault,Unable to Recognize Camera when Connected to Computer
+camera can't be detected,APP Fault,Unable to Recognize Camera when Connected to Computer
+camera cannot connect,APP Fault,Unable to Recognize Camera when Connected to Computer
+camera cant recognized computer,APP Fault,Unable to Recognize Camera when Connected to Computer
+camera screen displays USB mode,APP Fault,Unable to Recognize Camera when Connected to Computer
+camera unable to be detected to the computer,APP Fault,Unable to Recognize Camera when Connected to Computer
+camera unable to connect to the computer,APP Fault,Unable to Recognize Camera when Connected to Computer
+can't detect camera,APP Fault,Unable to Recognize Camera when Connected to Computer
+can't detect the camera,APP Fault,Unable to Recognize Camera when Connected to Computer
+cannot detect the camera,APP Fault,Unable to Recognize Camera when Connected to Computer
+computer does not recognize,APP Fault,Unable to Recognize Camera when Connected to Computer
+could not recognize,APP Fault,Unable to Recognize Camera when Connected to Computer
+couldn't recognize,APP Fault,Unable to Recognize Camera when Connected to Computer
+it's not detected,APP Fault,Unable to Recognize Camera when Connected to Computer
+key words,APP Fault,Unable to Recognize Camera when Connected to Computer
+not detected,APP Fault,Unable to Recognize Camera when Connected to Computer
+wired connection no response,APP Fault,Unable to Recognize Camera when Connected to Computer
+Acknowledges Bluetooth presence but unable to pair,APP Fault,Can detect bluetooth but unable to connect to it
+Attempt,APP Fault,Can detect bluetooth but unable to connect to it
+Authentication,APP Fault,Can detect bluetooth but unable to connect to it
+Bluetooth,APP Fault,Can detect bluetooth but unable to connect to it
+Bluetooth appears but can't link,APP Fault,Can detect bluetooth but unable to connect to it
+Bluetooth can connect,APP Fault,Can detect bluetooth but unable to connect to it
+Bluetooth connection,APP Fault,Can detect bluetooth but unable to connect to it
+Bluetooth connection error after detection,APP Fault,Can detect bluetooth but unable to connect to it
+Bluetooth connection failure,APP Fault,Can detect bluetooth but unable to connect to it
+Bluetooth connection issue,APP Fault,Can detect bluetooth but unable to connect to it
+Bluetooth connection issues,APP Fault,Can detect bluetooth but unable to connect to it
+Bluetooth detected but can't establish connection,APP Fault,Can detect bluetooth but unable to connect to it
+Bluetooth detected but not connecting,APP Fault,Can detect bluetooth but unable to connect to it
+Bluetooth detected but pairing failed,APP Fault,Can detect bluetooth but unable to connect to it
+Bluetooth detected but won't connect,APP Fault,Can detect bluetooth but unable to connect to it
+Bluetooth device detected but pairing fails,APP Fault,Can detect bluetooth but unable to connect to it
+Bluetooth device detected but won't connect,APP Fault,Can detect bluetooth but unable to connect to it
+Bluetooth device visible but unresponsive,APP Fault,Can detect bluetooth but unable to connect to it
+Bluetooth found but connection failed,APP Fault,Can detect bluetooth but unable to connect to it
+Bluetooth found but unable to establish connection,APP Fault,Can detect bluetooth but unable to connect to it
+Bluetooth listed but unable to connect,APP Fault,Can detect bluetooth but unable to connect to it
+Bluetooth not connecting,APP Fault,Can detect bluetooth but unable to connect to it
+Bluetooth not pairing,APP Fault,Can detect bluetooth but unable to connect to it
+Bluetooth not working properly,APP Fault,Can detect bluetooth but unable to connect to it
+Bluetooth pairing issues,APP Fault,Can detect bluetooth but unable to connect to it
+Bluetooth pairing unsuccessful,APP Fault,Can detect bluetooth but unable to connect to it
+Bluetooth recognized but not linked,APP Fault,Can detect bluetooth but unable to connect to it
+Bluetooth recognized but won't connect,APP Fault,Can detect bluetooth but unable to connect to it
+Bluetooth shows up but won't pair,APP Fault,Can detect bluetooth but unable to connect to it
+Bluetooth signal not connecting,APP Fault,Can detect bluetooth but unable to connect to it
+Bluetooth unable to connect,APP Fault,Can detect bluetooth but unable to connect to it
+Bluetooth visible but won't connect,APP Fault,Can detect bluetooth but unable to connect to it
+Can discover Bluetooth device but no connection,APP Fault,Can detect bluetooth but unable to connect to it
+Can see Bluetooth device but can't connect,APP Fault,Can detect bluetooth but unable to connect to it
+Compatibility,APP Fault,Can detect bluetooth but unable to connect to it
+Connect,APP Fault,Can detect bluetooth but unable to connect to it
+Connection,APP Fault,Can detect bluetooth but unable to connect to it
+Connection attempt failed,APP Fault,Can detect bluetooth but unable to connect to it
+Connection failed,APP Fault,Can detect bluetooth but unable to connect to it
+Connection failure,APP Fault,Can detect bluetooth but unable to connect to it
+Detect,APP Fault,Can detect bluetooth but unable to connect to it
+Detected Bluetooth but connection unsuccessful,APP Fault,Can detect bluetooth but unable to connect to it
+Detects Bluetooth signals but connection unsuccessful,APP Fault,Can detect bluetooth but unable to connect to it
+Device,APP Fault,Can detect bluetooth but unable to connect to it
+Discovers Bluetooth but unable to link,APP Fault,Can detect bluetooth but unable to connect to it
+Drivers,APP Fault,Can detect bluetooth but unable to connect to it
+Error,APP Fault,Can detect bluetooth but unable to connect to it
+Failure,APP Fault,Can detect bluetooth but unable to connect to it
+Finds Bluetooth but fails to establish connection,APP Fault,Can detect bluetooth but unable to connect to it
+Finds Bluetooth devices but cannot connect,APP Fault,Can detect bluetooth but unable to connect to it
+Identifies Bluetooth but cannot establish a connection,APP Fault,Can detect bluetooth but unable to connect to it
+Identifies Bluetooth but cannot join,APP Fault,Can detect bluetooth but unable to connect to it
+Interference,APP Fault,Can detect bluetooth but unable to connect to it
+Link,APP Fault,Can detect bluetooth but unable to connect to it
+Locates Bluetooth but fails to establish a link,APP Fault,Can detect bluetooth but unable to connect to it
+Pairing,APP Fault,Can detect bluetooth but unable to connect to it
+Range,APP Fault,Can detect bluetooth but unable to connect to it
+Recognizes Bluetooth but cannot pair,APP Fault,Can detect bluetooth but unable to connect to it
+Recognizes Bluetooth but fails to connect,APP Fault,Can detect bluetooth but unable to connect to it
+Refresh the Bluetooth connection - refresh the pairing connection,APP Fault,Can detect bluetooth but unable to connect to it
+Reset,APP Fault,Can detect bluetooth but unable to connect to it
+Sees Bluetooth device but won't connect,APP Fault,Can detect bluetooth but unable to connect to it
+Sees Bluetooth devices but unable to link,APP Fault,Can detect bluetooth but unable to connect to it
+Settings,APP Fault,Can detect bluetooth but unable to connect to it
+Signal,APP Fault,Can detect bluetooth but unable to connect to it
+Software,APP Fault,Can detect bluetooth but unable to connect to it
+Troubleshoot,APP Fault,Can detect bluetooth but unable to connect to it
+Troubleshooting,APP Fault,Can detect bluetooth but unable to connect to it
+Unable to connect bluetooth,APP Fault,Can detect bluetooth but unable to connect to it
+Unable to connect to Bluetooth signal,APP Fault,Can detect bluetooth but unable to connect to it
+Unable to establish Bluetooth connection,APP Fault,Can detect bluetooth but unable to connect to it
+Unable to pair with detected Bluetooth device,APP Fault,Can detect bluetooth but unable to connect to it
+Unresponsive,APP Fault,Can detect bluetooth but unable to connect to it
+Update,APP Fault,Can detect bluetooth but unable to connect to it
+bluetooth signal not connecting,APP Fault,Can detect bluetooth but unable to connect to it
+but the connection still fails,APP Fault,Can detect bluetooth but unable to connect to it
+can search,APP Fault,Can detect bluetooth but unable to connect to it
+can't connect,APP Fault,Can detect bluetooth but unable to connect to it
+cannot connect,APP Fault,Can detect bluetooth but unable to connect to it
+cant connect to camera,APP Fault,Can detect bluetooth but unable to connect to it
+connection failed but detected,APP Fault,Can detect bluetooth but unable to connect to it
+connection failure,APP Fault,Can detect bluetooth but unable to connect to it
+fail to connect,APP Fault,Can detect bluetooth but unable to connect to it
+flow bluetooth issue,APP Fault,Can detect bluetooth but unable to connect to it
+insta 360 app can search,APP Fault,Can detect bluetooth but unable to connect to it
+key words,APP Fault,Can detect bluetooth but unable to connect to it
+synonyms,APP Fault,Can detect bluetooth but unable to connect to it
+the app can recognize Flow's Bluetooth signal,APP Fault,Can detect bluetooth but unable to connect to it
+unable to connect to Bluetooth signal,APP Fault,Can detect bluetooth but unable to connect to it
+unable to connect to app,APP Fault,Can detect bluetooth but unable to connect to it
+unable to connect. can't connect to app,APP Fault,Can detect bluetooth but unable to connect to it
+unable to find,APP Fault,Can detect bluetooth but unable to connect to it
+Calibration,Image Fault,Screen Flicker
+Compatibility,Image Fault,Screen Flicker
+Connection,Image Fault,Screen Flicker
+Display,Image Fault,Screen Flicker
+Display brightness fluctuations,Image Fault,Screen Flicker
+Display flashing,Image Fault,Screen Flicker
+Display flicker,Image Fault,Screen Flicker
+Display flutter,Image Fault,Screen Flicker
+Display instability,Image Fault,Screen Flicker
+Display shimmer,Image Fault,Screen Flicker
+Due to this screen flicker customer shared the camera will lock up and become responsive,Image Fault,Screen Flicker
+Flashing display,Image Fault,Screen Flicker
+Flicker,Image Fault,Screen Flicker
+Flicker effect,Image Fault,Screen Flicker
+Flickering display,Image Fault,Screen Flicker
+Flickering display panel,Image Fault,Screen Flicker
+Flickering screen,Image Fault,Screen Flicker
+Flickering/Black Bars on the Screen,Image Fault,Screen Flicker
+Fluctuating screen,Image Fault,Screen Flicker
+Frame flicker,Image Fault,Screen Flicker
+Graphics driver,Image Fault,Screen Flicker
+Hardware,Image Fault,Screen Flicker
+Image flicker,Image Fault,Screen Flicker
+Image flickering on screen,Image Fault,Screen Flicker
+Interference,Image Fault,Screen Flicker
+Intermittent display,Image Fault,Screen Flicker
+Intermittent screen flashes,Image Fault,Screen Flicker
+Moiré Pattern on the Screen,Image Fault,Screen Flicker
+Monitor,Image Fault,Screen Flicker
+Refresh rate,Image Fault,Screen Flicker
+Resolution,Image Fault,Screen Flicker
+Screen,Image Fault,Screen Flicker
+Screen blink,Image Fault,Screen Flicker
+Screen blinking,Image Fault,Screen Flicker
+Screen flashing,Image Fault,Screen Flicker
+Screen glitch,Image Fault,Screen Flicker
+Screen light fluctuations,Image Fault,Screen Flicker
+Screen shimmer,Image Fault,Screen Flicker
+Screen shimmering,Image Fault,Screen Flicker
+Screen stutter,Image Fault,Screen Flicker
+Screen winking on and off,Image Fault,Screen Flicker
+Screen with jitter,Image Fault,Screen Flicker
+Settings,Image Fault,Screen Flicker
+The image is shaking,Image Fault,Screen Flicker
+Troubleshooting,Image Fault,Screen Flicker
+Unstable display,Image Fault,Screen Flicker
+Update,Image Fault,Screen Flicker
+Visual flicker,Image Fault,Screen Flicker
+black bars on screen,Image Fault,Screen Flicker
+black line,Image Fault,Screen Flicker
+flash,Image Fault,Screen Flicker
+flickering issue,Image Fault,Screen Flicker
+flutter,Image Fault,Screen Flicker
+glimmer,Image Fault,Screen Flicker
+photo shake,Image Fault,Screen Flicker
+screen flashing,Image Fault,Screen Flicker
+screen glitch,Image Fault,Screen Flicker
+screen goes of and on,Image Fault,Screen Flicker
+screen is glitching,Image Fault,Screen Flicker
+screen issues,Image Fault,Screen Flicker
+screen with patterns,Image Fault,Screen Flicker
+screens issues,Image Fault,Screen Flicker
+streaking issue,Image Fault,Screen Flicker
+Alert,APP Fault,Prompt to format when connected to computer
+Backup,APP Fault,Prompt to format when connected to computer
+Camera isnt working after connected with the computer,APP Fault,Prompt to format when connected to computer
+Computer,APP Fault,Prompt to format when connected to computer
+Computer ask to format upon connection,APP Fault,Prompt to format when connected to computer
+Computer asks to format upon connection,APP Fault,Prompt to format when connected to computer
+Computer asks to initialize device upon connection,APP Fault,Prompt to format when connected to computer
+Computer prompts for formatting after connection,APP Fault,Prompt to format when connected to computer
+Computer suggests formatting device on connection,APP Fault,Prompt to format when connected to computer
+Computer wants to format connected device,APP Fault,Prompt to format when connected to computer
+Computor connection,APP Fault,Prompt to format when connected to computer
+Confirmation,APP Fault,Prompt to format when connected to computer
+Connected device prompts for format,APP Fault,Prompt to format when connected to computer
+Connection,APP Fault,Prompt to format when connected to computer
+Connection issue,APP Fault,Prompt to format when connected to computer
+Connection leads to format prompt,APP Fault,Prompt to format when connected to computer
+Connection triggers format warning,APP Fault,Prompt to format when connected to computer
+Customer complaint machine sent back at present can not be reproduced,APP Fault,Prompt to format when connected to computer
+Data,APP Fault,Prompt to format when connected to computer
+Data loss,APP Fault,Prompt to format when connected to computer
+Device,APP Fault,Prompt to format when connected to computer
+"Device shows ""needs formatting"" on computer",APP Fault,Prompt to format when connected to computer
+Device shows format prompt on computer,APP Fault,Prompt to format when connected to computer
+Dialogue box,APP Fault,Prompt to format when connected to computer
+Disk errors,APP Fault,Prompt to format when connected to computer
+Disk formatting alert,APP Fault,Prompt to format when connected to computer
+Disk management,APP Fault,Prompt to format when connected to computer
+Drive format message when linked to PC,APP Fault,Prompt to format when connected to computer
+Drive format notification,APP Fault,Prompt to format when connected to computer
+Erase,APP Fault,Prompt to format when connected to computer
+Error message,APP Fault,Prompt to format when connected to computer
+External drive,APP Fault,Prompt to format when connected to computer
+File system,APP Fault,Prompt to format when connected to computer
+Format,APP Fault,Prompt to format when connected to computer
+Format RS after connecting,APP Fault,Prompt to format when connected to computer
+Format alert when linked to computer,APP Fault,Prompt to format when connected to computer
+Format confirmation needed when connected,APP Fault,Prompt to format when connected to computer
+Format disk message,APP Fault,Prompt to format when connected to computer
+Format disk prompt,APP Fault,Prompt to format when connected to computer
+Format drive request,APP Fault,Prompt to format when connected to computer
+Format notification,APP Fault,Prompt to format when connected to computer
+Format notification appears after connection,APP Fault,Prompt to format when connected to computer
+Format notification appears when connected,APP Fault,Prompt to format when connected to computer
+Format notification on computer connection,APP Fault,Prompt to format when connected to computer
+Format notification on connection,APP Fault,Prompt to format when connected to computer
+Format pop up,APP Fault,Prompt to format when connected to computer
+Format prompt appears when device is connected,APP Fault,Prompt to format when connected to computer
+Format request,APP Fault,Prompt to format when connected to computer
+Format request upon connection,APP Fault,Prompt to format when connected to computer
+Format required message when linking to computer,APP Fault,Prompt to format when connected to computer
+Formatting alert when connected,APP Fault,Prompt to format when connected to computer
+Formatting message upon connection,APP Fault,Prompt to format when connected to computer
+Formatting message when device is connected to computer,APP Fault,Prompt to format when connected to computer
+Formatting options,APP Fault,Prompt to format when connected to computer
+Formatting prompt when connected,APP Fault,Prompt to format when connected to computer
+Formatting request when device is linked to computer,APP Fault,Prompt to format when connected to computer
+Indicator of faulty SD Card,APP Fault,Prompt to format when connected to computer
+Maybe is simple to use the error message wordings for this as we agent usually will ask for the error message or the picture of it. Even the error code number,APP Fault,Prompt to format when connected to computer
+Message,APP Fault,Prompt to format when connected to computer
+Notification,APP Fault,Prompt to format when connected to computer
+One RS can't connect to computer,APP Fault,Prompt to format when connected to computer
+Partition,APP Fault,Prompt to format when connected to computer
+Prompt,APP Fault,Prompt to format when connected to computer
+Prompt to erase data when connected,APP Fault,Prompt to format when connected to computer
+Prompt to erase data when connected to computer,APP Fault,Prompt to format when connected to computer
+Prompt to initialize device upon USB connection,APP Fault,Prompt to format when connected to computer
+Prompt to initialize when connected,APP Fault,Prompt to format when connected to computer
+Prompting message,APP Fault,Prompt to format when connected to computer
+Recovery,APP Fault,Prompt to format when connected to computer
+Reminder,APP Fault,Prompt to format when connected to computer
+Request,APP Fault,Prompt to format when connected to computer
+Request to format device on connection,APP Fault,Prompt to format when connected to computer
+Request to format device when connected to computer,APP Fault,Prompt to format when connected to computer
+Storage,APP Fault,Prompt to format when connected to computer
+Storage device,APP Fault,Prompt to format when connected to computer
+System message,APP Fault,Prompt to format when connected to computer
+USB,APP Fault,Prompt to format when connected to computer
+USB drive,APP Fault,Prompt to format when connected to computer
+Warning,APP Fault,Prompt to format when connected to computer
+format message when camera plugged to the computer,APP Fault,Prompt to format when connected to computer
+format options,APP Fault,Prompt to format when connected to computer
+key words,APP Fault,Prompt to format when connected to computer
+not yet encountered this problem,APP Fault,Prompt to format when connected to computer
+one rs format issue,APP Fault,Prompt to format when connected to computer
+so detailed data analysis is required,APP Fault,Prompt to format when connected to computer
+why is it asking me to format,APP Fault,Prompt to format when connected to computer
+wired connection shows format ONE RS,APP Fault,Prompt to format when connected to computer
+Aberration,Image Fault,Image Distortion
+Alignment,Image Fault,Image Distortion
+Alteration,Image Fault,Image Distortion
+Altered image,Image Fault,Image Distortion
+Artifacts,Image Fault,Image Distortion
+Clarity,Image Fault,Image Distortion
+Contorted image,Image Fault,Image Distortion
+Corrupted image,Image Fault,Image Distortion
+Deformation,Image Fault,Image Distortion
+Deformed image,Image Fault,Image Distortion
+Distorted image,Image Fault,Image Distortion
+Distorted photo,Image Fault,Image Distortion
+Distortion,Image Fault,Image Distortion
+Edge Stretch Distortion,Image Fault,Image Distortion
+Garbled image,Image Fault,Image Distortion
+Image,Image Fault,Image Distortion
+Image Alteration,Image Fault,Image Distortion
+Image Corruption,Image Fault,Image Distortion
+Image Deformation,Image Fault,Image Distortion
+Image Displacement,Image Fault,Image Distortion
+Image Distortion,Image Fault,Image Distortion
+Image Misrepresentation,Image Fault,Image Distortion
+Image Modification,Image Fault,Image Distortion
+Image Skewing,Image Fault,Image Distortion
+Image Warping,Image Fault,Image Distortion
+Image aberration,Image Fault,Image Distortion
+Image alteration,Image Fault,Image Distortion
+Image bending,Image Fault,Image Distortion
+Image deformation,Image Fault,Image Distortion
+Image irregularities,Image Fault,Image Distortion
+Image irregularity,Image Fault,Image Distortion
+Image misalignment,Image Fault,Image Distortion
+Image skewing,Image Fault,Image Distortion
+Image stretching,Image Fault,Image Distortion
+Image warping,Image Fault,Image Distortion
+Irregularity,Image Fault,Image Distortion
+Misaligned image,Image Fault,Image Distortion
+Photo aberration,Image Fault,Image Distortion
+Photo distortion,Image Fault,Image Distortion
+Picture Distortion,Image Fault,Image Distortion
+Picture distortion,Image Fault,Image Distortion
+Picture warping,Image Fault,Image Distortion
+Pixel,Image Fault,Image Distortion
+Pixel distortion,Image Fault,Image Distortion
+Quality,Image Fault,Image Distortion
+Rendering,Image Fault,Image Distortion
+Skewed image,Image Fault,Image Distortion
+Skewing,Image Fault,Image Distortion
+The clever stitching algorithm the better image quality result,Image Fault,Image Distortion
+Twisted image,Image Fault,Image Distortion
+Visual,Image Fault,Image Distortion
+Visual Distortion,Image Fault,Image Distortion
+Visual artifacts,Image Fault,Image Distortion
+Visual distortion,Image Fault,Image Distortion
+Warped image,Image Fault,Image Distortion
+Warped image quality,Image Fault,Image Distortion
+Warping,Image Fault,Image Distortion
+Wavy image,Image Fault,Image Distortion
+Webcam Facial Distortion,Image Fault,Image Distortion
+abnormal distortion,Image Fault,Image Distortion
+blurry image,Image Fault,Image Distortion
+bulging footage,Image Fault,Image Distortion
+deformed,Image Fault,Image Distortion
+distorted,Image Fault,Image Distortion
+fisheye distortion,Image Fault,Image Distortion
+footage distortion,Image Fault,Image Distortion
+image corruption,Image Fault,Image Distortion
+image footage issue,Image Fault,Image Distortion
+image gap,Image Fault,Image Distortion
+image glitch,Image Fault,Image Distortion
+image is distorted,Image Fault,Image Distortion
+image is glitchy,Image Fault,Image Distortion
+image quality,Image Fault,Image Distortion
+image warping,Image Fault,Image Distortion
+key words,Image Fault,Image Distortion
+severe fisheye distortion,Image Fault,Image Distortion
+unintended fisheye,Image Fault,Image Distortion
+Abnormal,APP Fault,Abnormal data transmission when connecting to computer
+Abnormal data flow,APP Fault,Abnormal data transmission when connecting to computer
+Abnormal file transfer to computer,APP Fault,Abnormal data transmission when connecting to computer
+Anomalous data transfer,APP Fault,Abnormal data transmission when connecting to computer
+Anomalous data transmission,APP Fault,Abnormal data transmission when connecting to computer
+Bandwidth,APP Fault,Abnormal data transmission when connecting to computer
+Camera connection issues,APP Fault,Abnormal data transmission when connecting to computer
+Camera not working properly,APP Fault,Abnormal data transmission when connecting to computer
+Communication,APP Fault,Abnormal data transmission when connecting to computer
+Computer,APP Fault,Abnormal data transmission when connecting to computer
+Computer connection causing data issues,APP Fault,Abnormal data transmission when connecting to computer
+Configuration,APP Fault,Abnormal data transmission when connecting to computer
+Connection,APP Fault,Abnormal data transmission when connecting to computer
+Connection lost during file transfer,APP Fault,Abnormal data transmission when connecting to computer
+Corrupted data transmission to computer,APP Fault,Abnormal data transmission when connecting to computer
+Corruption,APP Fault,Abnormal data transmission when connecting to computer
+Data,APP Fault,Abnormal data transmission when connecting to computer
+Data communication error with computer,APP Fault,Abnormal data transmission when connecting to computer
+Data communication problems,APP Fault,Abnormal data transmission when connecting to computer
+Data corruption during transfer,APP Fault,Abnormal data transmission when connecting to computer
+Data not transferring correctly to computer,APP Fault,Abnormal data transmission when connecting to computer
+Data sync error on computer connection,APP Fault,Abnormal data transmission when connecting to computer
+Data transfer error when connecting to computer,APP Fault,Abnormal data transmission when connecting to computer
+Data transfer failure,APP Fault,Abnormal data transmission when connecting to computer
+Data transfer failures,APP Fault,Abnormal data transmission when connecting to computer
+Data transfer instability when linked to computer,APP Fault,Abnormal data transmission when connecting to computer
+Data transfer interrupted,APP Fault,Abnormal data transmission when connecting to computer
+Data transfer issues,APP Fault,Abnormal data transmission when connecting to computer
+Data transfer malfunction when connecting to computer,APP Fault,Abnormal data transmission when connecting to computer
+Data transferring issues,APP Fault,Abnormal data transmission when connecting to computer
+Data transmission,APP Fault,Abnormal data transmission when connecting to computer
+Data transmission errors,APP Fault,Abnormal data transmission when connecting to computer
+Data transmission faults,APP Fault,Abnormal data transmission when connecting to computer
+Data transmission issue during computer connection,APP Fault,Abnormal data transmission when connecting to computer
+Data transmission issue with computer connection,APP Fault,Abnormal data transmission when connecting to computer
+Disrupted data connection,APP Fault,Abnormal data transmission when connecting to computer
+Disrupted data connectivity,APP Fault,Abnormal data transmission when connecting to computer
+Disrupted data transmission,APP Fault,Abnormal data transmission when connecting to computer
+Disruption,APP Fault,Abnormal data transmission when connecting to computer
+Erratic data communication,APP Fault,Abnormal data transmission when connecting to computer
+Erratic data transmission to computer,APP Fault,Abnormal data transmission when connecting to computer
+Error,APP Fault,Abnormal data transmission when connecting to computer
+Faulty data transfer,APP Fault,Abnormal data transmission when connecting to computer
+Faulty data transmission,APP Fault,Abnormal data transmission when connecting to computer
+Hardware,APP Fault,Abnormal data transmission when connecting to computer
+Inconsistent,APP Fault,Abnormal data transmission when connecting to computer
+Inconsistent data flow,APP Fault,Abnormal data transmission when connecting to computer
+Inconsistent data transfer,APP Fault,Abnormal data transmission when connecting to computer
+Inconsistent data transmission,APP Fault,Abnormal data transmission when connecting to computer
+Inconsistent data transmission on computer,APP Fault,Abnormal data transmission when connecting to computer
+Interference,APP Fault,Abnormal data transmission when connecting to computer
+Irregular,APP Fault,Abnormal data transmission when connecting to computer
+Irregular data flow when connected to computer,APP Fault,Abnormal data transmission when connecting to computer
+Irregular data transfer,APP Fault,Abnormal data transmission when connecting to computer
+Latency,APP Fault,Abnormal data transmission when connecting to computer
+Malfunctioning data transfer,APP Fault,Abnormal data transmission when connecting to computer
+Not able to transfer file on computer,APP Fault,Abnormal data transmission when connecting to computer
+Packet loss,APP Fault,Abnormal data transmission when connecting to computer
+Protocol,APP Fault,Abnormal data transmission when connecting to computer
+Signal quality,APP Fault,Abnormal data transmission when connecting to computer
+Software,APP Fault,Abnormal data transmission when connecting to computer
+Speed,APP Fault,Abnormal data transmission when connecting to computer
+The page hang while transferring data,APP Fault,Abnormal data transmission when connecting to computer
+Transfer,APP Fault,Abnormal data transmission when connecting to computer
+Transfer error,APP Fault,Abnormal data transmission when connecting to computer
+Transmission,APP Fault,Abnormal data transmission when connecting to computer
+Troubleshoot,APP Fault,Abnormal data transmission when connecting to computer
+Troubleshooting,APP Fault,Abnormal data transmission when connecting to computer
+Unable to detect any images or footage due to corrupted file or unsupported format,APP Fault,Abnormal data transmission when connecting to computer
+Unable to transfer file,APP Fault,Abnormal data transmission when connecting to computer
+Unexpected data transfer behavior to computer,APP Fault,Abnormal data transmission when connecting to computer
+Unreliable data transmission,APP Fault,Abnormal data transmission when connecting to computer
+Unstable data transmission to computer,APP Fault,Abnormal data transmission when connecting to computer
+Unusual data exchange,APP Fault,Abnormal data transmission when connecting to computer
+Unusual data transmission,APP Fault,Abnormal data transmission when connecting to computer
+Wrong data transmission,APP Fault,Abnormal data transmission when connecting to computer
+a wired connection to a computer or U-disk Mode,APP Fault,Abnormal data transmission when connecting to computer
+can't download video,APP Fault,Abnormal data transmission when connecting to computer
+data transmission issue,APP Fault,Abnormal data transmission when connecting to computer
+failed to export,APP Fault,Abnormal data transmission when connecting to computer
+import failed,APP Fault,Abnormal data transmission when connecting to computer
+import stopped using wired,APP Fault,Abnormal data transmission when connecting to computer
+inconsistent data transfer,APP Fault,Abnormal data transmission when connecting to computer
+key words,APP Fault,Abnormal data transmission when connecting to computer
+plugging to the computer,APP Fault,Abnormal data transmission when connecting to computer
+unable to import data,APP Fault,Abnormal data transmission when connecting to computer
+unusual data,APP Fault,Abnormal data transmission when connecting to computer
+unusual data transmission,APP Fault,Abnormal data transmission when connecting to computer
+wire change to cable or USB cable. Maybe is simple to use the error message wordings for this as we agent usually will ask for the error message or the picture of it,APP Fault,Abnormal data transmission when connecting to computer
+x4 cant transfer file via wire,APP Fault,Abnormal data transmission when connecting to computer
+After the firmware update,Image Fault,Poor image quality
+Artifacts,Image Fault,Poor image quality
+Bad image clarity,Image Fault,Poor image quality
+Bad image quality,Image Fault,Poor image quality
+Bad picture,Image Fault,Poor image quality
+Blurriness,Image Fault,Poor image quality
+Blurry,Image Fault,Poor image quality
+Blurry image,Image Fault,Poor image quality
+Blurry image quality,Image Fault,Poor image quality
+Blurry images,Image Fault,Poor image quality
+Blurry photos,Image Fault,Poor image quality
+Brightness,Image Fault,Poor image quality
+Clarity,Image Fault,Poor image quality
+Color accuracy,Image Fault,Poor image quality
+Compression,Image Fault,Poor image quality
+Contrast,Image Fault,Poor image quality
+Degraded image quality,Image Fault,Poor image quality
+Display,Image Fault,Poor image quality
+Distorted image,Image Fault,Poor image quality
+Distorted images,Image Fault,Poor image quality
+Distorted picture quality,Image Fault,Poor image quality
+Distortion,Image Fault,Poor image quality
+Dull image detail,Image Fault,Poor image quality
+Focus,Image Fault,Poor image quality
+Format,Image Fault,Poor image quality
+Fuzzy,Image Fault,Poor image quality
+Fuzzy image,Image Fault,Poor image quality
+Fuzzy image quality,Image Fault,Poor image quality
+Fuzzy photos,Image Fault,Poor image quality
+Fuzzy picture,Image Fault,Poor image quality
+Grainy,Image Fault,Poor image quality
+Grainy image,Image Fault,Poor image quality
+Grainy images,Image Fault,Poor image quality
+Grainy pictures,Image Fault,Poor image quality
+Image,Image Fault,Poor image quality
+Image Quality,Image Fault,Poor image quality
+Image consist of too much of noise,Image Fault,Poor image quality
+Image look dark,Image Fault,Poor image quality
+Image quality is bad,Image Fault,Poor image quality
+Image resolution issues,Image Fault,Poor image quality
+Images appear pixelated,Image Fault,Poor image quality
+Inferior image quality,Image Fault,Poor image quality
+Lighting,Image Fault,Poor image quality
+Low image,Image Fault,Poor image quality
+Low image quality,Image Fault,Poor image quality
+Low resolution,Image Fault,Poor image quality
+Low-resolution photos,Image Fault,Poor image quality
+Murky image quality,Image Fault,Poor image quality
+No quality,Image Fault,Poor image quality
+Noise,Image Fault,Poor image quality
+Out-of-focus images,Image Fault,Poor image quality
+Pixelated,Image Fault,Poor image quality
+Pixelated image,Image Fault,Poor image quality
+Pixelated visuals,Image Fault,Poor image quality
+Pixelation,Image Fault,Poor image quality
+Poor photo sharpness,Image Fault,Poor image quality
+Poor video quality,Image Fault,Poor image quality
+Quality,Image Fault,Poor image quality
+Reduced photo clarity,Image Fault,Poor image quality
+Resolution,Image Fault,Poor image quality
+Sharpness,Image Fault,Poor image quality
+Subpar image quality,Image Fault,Poor image quality
+Subpar image resolution,Image Fault,Poor image quality
+Unclear,Image Fault,Poor image quality
+Unclear image,Image Fault,Poor image quality
+Unclear images,Image Fault,Poor image quality
+Unsatisfactory image quality,Image Fault,Poor image quality
+Unsharp picture quality,Image Fault,Poor image quality
+bad image,Image Fault,Poor image quality
+bad image quality,Image Fault,Poor image quality
+blurry or full of noise,Image Fault,Poor image quality
+customer shared that the image quality become blur distorted choppy and extreme lagging,Image Fault,Poor image quality
+detailed data analysis is required,Image Fault,Poor image quality
+distorted image,Image Fault,Poor image quality
+footage quality,Image Fault,Poor image quality
+fuzzy image,Image Fault,Poor image quality
+image grainy,Image Fault,Poor image quality
+image quality,Image Fault,Poor image quality
+image quality is not clear,Image Fault,Poor image quality
+image quality is not good,Image Fault,Poor image quality
+image quality not acceptable,Image Fault,Poor image quality
+image too bright,Image Fault,Poor image quality
+keywords,Image Fault,Poor image quality
+photo blur,Image Fault,Poor image quality
+pixelated image,Image Fault,Poor image quality
+synonyms,Image Fault,Poor image quality
+video quality,Image Fault,Poor image quality
+video quality poor,Image Fault,Poor image quality
+Artifacts,Image Fault,Lens Flare
+Bright light streaks,Image Fault,Lens Flare
+Camera Settings,Image Fault,Lens Flare
+Circular flares appear when taking photos with the camera facing the sunlight,Image Fault,Lens Flare
+Contrast,Image Fault,Lens Flare
+Flare effect,Image Fault,Lens Flare
+Flare reflections,Image Fault,Lens Flare
+Ghosting effect,Image Fault,Lens Flare
+Glare,Image Fault,Lens Flare
+Glare effect,Image Fault,Lens Flare
+Glaring,Image Fault,Lens Flare
+Halo effect,Image Fault,Lens Flare
+Highlight,Image Fault,Lens Flare
+Image Quality,Image Fault,Lens Flare
+Lens Flare,Image Fault,Lens Flare
+Lens brightness distortion,Image Fault,Lens Flare
+Lens glare,Image Fault,Lens Flare
+Lens glow,Image Fault,Lens Flare
+Lens reflection,Image Fault,Lens Flare
+Lens reflections,Image Fault,Lens Flare
+Light Reflection,Image Fault,Lens Flare
+Light artifact,Image Fault,Lens Flare
+Light artifacts,Image Fault,Lens Flare
+Light bloom,Image Fault,Lens Flare
+Light burst,Image Fault,Lens Flare
+Light distortion,Image Fault,Lens Flare
+Light flare,Image Fault,Lens Flare
+Light leak,Image Fault,Lens Flare
+Light reflection,Image Fault,Lens Flare
+Light streaks,Image Fault,Lens Flare
+Light streaks on image,Image Fault,Lens Flare
+Optical Distortion,Image Fault,Lens Flare
+Optical flare,Image Fault,Lens Flare
+Overexposed light spots,Image Fault,Lens Flare
+Photography,Image Fault,Lens Flare
+Post-Processing,Image Fault,Lens Flare
+Radiant light,Image Fault,Lens Flare
+Refraction,Image Fault,Lens Flare
+Shimmering light,Image Fault,Lens Flare
+Starburst,Image Fault,Lens Flare
+Streak-shaped lens flares appear when taking photos with the camera facing the sunlight,Image Fault,Lens Flare
+Sun flare,Image Fault,Lens Flare
+Sunburst,Image Fault,Lens Flare
+Sunburst effect,Image Fault,Lens Flare
+Unwanted light flare,Image Fault,Lens Flare
+White spot on Footage,Image Fault,Lens Flare
+flare-up,Image Fault,Lens Flare
+footage not clear,Image Fault,Lens Flare
+glair,Image Fault,Lens Flare
+glare,Image Fault,Lens Flare
+glare effect,Image Fault,Lens Flare
+halo effect,Image Fault,Lens Flare
+light bars,Image Fault,Lens Flare
+light burst,Image Fault,Lens Flare
+light collums,Image Fault,Lens Flare
+light spots,Image Fault,Lens Flare
+microfiber cloth is the best material to wipe. Other material will absorb small,Image Fault,Lens Flare
+over exposed,Image Fault,Lens Flare
+reflected and scattered rays,Image Fault,Lens Flare
+tiny particle that looks like a dirty smudge,Image Fault,Lens Flare
+video has lens gleam when recording,Image Fault,Lens Flare
+Artifact,Image Fault,stripe/band of screen
+Artifacts,Image Fault,stripe/band of screen
+Band,Image Fault,stripe/band of screen
+Banding artifacts on display,Image Fault,stripe/band of screen
+Banding on display,Image Fault,stripe/band of screen
+Bar effect,Image Fault,stripe/band of screen
+Black screen,Image Fault,stripe/band of screen
+Calibration,Image Fault,stripe/band of screen
+Color,Image Fault,stripe/band of screen
+Color band,Image Fault,stripe/band of screen
+Color banding,Image Fault,stripe/band of screen
+Colored streaks on screen,Image Fault,stripe/band of screen
+Connectivity,Image Fault,stripe/band of screen
+Display,Image Fault,stripe/band of screen
+Display bands,Image Fault,stripe/band of screen
+Display line,Image Fault,stripe/band of screen
+Display showing streaks,Image Fault,stripe/band of screen
+Display stripe problem,Image Fault,stripe/band of screen
+Display stripes,Image Fault,stripe/band of screen
+Display striping,Image Fault,stripe/band of screen
+Distorted bands on display,Image Fault,stripe/band of screen
+Distortion,Image Fault,stripe/band of screen
+Flicker,Image Fault,stripe/band of screen
+Glitch,Image Fault,stripe/band of screen
+Gradient issues,Image Fault,stripe/band of screen
+Graphics,Image Fault,stripe/band of screen
+Hardware,Image Fault,stripe/band of screen
+Horizontal,Image Fault,stripe/band of screen
+Horizontal band,Image Fault,stripe/band of screen
+Horizontal lines on screen,Image Fault,stripe/band of screen
+Intermitent Black Line,Image Fault,stripe/band of screen
+Intermittent black line at the center of the video. Enlighten customer that sometimes they can edit/remove by the studio apps,Image Fault,stripe/band of screen
+Line,Image Fault,stripe/band of screen
+Line artifacts on screen,Image Fault,stripe/band of screen
+Line on screen,Image Fault,stripe/band of screen
+Lines appearing on display,Image Fault,stripe/band of screen
+Lines on the screen,Image Fault,stripe/band of screen
+Monitor,Image Fault,stripe/band of screen
+Monitor streaks,Image Fault,stripe/band of screen
+Mosaic,Image Fault,stripe/band of screen
+Pixels,Image Fault,stripe/band of screen
+Refresh rate,Image Fault,stripe/band of screen
+Resolution,Image Fault,stripe/band of screen
+Screen,Image Fault,stripe/band of screen
+Screen artifact,Image Fault,stripe/band of screen
+Screen artifacts,Image Fault,stripe/band of screen
+Screen banding,Image Fault,stripe/band of screen
+Screen banding issue,Image Fault,stripe/band of screen
+Screen flickering bands,Image Fault,stripe/band of screen
+Screen glitch,Image Fault,stripe/band of screen
+Screen lines,Image Fault,stripe/band of screen
+Screen lines or bars,Image Fault,stripe/band of screen
+Screen shows colored bands,Image Fault,stripe/band of screen
+Screen shows stripes,Image Fault,stripe/band of screen
+Screen stripe,Image Fault,stripe/band of screen
+Screen tearing,Image Fault,stripe/band of screen
+Screen with band lines,Image Fault,stripe/band of screen
+Software,Image Fault,stripe/band of screen
+Streak in X3 Video,Image Fault,stripe/band of screen
+Stripe,Image Fault,stripe/band of screen
+Striped video,Image Fault,stripe/band of screen
+Stripes,Image Fault,stripe/band of screen
+Stripes across the screen,Image Fault,stripe/band of screen
+Texture,Image Fault,stripe/band of screen
+Troubleshooting,Image Fault,stripe/band of screen
+Vertical,Image Fault,stripe/band of screen
+Vertical stripe,Image Fault,stripe/band of screen
+Vertical stripes on display,Image Fault,stripe/band of screen
+Visual artifacts,Image Fault,stripe/band of screen
+X3 Display,Image Fault,stripe/band of screen
+X3 Striped Video,Image Fault,stripe/band of screen
+X3StripedVideo,Image Fault,stripe/band of screen
+bands on screen,Image Fault,stripe/band of screen
+display glitches,Image Fault,stripe/band of screen
+glitchy video,Image Fault,stripe/band of screen
+green lines,Image Fault,stripe/band of screen
+horizontal/vertical lines,Image Fault,stripe/band of screen
+key words,Image Fault,stripe/band of screen
+lines on screen,Image Fault,stripe/band of screen
+screen has lines,Image Fault,stripe/band of screen
+screen issues,Image Fault,stripe/band of screen
+screen line,Image Fault,stripe/band of screen
+screen stripe,Image Fault,stripe/band of screen
+streak on video,Image Fault,stripe/band of screen
+streaking,Image Fault,stripe/band of screen
+stripe on screen,Image Fault,stripe/band of screen
+video display issue,Image Fault,stripe/band of screen
+video streak,Image Fault,stripe/band of screen
+x3 display issue,Image Fault,stripe/band of screen
+Assessment,Image Fault,Exposure Issue
+Awareness,Image Fault,Exposure Issue
+Brightness issues,Image Fault,Exposure Issue
+Compliance,Image Fault,Exposure Issue
+Data,Image Fault,Exposure Issue
+Display,Image Fault,Exposure Issue
+Exposure,Image Fault,Exposure Issue
+Exposure adjustment issue,Image Fault,Exposure Issue
+Exposure adjustment problem,Image Fault,Exposure Issue
+Exposure compensation error,Image Fault,Exposure Issue
+Exposure defect,Image Fault,Exposure Issue
+Exposure error,Image Fault,Exposure Issue
+Exposure imbalance,Image Fault,Exposure Issue
+Exposure inconsistency,Image Fault,Exposure Issue
+Exposure issue,Image Fault,Exposure Issue
+Exposure mode setting is not set correctly - t is recommended to use the automatic exposure mode or lower the ISO and increase the shutter speed,Image Fault,Exposure Issue
+Exposure problem,Image Fault,Exposure Issue
+Exposure settings problem,Image Fault,Exposure Issue
+Face priority,Image Fault,Exposure Issue
+Image too bright or dark,Image Fault,Exposure Issue
+Impact,Image Fault,Exposure Issue
+Improperly lit photos,Image Fault,Exposure Issue
+Inconsistent exposure,Image Fault,Exposure Issue
+Incorrect exposure,Image Fault,Exposure Issue
+Incorrect exposure levels,Image Fault,Exposure Issue
+Light exposure issue,Image Fault,Exposure Issue
+Lighting issues in images,Image Fault,Exposure Issue
+Mitigation,Image Fault,Exposure Issue
+Overexposed,Image Fault,Exposure Issue
+Overexposed images,Image Fault,Exposure Issue
+Overexposure,Image Fault,Exposure Issue
+Photos with uneven lighting,Image Fault,Exposure Issue
+Picture too bright,Image Fault,Exposure Issue
+Poor exposure settings,Image Fault,Exposure Issue
+Presentation,Image Fault,Exposure Issue
+Risk,Image Fault,Exposure Issue
+Security,Image Fault,Exposure Issue
+Shadow detail loss,Image Fault,Exposure Issue
+Transparency,Image Fault,Exposure Issue
+Underexposed photos,Image Fault,Exposure Issue
+Underexposure,Image Fault,Exposure Issue
+Visibility,Image Fault,Exposure Issue
+Vulnerability,Image Fault,Exposure Issue
+Washed-out highlights,Image Fault,Exposure Issue
+abnormal exposure,Image Fault,Exposure Issue
+bright when recording,Image Fault,Exposure Issue
+brightness problem,Image Fault,Exposure Issue
+footage too bright,Image Fault,Exposure Issue
+incorrect exposure mode,Image Fault,Exposure Issue
+overexposed,Image Fault,Exposure Issue
+overexposure,Image Fault,Exposure Issue
+the video turn white,Image Fault,Exposure Issue
+too bright,Image Fault,Exposure Issue
+too bright when recording,Image Fault,Exposure Issue
+underexposure,Image Fault,Exposure Issue
+white footage,Image Fault,Exposure Issue
+white screen,Image Fault,Exposure Issue
+white wash,Image Fault,Exposure Issue
+Achromatic,Image Fault,Image Black and White
+Achromatic image,Image Fault,Image Black and White
+B&W,Image Fault,Image Black and White
+B&W image,Image Fault,Image Black and White
+Bicolor,Image Fault,Image Black and White
+Black and white effect,Image Fault,Image Black and White
+Black and white picture,Image Fault,Image Black and White
+Black-and-white,Image Fault,Image Black and White
+Black-and-white photo,Image Fault,Image Black and White
+Color display issue,Image Fault,Image Black and White
+Colorless,Image Fault,Image Black and White
+Colorless image,Image Fault,Image Black and White
+Desaturated image,Image Fault,Image Black and White
+Duotone,Image Fault,Image Black and White
+Grayscale,Image Fault,Image Black and White
+Grayscale image,Image Fault,Image Black and White
+Greyscale,Image Fault,Image Black and White
+Image appears in shades of gray,Image Fault,Image Black and White
+Image colour issue,Image Fault,Image Black and White
+Image in black and gray,Image Fault,Image Black and White
+Image lacks color,Image Fault,Image Black and White
+Image missing color,Image Fault,Image Black and White
+Image showing only black and white,Image Fault,Image Black and White
+Lack of color,Image Fault,Image Black and White
+Monochrome,Image Fault,Image Black and White
+Monochrome image,Image Fault,Image Black and White
+Neutral,Image Fault,Image Black and White
+No color display,Image Fault,Image Black and White
+No color image,Image Fault,Image Black and White
+No color in image,Image Fault,Image Black and White
+No color rendering,Image Fault,Image Black and White
+On the Studio App,Image Fault,Image Black and White
+Photo turned monochrome,Image Fault,Image Black and White
+Picture No color,Image Fault,Image Black and White
+PureShot algorithm,Image Fault,Image Black and White
+Pureshot black and white,Image Fault,Image Black and White
+Pureshotno color,Image Fault,Image Black and White
+Toneless,Image Fault,Image Black and White
+Two-tone image,Image Fault,Image Black and White
+Uncolored,Image Fault,Image Black and White
+black and white,Image Fault,Image Black and White
+black and white footage,Image Fault,Image Black and White
+black and white screen,Image Fault,Image Black and White
+greyscale footage,Image Fault,Image Black and White
+image has no color,Image Fault,Image Black and White
+image is black and white,Image Fault,Image Black and White
+image is grayscale,Image Fault,Image Black and White
+monochrome image,Image Fault,Image Black and White
+no color image,Image Fault,Image Black and White
+photo become black,Image Fault,Image Black and White
+two tone image,Image Fault,Image Black and White
+you need to import both files together and it will generate the Pure Shot with color,Image Fault,Image Black and White
+Aberrant color edges,Image Fault,chromatic Aberration
+Aperture,Image Fault,chromatic Aberration
+Chromatic Aberration,Image Fault,chromatic Aberration
+Chromatic Distortion,Image Fault,chromatic Aberration
+Chromatic dispersion,Image Fault,chromatic Aberration
+Chromatic distortion,Image Fault,chromatic Aberration
+Chromatic edge effects,Image Fault,chromatic Aberration
+Color Aberration,Image Fault,chromatic Aberration
+Color Fringing,Image Fault,chromatic Aberration
+Color aberration,Image Fault,chromatic Aberration
+Color bleed,Image Fault,chromatic Aberration
+Color distortion,Image Fault,chromatic Aberration
+Color fringing,Image Fault,chromatic Aberration
+Color misalignment,Image Fault,chromatic Aberration
+Color shift,Image Fault,chromatic Aberration
+Color shift along edges,Image Fault,chromatic Aberration
+Colored halos,Image Fault,chromatic Aberration
+Colour aberration,Image Fault,chromatic Aberration
+Colour difference,Image Fault,chromatic Aberration
+Colour distortion,Image Fault,chromatic Aberration
+Colour fringing,Image Fault,chromatic Aberration
+Colour misalignment,Image Fault,chromatic Aberration
+Colour separation,Image Fault,chromatic Aberration
+Contrast,Image Fault,chromatic Aberration
+Correction,Image Fault,chromatic Aberration
+Difference in exposure,Image Fault,chromatic Aberration
+Dispersion,Image Fault,chromatic Aberration
+Focus,Image Fault,chromatic Aberration
+Fringe effect,Image Fault,chromatic Aberration
+Fringing artifacts,Image Fault,chromatic Aberration
+Image Quality,Image Fault,chromatic Aberration
+Lateral chromatic aberration,Image Fault,chromatic Aberration
+Lens,Image Fault,chromatic Aberration
+Lens chromatic distortion,Image Fault,chromatic Aberration
+Lens color shift,Image Fault,chromatic Aberration
+Longitudinal chromatic aberration,Image Fault,chromatic Aberration
+Optical Distortion,Image Fault,chromatic Aberration
+Optical aberration,Image Fault,chromatic Aberration
+Photography,Image Fault,chromatic Aberration
+Post-processing,Image Fault,chromatic Aberration
+Purple fringing,Image Fault,chromatic Aberration
+RGB separation,Image Fault,chromatic Aberration
+Rainbow fringes,Image Fault,chromatic Aberration
+Resolution,Image Fault,chromatic Aberration
+Spectral aberration,Image Fault,chromatic Aberration
+Underwater photo's color is different,Image Fault,chromatic Aberration
+Underwater photos look different,Image Fault,chromatic Aberration
+Visual Artifacts,Image Fault,chromatic Aberration
+Wavelength,Image Fault,chromatic Aberration
+Wavelength Aberration,Image Fault,chromatic Aberration
+abnormal color underwater,Image Fault,chromatic Aberration
+chromatic calibration button might not be enabled else images will have more purple and green effect compared to a normal 72mp photo,Image Fault,chromatic Aberration
+color aberration,Image Fault,chromatic Aberration
+color blur,Image Fault,chromatic Aberration
+color difference in the color of the clip,Image Fault,chromatic Aberration
+color distortion,Image Fault,chromatic Aberration
+color fringing,Image Fault,chromatic Aberration
+color is not the same when recording with x3 dive case,Image Fault,chromatic Aberration
+different exposures,Image Fault,chromatic Aberration
+exposure not the same,Image Fault,chromatic Aberration
+exposure underwater,Image Fault,chromatic Aberration
+lens color issue,Image Fault,chromatic Aberration
+not balance,Image Fault,chromatic Aberration
+photo change colour,Image Fault,chromatic Aberration
+purple fringing,Image Fault,chromatic Aberration
+underwater color difference,Image Fault,chromatic Aberration
+Bluetooth,APP Fault,Unable to detect Bluetooth
+Bluetooth connection failed,APP Fault,Unable to detect Bluetooth
+Bluetooth connectivity error,APP Fault,Unable to detect Bluetooth
+Bluetooth detection error,APP Fault,Unable to detect Bluetooth
+Bluetooth device missing,APP Fault,Unable to detect Bluetooth
+Bluetooth device not recognized,APP Fault,Unable to detect Bluetooth
+Bluetooth device undetectable,APP Fault,Unable to detect Bluetooth
+Bluetooth devices not visible,APP Fault,Unable to detect Bluetooth
+Bluetooth discovery failed,APP Fault,Unable to detect Bluetooth
+Bluetooth discovery issue,APP Fault,Unable to detect Bluetooth
+Bluetooth error,APP Fault,Unable to detect Bluetooth
+Bluetooth not available,APP Fault,Unable to detect Bluetooth
+Bluetooth not connecting,APP Fault,Unable to detect Bluetooth
+Bluetooth not detected,APP Fault,Unable to detect Bluetooth
+Bluetooth not found,APP Fault,Unable to detect Bluetooth
+Bluetooth not found/detected,APP Fault,Unable to detect Bluetooth
+Bluetooth not recognize,APP Fault,Unable to detect Bluetooth
+Bluetooth not recognized,APP Fault,Unable to detect Bluetooth
+Bluetooth not responding,APP Fault,Unable to detect Bluetooth
+Bluetooth not working,APP Fault,Unable to detect Bluetooth
+Bluetooth pairing failed,APP Fault,Unable to detect Bluetooth
+Bluetooth pairing issue,APP Fault,Unable to detect Bluetooth
+Bluetooth pairing unsuccessful,APP Fault,Unable to detect Bluetooth
+Bluetooth searching issue,APP Fault,Unable to detect Bluetooth
+Bluetooth signal lost,APP Fault,Unable to detect Bluetooth
+Bluetooth signal missing,APP Fault,Unable to detect Bluetooth
+Bluetooth signal not detected,APP Fault,Unable to detect Bluetooth
+Can't Bluetooth,APP Fault,Unable to detect Bluetooth
+Can't pair Bluetooth,APP Fault,Unable to detect Bluetooth
+Can't search bluetooth,APP Fault,Unable to detect Bluetooth
+Cannot Connect,APP Fault,Unable to detect Bluetooth
+Cannot connect bluetooth,APP Fault,Unable to detect Bluetooth
+Cannot connect to Bluetooth,APP Fault,Unable to detect Bluetooth
+Cannot detect Bluetooth,APP Fault,Unable to detect Bluetooth
+Cannot find Bluetooth,APP Fault,Unable to detect Bluetooth
+Cannot find bluetooth,APP Fault,Unable to detect Bluetooth
+Cannot locate Bluetooth,APP Fault,Unable to detect Bluetooth
+Compatibility,APP Fault,Unable to detect Bluetooth
+Connection,APP Fault,Unable to detect Bluetooth
+Connection Fail,APP Fault,Unable to detect Bluetooth
+Connectivity,APP Fault,Unable to detect Bluetooth
+Detect,APP Fault,Unable to detect Bluetooth
+Detection,APP Fault,Unable to detect Bluetooth
+Device,APP Fault,Unable to detect Bluetooth
+Drivers,APP Fault,Unable to detect Bluetooth
+Error,APP Fault,Unable to detect Bluetooth
+Fail to connect to app,APP Fault,Unable to detect Bluetooth
+Failed to locate Bluetooth,APP Fault,Unable to detect Bluetooth
+Hardware,APP Fault,Unable to detect Bluetooth
+Interference,APP Fault,Unable to detect Bluetooth
+No Bluetooth device detected,APP Fault,Unable to detect Bluetooth
+Not found,APP Fault,Unable to detect Bluetooth
+Pairing,APP Fault,Unable to detect Bluetooth
+Range,APP Fault,Unable to detect Bluetooth
+Reboot Bluetooth - Press and hold the Trigger Button and Shutter Button for 3 seconds at the same time to reset,APP Fault,Unable to detect Bluetooth
+Reset,APP Fault,Unable to detect Bluetooth
+Restart,APP Fault,Unable to detect Bluetooth
+Settings,APP Fault,Unable to detect Bluetooth
+Signal,APP Fault,Unable to detect Bluetooth
+Software,APP Fault,Unable to detect Bluetooth
+Troubleshoot,APP Fault,Unable to detect Bluetooth
+Troubleshooting,APP Fault,Unable to detect Bluetooth
+Unable to find Bluetooth device,APP Fault,Unable to detect Bluetooth
+Unable to find bluetooth name,APP Fault,Unable to detect Bluetooth
+Unable to locate Bluetooth,APP Fault,Unable to detect Bluetooth
+Update,APP Fault,Unable to detect Bluetooth
+Visibility,APP Fault,Unable to detect Bluetooth
+bluetooth not working,APP Fault,Unable to detect Bluetooth
+camera don't appear in wifi list,APP Fault,Unable to detect Bluetooth
+can't detect Bluetooth,APP Fault,Unable to detect Bluetooth
+can't find,APP Fault,Unable to detect Bluetooth
+can't search bluetooth,APP Fault,Unable to detect Bluetooth
+cannot connect to Bluetooth,APP Fault,Unable to detect Bluetooth
+cannot detect Bluetooth,APP Fault,Unable to detect Bluetooth
+cannot detect bluetooth,APP Fault,Unable to detect Bluetooth
+cannot find bluetooth,APP Fault,Unable to detect Bluetooth
+cannot find camera or phone,APP Fault,Unable to detect Bluetooth
+cant detect bluetooth,APP Fault,Unable to detect Bluetooth
+could not find,APP Fault,Unable to detect Bluetooth
+couldn't find,APP Fault,Unable to detect Bluetooth
+key words,APP Fault,Unable to detect Bluetooth
+no in bluetooth list,APP Fault,Unable to detect Bluetooth
+not transmitting,APP Fault,Unable to detect Bluetooth
+synonyms,APP Fault,Unable to detect Bluetooth
+Black Spot,Image Fault,Black Spot/White Spot/Dead Pixel
+Black dot,Image Fault,Black Spot/White Spot/Dead Pixel
+Black or white dot on screen,Image Fault,Black Spot/White Spot/Dead Pixel
+Bright or dark pixel spot,Image Fault,Black Spot/White Spot/Dead Pixel
+Bright pixel,Image Fault,Black Spot/White Spot/Dead Pixel
+Bright pixel (for white spots),Image Fault,Black Spot/White Spot/Dead Pixel
+Dark dot defect,Image Fault,Black Spot/White Spot/Dead Pixel
+Dark pixel (for black spots),Image Fault,Black Spot/White Spot/Dead Pixel
+Dead Pixel,Image Fault,Black Spot/White Spot/Dead Pixel
+Dead or stuck pixel,Image Fault,Black Spot/White Spot/Dead Pixel
+Dead pixel,Image Fault,Black Spot/White Spot/Dead Pixel
+Defect,Image Fault,Black Spot/White Spot/Dead Pixel
+Defective pixel,Image Fault,Black Spot/White Spot/Dead Pixel
+Display,Image Fault,Black Spot/White Spot/Dead Pixel
+Display Fault,Image Fault,Black Spot/White Spot/Dead Pixel
+Display blemish,Image Fault,Black Spot/White Spot/Dead Pixel
+Display defect,Image Fault,Black Spot/White Spot/Dead Pixel
+Display error,Image Fault,Black Spot/White Spot/Dead Pixel
+Display mark,Image Fault,Black Spot/White Spot/Dead Pixel
+Faulty Pixel,Image Fault,Black Spot/White Spot/Dead Pixel
+Frozen pixel,Image Fault,Black Spot/White Spot/Dead Pixel
+Having two dead pixels on the exact same place on both sensors seems highly unlikely,Image Fault,Black Spot/White Spot/Dead Pixel
+Image Quality,Image Fault,Black Spot/White Spot/Dead Pixel
+Monitor,Image Fault,Black Spot/White Spot/Dead Pixel
+Non-functioning pixel,Image Fault,Black Spot/White Spot/Dead Pixel
+Pixel,Image Fault,Black Spot/White Spot/Dead Pixel
+Pixel Defect,Image Fault,Black Spot/White Spot/Dead Pixel
+Pixel Malfunction,Image Fault,Black Spot/White Spot/Dead Pixel
+Pixel anomaly,Image Fault,Black Spot/White Spot/Dead Pixel
+Pixel defect,Image Fault,Black Spot/White Spot/Dead Pixel
+Pixel failure,Image Fault,Black Spot/White Spot/Dead Pixel
+Pixel issue,Image Fault,Black Spot/White Spot/Dead Pixel
+Pixel malfunction,Image Fault,Black Spot/White Spot/Dead Pixel
+Repair,Image Fault,Black Spot/White Spot/Dead Pixel
+Replacement,Image Fault,Black Spot/White Spot/Dead Pixel
+Resolution,Image Fault,Black Spot/White Spot/Dead Pixel
+Screen,Image Fault,Black Spot/White Spot/Dead Pixel
+Screen Anomaly,Image Fault,Black Spot/White Spot/Dead Pixel
+Screen Flaw,Image Fault,Black Spot/White Spot/Dead Pixel
+Screen artifact,Image Fault,Black Spot/White Spot/Dead Pixel
+Screen hotspot,Image Fault,Black Spot/White Spot/Dead Pixel
+Screen spot defect,Image Fault,Black Spot/White Spot/Dead Pixel
+Spot on display,Image Fault,Black Spot/White Spot/Dead Pixel
+Spots on screen,Image Fault,Black Spot/White Spot/Dead Pixel
+Stuck pixel,Image Fault,Black Spot/White Spot/Dead Pixel
+Troubleshooting,Image Fault,Black Spot/White Spot/Dead Pixel
+Unresponsive pixel,Image Fault,Black Spot/White Spot/Dead Pixel
+Visual Artifacts,Image Fault,Black Spot/White Spot/Dead Pixel
+Warranty,Image Fault,Black Spot/White Spot/Dead Pixel
+White Spot,Image Fault,Black Spot/White Spot/Dead Pixel
+White dot,Image Fault,Black Spot/White Spot/Dead Pixel
+burnt pixel,Image Fault,Black Spot/White Spot/Dead Pixel
+dark spot,Image Fault,Black Spot/White Spot/Dead Pixel
+dead pixels,Image Fault,Black Spot/White Spot/Dead Pixel
+defective pixel,Image Fault,Black Spot/White Spot/Dead Pixel
+imperfection,Image Fault,Black Spot/White Spot/Dead Pixel
+photos have dots,Image Fault,Black Spot/White Spot/Dead Pixel
+pixel malfunction,Image Fault,Black Spot/White Spot/Dead Pixel
+pixel on footage,Image Fault,Black Spot/White Spot/Dead Pixel
+screen flaw,Image Fault,Black Spot/White Spot/Dead Pixel
+screen issues,Image Fault,Black Spot/White Spot/Dead Pixel
+white dots,Image Fault,Black Spot/White Spot/Dead Pixel
+white spot on screen,Image Fault,Black Spot/White Spot/Dead Pixel
+white spots,Image Fault,Black Spot/White Spot/Dead Pixel
+Abnormal color,Image Fault,Abnormal Color Balance/Temperature
+Calibration,Image Fault,Abnormal Color Balance/Temperature
+Color balance,Image Fault,Abnormal Color Balance/Temperature
+Color calibration issue,Image Fault,Abnormal Color Balance/Temperature
+Color correction,Image Fault,Abnormal Color Balance/Temperature
+Color grading,Image Fault,Abnormal Color Balance/Temperature
+Color imbalance,Image Fault,Abnormal Color Balance/Temperature
+Color issues,Image Fault,Abnormal Color Balance/Temperature
+Color reproduction error,Image Fault,Abnormal Color Balance/Temperature
+Color saturation problems,Image Fault,Abnormal Color Balance/Temperature
+Color shift on display,Image Fault,Abnormal Color Balance/Temperature
+Color temperature,Image Fault,Abnormal Color Balance/Temperature
+Color tint issues,Image Fault,Abnormal Color Balance/Temperature
+Color tone mismatch,Image Fault,Abnormal Color Balance/Temperature
+Color/Temperature difference,Image Fault,Abnormal Color Balance/Temperature
+Display flicker,Image Fault,Abnormal Color Balance/Temperature
+Display settings,Image Fault,Abnormal Color Balance/Temperature
+Distorted color tones,Image Fault,Abnormal Color Balance/Temperature
+Flicker effect,Image Fault,Abnormal Color Balance/Temperature
+Flickering display,Image Fault,Abnormal Color Balance/Temperature
+Fluctuating screen,Image Fault,Abnormal Color Balance/Temperature
+Hue,Image Fault,Abnormal Color Balance/Temperature
+Image processing,Image Fault,Abnormal Color Balance/Temperature
+Inaccurate color temperature,Image Fault,Abnormal Color Balance/Temperature
+Inconsistent color display,Image Fault,Abnormal Color Balance/Temperature
+Incorrect color balance,Image Fault,Abnormal Color Balance/Temperature
+Incorrect color temperature,Image Fault,Abnormal Color Balance/Temperature
+Intermittent display,Image Fault,Abnormal Color Balance/Temperature
+Lighting conditions,Image Fault,Abnormal Color Balance/Temperature
+Off color balance,Image Fault,Abnormal Color Balance/Temperature
+Off-color rendering,Image Fault,Abnormal Color Balance/Temperature
+Overly warm or cold colors,Image Fault,Abnormal Color Balance/Temperature
+Photo turns purple,Image Fault,Abnormal Color Balance/Temperature
+Photography,Image Fault,Abnormal Color Balance/Temperature
+Picture is in purple,Image Fault,Abnormal Color Balance/Temperature
+Saturation,Image Fault,Abnormal Color Balance/Temperature
+Screen blink,Image Fault,Abnormal Color Balance/Temperature
+Screen flashing,Image Fault,Abnormal Color Balance/Temperature
+Screen has different colors,Image Fault,Abnormal Color Balance/Temperature
+Screen shimmer,Image Fault,Abnormal Color Balance/Temperature
+Screen stutter,Image Fault,Abnormal Color Balance/Temperature
+Strange color cast,Image Fault,Abnormal Color Balance/Temperature
+Tint,Image Fault,Abnormal Color Balance/Temperature
+Tinted display colors,Image Fault,Abnormal Color Balance/Temperature
+Unbalanced color hues,Image Fault,Abnormal Color Balance/Temperature
+Uneven color distribution,Image Fault,Abnormal Color Balance/Temperature
+Unnatural color balance,Image Fault,Abnormal Color Balance/Temperature
+Video editing,Image Fault,Abnormal Color Balance/Temperature
+Visual flicker,Image Fault,Abnormal Color Balance/Temperature
+Visual perception,Image Fault,Abnormal Color Balance/Temperature
+Warm or cool color cast,Image Fault,Abnormal Color Balance/Temperature
+White balance,Image Fault,Abnormal Color Balance/Temperature
+White balance is probably at 3500k that creates too much blue hues,Image Fault,Abnormal Color Balance/Temperature
+abnormal footage,Image Fault,Abnormal Color Balance/Temperature
+blueish image,Image Fault,Abnormal Color Balance/Temperature
+color balance issue,Image Fault,Abnormal Color Balance/Temperature
+color imbalance,Image Fault,Abnormal Color Balance/Temperature
+color mismatch,Image Fault,Abnormal Color Balance/Temperature
+colour balance,Image Fault,Abnormal Color Balance/Temperature
+colour correction,Image Fault,Abnormal Color Balance/Temperature
+different color on screen,Image Fault,Abnormal Color Balance/Temperature
+footage colour issue,Image Fault,Abnormal Color Balance/Temperature
+may display an abnormal color,Image Fault,Abnormal Color Balance/Temperature
+orange image,Image Fault,Abnormal Color Balance/Temperature
+purple color on the bottom of the photo,Image Fault,Abnormal Color Balance/Temperature
+rainbow color,Image Fault,Abnormal Color Balance/Temperature
+tone correction,Image Fault,Abnormal Color Balance/Temperature
+Broken Lens Guard,Appearance Defect,Lens Guards Crack
+Broken lens guards,Appearance Defect,Lens Guards Crack
+Bumps and drops in sports settings,Appearance Defect,Lens Guards Crack
+Cracked Lens Guard,Appearance Defect,Lens Guards Crack
+Cracked up lens guards,Appearance Defect,Lens Guards Crack
+Cracks and damage to the Lens Guard caused by daily drops,Appearance Defect,Lens Guards Crack
+"Here are some common synonyms for ""Lens Guards Crack"":",Appearance Defect,Lens Guards Crack
+Lens Cover Defect,Appearance Defect,Lens Guards Crack
+Lens Guard Break,Appearance Defect,Lens Guards Crack
+Lens Guard Breakage,Appearance Defect,Lens Guards Crack
+Lens Guard Chip,Appearance Defect,Lens Guards Crack
+Lens Guard Compromise,Appearance Defect,Lens Guards Crack
+Lens Guard Damage,Appearance Defect,Lens Guards Crack
+Lens Guard Defect,Appearance Defect,Lens Guards Crack
+Lens Guard Deformation,Appearance Defect,Lens Guards Crack
+Lens Guard Disruption,Appearance Defect,Lens Guards Crack
+Lens Guard Failure,Appearance Defect,Lens Guards Crack
+Lens Guard Fault,Appearance Defect,Lens Guards Crack
+Lens Guard Fracture,Appearance Defect,Lens Guards Crack
+Lens Guard Imperfection,Appearance Defect,Lens Guards Crack
+Lens Guard Integrity Compromise,Appearance Defect,Lens Guards Crack
+Lens Guard Integrity Loss,Appearance Defect,Lens Guards Crack
+Lens Guard Rupture,Appearance Defect,Lens Guards Crack
+Lens Guard Shatter,Appearance Defect,Lens Guards Crack
+Lens Guard Split,Appearance Defect,Lens Guards Crack
+Lens Guard Wear and Tear,Appearance Defect,Lens Guards Crack
+Lens Protector Rupture,Appearance Defect,Lens Guards Crack
+Lens Shield Breakage,Appearance Defect,Lens Guards Crack
+Lens Shield Imperfection,Appearance Defect,Lens Guards Crack
+U-Disk mode not popping up in the device,Appearance Defect,Lens Guards Crack
+cannot recognize,Appearance Defect,Lens Guards Crack
+computer cannot recognize,Appearance Defect,Lens Guards Crack
+lens guard cracked,Appearance Defect,Lens Guards Crack
+lens guard crushed,Appearance Defect,Lens Guards Crack
+lens guard damaged,Appearance Defect,Lens Guards Crack
+lens guard fractured,Appearance Defect,Lens Guards Crack
+lens guard scratch,Appearance Defect,Lens Guards Crack
+spoilt lens guards,Appearance Defect,Lens Guards Crack
+Broken Lens,Appearance Defect,Lens Crack/Break
+Broken lens,Appearance Defect,Lens Crack/Break
+Cracked Lens,Appearance Defect,Lens Crack/Break
+Cracked up lens,Appearance Defect,Lens Crack/Break
+Daily use,Appearance Defect,Lens Crack/Break
+Damaged upon opening the box,Appearance Defect,Lens Crack/Break
+Lens Breakage,Appearance Defect,Lens Crack/Break
+Lens Chip,Appearance Defect,Lens Crack/Break
+Lens Compromise,Appearance Defect,Lens Crack/Break
+Lens Crumble,Appearance Defect,Lens Crack/Break
+Lens Crumbling,Appearance Defect,Lens Crack/Break
+Lens Damage,Appearance Defect,Lens Crack/Break
+Lens Defect,Appearance Defect,Lens Crack/Break
+Lens Deformation,Appearance Defect,Lens Crack/Break
+Lens Disruption,Appearance Defect,Lens Crack/Break
+Lens Failure,Appearance Defect,Lens Crack/Break
+Lens Fault,Appearance Defect,Lens Crack/Break
+Lens Fracture,Appearance Defect,Lens Crack/Break
+Lens Integrity Compromise,Appearance Defect,Lens Crack/Break
+Lens Integrity Loss,Appearance Defect,Lens Crack/Break
+Lens Rupture,Appearance Defect,Lens Crack/Break
+Lens Shatter,Appearance Defect,Lens Crack/Break
+Lens Split,Appearance Defect,Lens Crack/Break
+Lens compromise,Appearance Defect,Lens Crack/Break
+Lens malfunction,Appearance Defect,Lens Crack/Break
+Lens separation,Appearance Defect,Lens Crack/Break
+Use with accessories,Appearance Defect,Lens Crack/Break
+Visible lines on the lens,Appearance Defect,Lens Crack/Break
+Wear caused by daily drops,Appearance Defect,Lens Crack/Break
+bluetooth signal not connecting,Appearance Defect,Lens Crack/Break
+connection failed,Appearance Defect,Lens Crack/Break
+connection failure,Appearance Defect,Lens Crack/Break
+lens cracked,Appearance Defect,Lens Crack/Break
+lens crushed,Appearance Defect,Lens Crack/Break
+lens damaged,Appearance Defect,Lens Crack/Break
+lens fracture,Appearance Defect,Lens Crack/Break
+lens scratch,Appearance Defect,Lens Crack/Break
+no drops,Appearance Defect,Lens Crack/Break
+non-sports settings,Appearance Defect,Lens Crack/Break
+unable to connect to Bluetooth signal,Appearance Defect,Lens Crack/Break
+Ace/Ace Pro/Pro 2),Image Fault,Stitching Ghost / Blur
+Blur Artifacts,Image Fault,Stitching Ghost / Blur
+Blurred Edges,Image Fault,Stitching Ghost / Blur
+Blurred Stitching,Image Fault,Stitching Ghost / Blur
+Blurred Transition,Image Fault,Stitching Ghost / Blur
+Blurry Stitching,Image Fault,Stitching Ghost / Blur
+Foggy Stitching,Image Fault,Stitching Ghost / Blur
+GO/Ace Series: Camera having splashscreen/ screen distortion issues(GO 3/GO 3S,Image Fault,Stitching Ghost / Blur
+Ghosting,Image Fault,Stitching Ghost / Blur
+Ghosting Artifact,Image Fault,Stitching Ghost / Blur
+Image Blur,Image Fault,Stitching Ghost / Blur
+Image Ghosting,Image Fault,Stitching Ghost / Blur
+Motion Blur,Image Fault,Stitching Ghost / Blur
+Possible occurrences include stitching ghosting,Image Fault,Stitching Ghost / Blur
+Stitching Artifact,Image Fault,Stitching Ghost / Blur
+Stitching Artifacts,Image Fault,Stitching Ghost / Blur
+Stitching Blur,Image Fault,Stitching Ghost / Blur
+Stitching Distortion,Image Fault,Stitching Ghost / Blur
+Stitching Echo,Image Fault,Stitching Ghost / Blur
+Stitching Fade,Image Fault,Stitching Ghost / Blur
+Stitching Fuzziness,Image Fault,Stitching Ghost / Blur
+Stitching Ghosting,Image Fault,Stitching Ghost / Blur
+Stitching Halo,Image Fault,Stitching Ghost / Blur
+Stitching Inaccuracy,Image Fault,Stitching Ghost / Blur
+Stitching Overlap,Image Fault,Stitching Ghost / Blur
+Stitching Residue,Image Fault,Stitching Ghost / Blur
+Stitching Shadow,Image Fault,Stitching Ghost / Blur
+Stitching Smear,Image Fault,Stitching Ghost / Blur
+Stitching Smudge,Image Fault,Stitching Ghost / Blur
+Stitching Softness,Image Fault,Stitching Ghost / Blur
+Stitching Vignette,Image Fault,Stitching Ghost / Blur
+Thermo Grip Cover on issue,Image Fault,Stitching Ghost / Blur
+Visual Distortion,Image Fault,Stitching Ghost / Blur
+Visual Ghosting,Image Fault,Stitching Ghost / Blur
+and black edges along the stitch lines,Image Fault,Stitching Ghost / Blur
+stitch line fluctuation,Image Fault,Stitching Ghost / Blur
+stitching anomalies when viewed in Studio,Image Fault,Stitching Ghost / Blur
+After the camera is connected to the computer,Appearance Defect,Filament in lens
+Dirty lens,Appearance Defect,Filament in lens
+Fiber in Lens,Appearance Defect,Filament in lens
+Fiber on lens,Appearance Defect,Filament in lens
+Filament presence in lens,Appearance Defect,Filament in lens
+Internal lens defect,Appearance Defect,Filament in lens
+Lens Anomaly,Appearance Defect,Filament in lens
+Lens Contaminant,Appearance Defect,Filament in lens
+Lens Contamination,Appearance Defect,Filament in lens
+Lens Debris,Appearance Defect,Filament in lens
+Lens Defect,Appearance Defect,Filament in lens
+Lens Fiber,Appearance Defect,Filament in lens
+Lens Filth,Appearance Defect,Filament in lens
+Lens Flaw,Appearance Defect,Filament in lens
+Lens Fluff,Appearance Defect,Filament in lens
+Lens Foreign Fiber,Appearance Defect,Filament in lens
+Lens Foreign Object,Appearance Defect,Filament in lens
+Lens Grime,Appearance Defect,Filament in lens
+Lens Hair,Appearance Defect,Filament in lens
+Lens Imperfection,Appearance Defect,Filament in lens
+Lens Impurity,Appearance Defect,Filament in lens
+Lens Obstruction,Appearance Defect,Filament in lens
+Lens Particle,Appearance Defect,Filament in lens
+Lens Particulate,Appearance Defect,Filament in lens
+Lens Residue,Appearance Defect,Filament in lens
+Lens Smudge,Appearance Defect,Filament in lens
+Lens String,Appearance Defect,Filament in lens
+Lens Thread,Appearance Defect,Filament in lens
+Lens debris,Appearance Defect,Filament in lens
+Lens impurity,Appearance Defect,Filament in lens
+Optical flaw,Appearance Defect,Filament in lens
+Strand on lens,Appearance Defect,Filament in lens
+Thread on lens,Appearance Defect,Filament in lens
+User damage + minor factory oversight during production,Appearance Defect,Filament in lens
+debris in lens,Appearance Defect,Filament in lens
+dirt in lens,Appearance Defect,Filament in lens
+dirt on lens,Appearance Defect,Filament in lens
+filthy lens,Appearance Defect,Filament in lens
+it reports an error that cannot be recognized,Appearance Defect,Filament in lens
+lens change color,Appearance Defect,Filament in lens
+lens has discoloration,Appearance Defect,Filament in lens
+particles in lens,Appearance Defect,Filament in lens
+Black Display,Core Fault,Black screen
+Blackout,Core Fault,Black screen
+Blackout Display,Core Fault,Black screen
+Blackout Screen,Core Fault,Black screen
+Blank Screen,Core Fault,Black screen
+Blank screen,Core Fault,Black screen
+Dark Screen,Core Fault,Black screen
+Dark screen,Core Fault,Black screen
+Display Blackout,Core Fault,Black screen
+Display Failure,Core Fault,Black screen
+Empty screen,Core Fault,Black screen
+If the indicator light does not turn on,Core Fault,Black screen
+No Display,Core Fault,Black screen
+No display,Core Fault,Black screen
+Power Off Screen,Core Fault,Black screen
+Screen Blackout,Core Fault,Black screen
+Screen Blankness,Core Fault,Black screen
+Screen Darkness,Core Fault,Black screen
+Screen Dim,Core Fault,Black screen
+Screen Error,Core Fault,Black screen
+Screen Failure,Core Fault,Black screen
+Screen Inactivity,Core Fault,Black screen
+Screen Loss,Core Fault,Black screen
+Screen Malfunction,Core Fault,Black screen
+Screen Not Responding,Core Fault,Black screen
+Screen Outage,Core Fault,Black screen
+Screen Power Off,Core Fault,Black screen
+Screen Shutdown,Core Fault,Black screen
+Screen Unresponsive,Core Fault,Black screen
+Screen failure,Core Fault,Black screen
+Screen not responding,Core Fault,Black screen
+Screen went off,Core Fault,Black screen
+Unresponsive Screen,Core Fault,Black screen
+black-out,Core Fault,Black screen
+blackout,Core Fault,Black screen
+dark screen,Core Fault,Black screen
+screen backout,Core Fault,Black screen
+【5】X4 Webcam image appears fisheye / distorted around the edges / deformed / facial distortion,Core Fault,Black screen
+Dirt on lens,Appearance Defect,dust in lens
+Dirty lens,Appearance Defect,dust in lens
+Dust Accumulation on Lens,Appearance Defect,dust in lens
+Dust Particles in Lens,Appearance Defect,dust in lens
+Dust accumulation,Appearance Defect,dust in lens
+Dust on Lens,Appearance Defect,dust in lens
+Dust particles,Appearance Defect,dust in lens
+Dust spots,Appearance Defect,dust in lens
+Grime on lens,Appearance Defect,dust in lens
+In the lens manufacturing process,Appearance Defect,dust in lens
+Lens Clarity Issue,Appearance Defect,dust in lens
+Lens Cloudiness,Appearance Defect,dust in lens
+Lens Contamination,Appearance Defect,dust in lens
+Lens Debris,Appearance Defect,dust in lens
+Lens Dirt,Appearance Defect,dust in lens
+Lens Dust,Appearance Defect,dust in lens
+Lens Filth,Appearance Defect,dust in lens
+Lens Foreign Matter,Appearance Defect,dust in lens
+Lens Grime,Appearance Defect,dust in lens
+Lens Impurities,Appearance Defect,dust in lens
+Lens Muck,Appearance Defect,dust in lens
+Lens Obstruction,Appearance Defect,dust in lens
+Lens Particles,Appearance Defect,dust in lens
+Lens Pollution,Appearance Defect,dust in lens
+Lens Residue,Appearance Defect,dust in lens
+Lens Smudge,Appearance Defect,dust in lens
+Lens Smudges,Appearance Defect,dust in lens
+Lens Soiling,Appearance Defect,dust in lens
+Lens Stains,Appearance Defect,dust in lens
+Lens haze,Appearance Defect,dust in lens
+Lens smudges,Appearance Defect,dust in lens
+debris in lens,Appearance Defect,dust in lens
+dirt in lens,Appearance Defect,dust in lens
+dirt on lens,Appearance Defect,dust in lens
+dots in lens,Appearance Defect,dust in lens
+filthy lens,Appearance Defect,dust in lens
+muddy lens,Appearance Defect,dust in lens
+particles in lens,Appearance Defect,dust in lens
+small white spots,Appearance Defect,dust in lens
+speck of dust,Appearance Defect,dust in lens
+stained lens,Appearance Defect,dust in lens
+【4-18】The HDR performance of Link 2 and Link 2C is bad/not as expected,Appearance Defect,dust in lens
+Dirty lens,Appearance Defect,white dot in lens
+Fleck in lens,Appearance Defect,white dot in lens
+In the lens manufacturing process,Appearance Defect,white dot in lens
+Lens Anomaly,Appearance Defect,white dot in lens
+Lens Artifact,Appearance Defect,white dot in lens
+Lens Blemish,Appearance Defect,white dot in lens
+Lens Cloud,Appearance Defect,white dot in lens
+Lens Contamination,Appearance Defect,white dot in lens
+Lens Defect,Appearance Defect,white dot in lens
+Lens Discoloration,Appearance Defect,white dot in lens
+Lens Flare,Appearance Defect,white dot in lens
+Lens Flaw,Appearance Defect,white dot in lens
+Lens Foreign Object,Appearance Defect,white dot in lens
+Lens Grime,Appearance Defect,white dot in lens
+Lens Imperfection,Appearance Defect,white dot in lens
+Lens Mark,Appearance Defect,white dot in lens
+Lens Obstruction,Appearance Defect,white dot in lens
+Lens Residue,Appearance Defect,white dot in lens
+Lens Smudge,Appearance Defect,white dot in lens
+Lens Spot,Appearance Defect,white dot in lens
+Lens Spotting,Appearance Defect,white dot in lens
+Lens Stain,Appearance Defect,white dot in lens
+Lens distortion,Appearance Defect,white dot in lens
+Lens flaw,Appearance Defect,white dot in lens
+Light spot,Appearance Defect,white dot in lens
+Optical spot,Appearance Defect,white dot in lens
+Reflection spot,Appearance Defect,white dot in lens
+White Mark on Lens,Appearance Defect,white dot in lens
+White Particle in Lens,Appearance Defect,white dot in lens
+White Spot in Lens,Appearance Defect,white dot in lens
+blot in lens,Appearance Defect,white dot in lens
+dirt in lens,Appearance Defect,white dot in lens
+dirt on lens,Appearance Defect,white dot in lens
+dots in lens,Appearance Defect,white dot in lens
+filthy lens,Appearance Defect,white dot in lens
+foggy lens,Appearance Defect,white dot in lens
+small white spots (tiny dust particles within the lens) may occasionally appear,Appearance Defect,white dot in lens
+smear in lens,Appearance Defect,white dot in lens
+stain in lens,Appearance Defect,white dot in lens
+white spots,Appearance Defect,white dot in lens
+【4-24】Lens flare in the image of ONE RS,Appearance Defect,white dot in lens
+Dive case stitching issue,Accessory Fault,Stitching Issues at Dive Case Bottom
+Fabric Joint Issues,Accessory Fault,Stitching Issues at Dive Case Bottom
+Reported issues such as the dive case easily getting scratched or having surface scratches,Accessory Fault,Stitching Issues at Dive Case Bottom
+Seam Issues at Dive Case Bottom,Accessory Fault,Stitching Issues at Dive Case Bottom
+Seam Problems,Accessory Fault,Stitching Issues at Dive Case Bottom
+Sewing Defects,Accessory Fault,Stitching Issues at Dive Case Bottom
+Stitching Anomalies at Dive Case Bottom,Accessory Fault,Stitching Issues at Dive Case Bottom
+Stitching Artifacts at Dive Case Bottom,Accessory Fault,Stitching Issues at Dive Case Bottom
+Stitching Blur at Dive Case Bottom,Accessory Fault,Stitching Issues at Dive Case Bottom
+Stitching Damage at Dive Case Base,Accessory Fault,Stitching Issues at Dive Case Bottom
+Stitching Defects at Dive Case Bottom,Accessory Fault,Stitching Issues at Dive Case Bottom
+Stitching Deficiencies,Accessory Fault,Stitching Issues at Dive Case Bottom
+Stitching Discrepancies at Dive Case Bottom,Accessory Fault,Stitching Issues at Dive Case Bottom
+Stitching Distortion at Dive Case Bottom,Accessory Fault,Stitching Issues at Dive Case Bottom
+Stitching Edge Issues at Dive Case Bottom,Accessory Fault,Stitching Issues at Dive Case Bottom
+Stitching Errors at Dive Case Base,Accessory Fault,Stitching Issues at Dive Case Bottom
+Stitching Errors at Dive Case Bottom,Accessory Fault,Stitching Issues at Dive Case Bottom
+Stitching Faults at Dive Case Bottom,Accessory Fault,Stitching Issues at Dive Case Bottom
+Stitching Flaws at Dive Case Base,Accessory Fault,Stitching Issues at Dive Case Bottom
+Stitching Ghosting at Dive Case Bottom,Accessory Fault,Stitching Issues at Dive Case Bottom
+Stitching Integrity Problems at Dive Case Bottom,Accessory Fault,Stitching Issues at Dive Case Bottom
+Stitching Irregularities at Dive Case Base,Accessory Fault,Stitching Issues at Dive Case Bottom
+Stitching Irregularities at Dive Case Bottom,Accessory Fault,Stitching Issues at Dive Case Bottom
+Stitching Issues at Dive Case Foundation,Accessory Fault,Stitching Issues at Dive Case Bottom
+Stitching Line Problems at Dive Case Bottom,Accessory Fault,Stitching Issues at Dive Case Bottom
+Stitching Misalignment at Dive Case Bottom,Accessory Fault,Stitching Issues at Dive Case Bottom
+Stitching Misalignments at Dive Case Base,Accessory Fault,Stitching Issues at Dive Case Bottom
+Stitching Mistakes at Dive Case Footer,Accessory Fault,Stitching Issues at Dive Case Bottom
+Stitching Problems at Dive Case Base,Accessory Fault,Stitching Issues at Dive Case Bottom
+Stitching Problems at Dive Case Bottom,Accessory Fault,Stitching Issues at Dive Case Bottom
+Stitching Separation at Dive Case Bottom,Accessory Fault,Stitching Issues at Dive Case Bottom
+Stitching Visibility Problems at Dive Case Bottom,Accessory Fault,Stitching Issues at Dive Case Bottom
+Stitching Weaknesses at Dive Case Base,Accessory Fault,Stitching Issues at Dive Case Bottom
+Stitching Wear at Dive Case Bottom,Accessory Fault,Stitching Issues at Dive Case Bottom
+Stripe / Streak in X3 Video / X3 Striped Video /striped video,Accessory Fault,Stitching Issues at Dive Case Bottom
+Threading Complications,Accessory Fault,Stitching Issues at Dive Case Bottom
+Under Stitch Issues in Dive Case,Accessory Fault,Stitching Issues at Dive Case Bottom
+mosaic,Accessory Fault,Stitching Issues at Dive Case Bottom
+texture,Accessory Fault,Stitching Issues at Dive Case Bottom
+Fabric Misalignment,Image Fault,Stitching Misalignment / Discontinuity
+Flow with iPhone with iOS version 17 will cause lattice,Image Fault,Stitching Misalignment / Discontinuity
+Image Discontinuity,Image Fault,Stitching Misalignment / Discontinuity
+Image Misalignment,Image Fault,Stitching Misalignment / Discontinuity
+Seam Discontinuity,Image Fault,Stitching Misalignment / Discontinuity
+Seam Discrepancy,Image Fault,Stitching Misalignment / Discontinuity
+Seam Misalignment,Image Fault,Stitching Misalignment / Discontinuity
+Stitch Discrepancy,Image Fault,Stitching Misalignment / Discontinuity
+Stitching Anomaly,Image Fault,Stitching Misalignment / Discontinuity
+Stitching Artifact,Image Fault,Stitching Misalignment / Discontinuity
+Stitching Break,Image Fault,Stitching Misalignment / Discontinuity
+Stitching Defect,Image Fault,Stitching Misalignment / Discontinuity
+Stitching Discrepancy,Image Fault,Stitching Misalignment / Discontinuity
+Stitching Displacement,Image Fault,Stitching Misalignment / Discontinuity
+Stitching Divergence,Image Fault,Stitching Misalignment / Discontinuity
+Stitching Error,Image Fault,Stitching Misalignment / Discontinuity
+Stitching Fault,Image Fault,Stitching Misalignment / Discontinuity
+Stitching Flaw,Image Fault,Stitching Misalignment / Discontinuity
+Stitching Fragmentation,Image Fault,Stitching Misalignment / Discontinuity
+Stitching Gap,Image Fault,Stitching Misalignment / Discontinuity
+Stitching Inconsistency,Image Fault,Stitching Misalignment / Discontinuity
+Stitching Irregularity,Image Fault,Stitching Misalignment / Discontinuity
+Stitching Issue,Image Fault,Stitching Misalignment / Discontinuity
+Stitching Misalignment,Image Fault,Stitching Misalignment / Discontinuity
+Stitching Misplacement,Image Fault,Stitching Misalignment / Discontinuity
+Stitching Offset,Image Fault,Stitching Misalignment / Discontinuity
+Stitching Separation,Image Fault,Stitching Misalignment / Discontinuity
+X3 Screen Display Overexpose (All White) when Playback,Image Fault,Stitching Misalignment / Discontinuity
+but Normal in Insta360 App/Studio,Image Fault,Stitching Misalignment / Discontinuity
+deranged Stitching,Image Fault,Stitching Misalignment / Discontinuity
+disarranged Stitching,Image Fault,Stitching Misalignment / Discontinuity
+disarrayed Stitching,Image Fault,Stitching Misalignment / Discontinuity
+disordered Stitching,Image Fault,Stitching Misalignment / Discontinuity
+images,Image Fault,Stitching Misalignment / Discontinuity
+or tomatomy,Image Fault,Stitching Misalignment / Discontinuity
+partitioning fault,Image Fault,Stitching Misalignment / Discontinuity
+section fault,Image Fault,Stitching Misalignment / Discontinuity
+splitting,Image Fault,Stitching Misalignment / Discontinuity
+A known bug has been identified,Image Fault,Black Shadow at the Seam
+Black Edge,Image Fault,Black Shadow at the Seam
+Black Edge Shadow,Image Fault,Black Shadow at the Seam
+Black Line at the Seam,Image Fault,Black Shadow at the Seam
+Dark Discoloration at the Seam,Image Fault,Black Shadow at the Seam
+Dark Shadow at the Joint,Image Fault,Black Shadow at the Seam
+Seam Artifact,Image Fault,Black Shadow at the Seam
+Seam Blackout,Image Fault,Black Shadow at the Seam
+Seam Blur,Image Fault,Black Shadow at the Seam
+Seam Contrast Issue,Image Fault,Black Shadow at the Seam
+Seam Darkening,Image Fault,Black Shadow at the Seam
+Seam Defect,Image Fault,Black Shadow at the Seam
+Seam Discoloration,Image Fault,Black Shadow at the Seam
+Seam Edge Shadow,Image Fault,Black Shadow at the Seam
+Seam Flaw,Image Fault,Black Shadow at the Seam
+Seam Ghosting,Image Fault,Black Shadow at the Seam
+Seam Imperfection,Image Fault,Black Shadow at the Seam
+Seam Line Shadow,Image Fault,Black Shadow at the Seam
+Seam Mark,Image Fault,Black Shadow at the Seam
+Seam Overlap,Image Fault,Black Shadow at the Seam
+Seam Residue,Image Fault,Black Shadow at the Seam
+Seam Shadow,Image Fault,Black Shadow at the Seam
+Seam Shadowing,Image Fault,Black Shadow at the Seam
+Seam Smudge,Image Fault,Black Shadow at the Seam
+Seam Stain,Image Fault,Black Shadow at the Seam
+Seam Visibility Issue,Image Fault,Black Shadow at the Seam
+Shadow Artifact,Image Fault,Black Shadow at the Seam
+Shadow Line,Image Fault,Black Shadow at the Seam
+Shadowing at the Seam,Image Fault,Black Shadow at the Seam
+Stitch Alignment Fluctuation,Image Fault,Black Shadow at the Seam
+Stitch Line Inconsistency,Image Fault,Black Shadow at the Seam
+Stitch Line Variation,Image Fault,Black Shadow at the Seam
+Stitching Line Discrepancy,Image Fault,Black Shadow at the Seam
+a black line appears at the seam,Image Fault,Black Shadow at the Seam
+black mark at the seam,Image Fault,Black Shadow at the Seam
+black outline,Image Fault,Black Shadow at the Seam
+black trail,Image Fault,Black Shadow at the Seam
+cast,Image Fault,Black Shadow at the Seam
+caused by the resolution setting of ONE RS 1-Inch 360 Edition. When processing with the Premiere Pro plugin,Image Fault,Black Shadow at the Seam
+or using the GoPro FX plugin results in abnormal imagery,Image Fault,Black Shadow at the Seam
+shade,Image Fault,Black Shadow at the Seam
+similar to a 'kaleidoscope',Image Fault,Black Shadow at the Seam
+【2-46】X3 PureShot,Image Fault,Black Shadow at the Seam
+Broken screen,Appearance Defect,Screen Crack
+Cracked Screen,Appearance Defect,Screen Crack
+Display damage,Appearance Defect,Screen Crack
+LCD crack,Appearance Defect,Screen Crack
+Screen Anomaly,Appearance Defect,Screen Crack
+Screen Break,Appearance Defect,Screen Crack
+Screen Chip,Appearance Defect,Screen Crack
+Screen Damage,Appearance Defect,Screen Crack
+Screen Defect,Appearance Defect,Screen Crack
+Screen Deformation,Appearance Defect,Screen Crack
+Screen Disruption,Appearance Defect,Screen Crack
+Screen Fault,Appearance Defect,Screen Crack
+Screen Fracture,Appearance Defect,Screen Crack
+Screen Imperfection,Appearance Defect,Screen Crack
+Screen Integrity Compromise,Appearance Defect,Screen Crack
+Screen Integrity Loss,Appearance Defect,Screen Crack
+Screen Rupture,Appearance Defect,Screen Crack
+Screen Shatter,Appearance Defect,Screen Crack
+Screen Split,Appearance Defect,Screen Crack
+Screen Tear,Appearance Defect,Screen Crack
+Screen Wear and Tear,Appearance Defect,Screen Crack
+Screen break,Appearance Defect,Screen Crack
+Touchscreen crack,Appearance Defect,Screen Crack
+but footage is fine,Appearance Defect,Screen Crack
+crushed,Appearance Defect,Screen Crack
+damage to the screen protector during the application process,Appearance Defect,Screen Crack
+fractured,Appearance Defect,Screen Crack
+screen Display Crack,Appearance Defect,Screen Crack
+screen Display Damage,Appearance Defect,Screen Crack
+【4-70】GO 2 preview screen has white spots,Appearance Defect,Screen Crack
+Bright Edge,Image Fault,Bright Seam / White Lines at Stitching
+Bright Line Artifact,Image Fault,Bright Seam / White Lines at Stitching
+Bright Stitching,Image Fault,Bright Seam / White Lines at Stitching
+Bright Stitching Line,Image Fault,Bright Seam / White Lines at Stitching
+Contrasting Thread Lines,Image Fault,Bright Seam / White Lines at Stitching
+Highlighted Stitching,Image Fault,Bright Seam / White Lines at Stitching
+Illuminated Seam,Image Fault,Bright Seam / White Lines at Stitching
+Seam Brightness,Image Fault,Bright Seam / White Lines at Stitching
+Seam Discoloration,Image Fault,Bright Seam / White Lines at Stitching
+Seam Glare,Image Fault,Bright Seam / White Lines at Stitching
+Seam Light Leak,Image Fault,Bright Seam / White Lines at Stitching
+Seam Reflection,Image Fault,Bright Seam / White Lines at Stitching
+Stitch Visibility,Image Fault,Bright Seam / White Lines at Stitching
+Stitching Brightness,Image Fault,Bright Seam / White Lines at Stitching
+Stitching Contrast Issue,Image Fault,Bright Seam / White Lines at Stitching
+Stitching Discoloration,Image Fault,Bright Seam / White Lines at Stitching
+Stitching Flare,Image Fault,Bright Seam / White Lines at Stitching
+Stitching Glow,Image Fault,Bright Seam / White Lines at Stitching
+Stitching Highlight,Image Fault,Bright Seam / White Lines at Stitching
+Stitching Line Anomaly,Image Fault,Bright Seam / White Lines at Stitching
+Stitching Line Artifact,Image Fault,Bright Seam / White Lines at Stitching
+Stitching Line Contrast,Image Fault,Bright Seam / White Lines at Stitching
+Stitching Line Glare,Image Fault,Bright Seam / White Lines at Stitching
+Stitching Line Illumination,Image Fault,Bright Seam / White Lines at Stitching
+Stitching Line Mark,Image Fault,Bright Seam / White Lines at Stitching
+Stitching Line Overexposure,Image Fault,Bright Seam / White Lines at Stitching
+Stitching Line Reflection,Image Fault,Bright Seam / White Lines at Stitching
+What should I do if the ONE RS panoramic lens has splicing chromatic aberration?,Image Fault,Bright Seam / White Lines at Stitching
+White Edge Artifact,Image Fault,Bright Seam / White Lines at Stitching
+White Line at Stitching,Image Fault,Bright Seam / White Lines at Stitching
+White Seam,Image Fault,Bright Seam / White Lines at Stitching
+White Seam Lines,Image Fault,Bright Seam / White Lines at Stitching
+White Stitch Lines,Image Fault,Bright Seam / White Lines at Stitching
+White Stitching Lines,Image Fault,Bright Seam / White Lines at Stitching
+White Thread Visibility,Image Fault,Bright Seam / White Lines at Stitching
+crown of light,Image Fault,Bright Seam / White Lines at Stitching
+in sunny weather,Image Fault,Bright Seam / White Lines at Stitching
+or halos,Image Fault,Bright Seam / White Lines at Stitching
+orb,Image Fault,Bright Seam / White Lines at Stitching
+radiance,Image Fault,Bright Seam / White Lines at Stitching
+ring of light,Image Fault,Bright Seam / White Lines at Stitching
+the images exhibit issues such as light leaks,Image Fault,Bright Seam / White Lines at Stitching
+weird Stitching line,Image Fault,Bright Seam / White Lines at Stitching
+white beam on Stitching line,Image Fault,Bright Seam / White Lines at Stitching
+white edges,Image Fault,Bright Seam / White Lines at Stitching
+Bluetooth not found/detected,Appearance Defect,Lens/Lens Guards Scratch Damage
+Damaged upon unboxing,Appearance Defect,Lens/Lens Guards Scratch Damage
+Has dents or signs of dropping/pressure from hard objects,Appearance Defect,Lens/Lens Guards Scratch Damage
+Lens Abrasion,Appearance Defect,Lens/Lens Guards Scratch Damage
+Lens Coating Damage,Appearance Defect,Lens/Lens Guards Scratch Damage
+Lens Damage,Appearance Defect,Lens/Lens Guards Scratch Damage
+Lens Defect,Appearance Defect,Lens/Lens Guards Scratch Damage
+Lens Defects,Appearance Defect,Lens/Lens Guards Scratch Damage
+Lens Guard Abrasion,Appearance Defect,Lens/Lens Guards Scratch Damage
+Lens Guard Damage,Appearance Defect,Lens/Lens Guards Scratch Damage
+Lens Guard Defects,Appearance Defect,Lens/Lens Guards Scratch Damage
+Lens Guard Imperfections,Appearance Defect,Lens/Lens Guards Scratch Damage
+Lens Guard Mark Damage,Appearance Defect,Lens/Lens Guards Scratch Damage
+Lens Guard Scrape Damage,Appearance Defect,Lens/Lens Guards Scratch Damage
+Lens Guard Scratches,Appearance Defect,Lens/Lens Guards Scratch Damage
+Lens Guard Wear,Appearance Defect,Lens/Lens Guards Scratch Damage
+Lens Imperfections,Appearance Defect,Lens/Lens Guards Scratch Damage
+Lens Mark Damage,Appearance Defect,Lens/Lens Guards Scratch Damage
+Lens Protection Damage,Appearance Defect,Lens/Lens Guards Scratch Damage
+Lens Protector Scratches,Appearance Defect,Lens/Lens Guards Scratch Damage
+Lens Rupture,Appearance Defect,Lens/Lens Guards Scratch Damage
+Lens Scrape Damage,Appearance Defect,Lens/Lens Guards Scratch Damage
+Lens Scratches,Appearance Defect,Lens/Lens Guards Scratch Damage
+Lens Surface Damage,Appearance Defect,Lens/Lens Guards Scratch Damage
+Lens Wear,Appearance Defect,Lens/Lens Guards Scratch Damage
+Line on the lens,Appearance Defect,Lens/Lens Guards Scratch Damage
+Scratched Lens,Appearance Defect,Lens/Lens Guards Scratch Damage
+Scratched Lens Guard,Appearance Defect,Lens/Lens Guards Scratch Damage
+Surface Scratches,Appearance Defect,Lens/Lens Guards Scratch Damage
+can't search bluetooth,Appearance Defect,Lens/Lens Guards Scratch Damage
+cannot find bluetooth,Appearance Defect,Lens/Lens Guards Scratch Damage
+dice case damaged,Appearance Defect,Lens/Lens Guards Scratch Damage
+dive case scratch,Appearance Defect,Lens/Lens Guards Scratch Damage
+lens guard cracked,Appearance Defect,Lens/Lens Guards Scratch Damage
+lens guard damaged,Appearance Defect,Lens/Lens Guards Scratch Damage
+worn-out lens,Appearance Defect,Lens/Lens Guards Scratch Damage
+Camera extender: Refers to any device that extends the reach of a camera,Accessory Fault,Selfie Stick not invisible
+Can't see the selfie stick,Accessory Fault,Selfie Stick not invisible
+Non-Invisible Selfie Stick,Accessory Fault,Selfie Stick not invisible
+Photography accessory: A general term for tools that enhance photography,Accessory Fault,Selfie Stick not invisible
+Selfie Stick Apparent,Accessory Fault,Selfie Stick not invisible
+Selfie Stick Appearing,Accessory Fault,Selfie Stick not invisible
+Selfie Stick Artifact,Accessory Fault,Selfie Stick not invisible
+Selfie Stick Detection,Accessory Fault,Selfie Stick not invisible
+Selfie Stick Exposure,Accessory Fault,Selfie Stick not invisible
+Selfie Stick Interference,Accessory Fault,Selfie Stick not invisible
+Selfie Stick Line of Sight,Accessory Fault,Selfie Stick not invisible
+Selfie Stick Mark,Accessory Fault,Selfie Stick not invisible
+Selfie Stick Not Disappearing,Accessory Fault,Selfie Stick not invisible
+Selfie Stick Not Erased,Accessory Fault,Selfie Stick not invisible
+Selfie Stick Not Hidden,Accessory Fault,Selfie Stick not invisible
+Selfie Stick Obstruction,Accessory Fault,Selfie Stick not invisible
+Selfie Stick Obtrusive,Accessory Fault,Selfie Stick not invisible
+Selfie Stick Outline,Accessory Fault,Selfie Stick not invisible
+Selfie Stick Presence,Accessory Fault,Selfie Stick not invisible
+Selfie Stick Reflection,Accessory Fault,Selfie Stick not invisible
+Selfie Stick Shadow,Accessory Fault,Selfie Stick not invisible
+Selfie Stick Show,Accessory Fault,Selfie Stick not invisible
+Selfie Stick Trace,Accessory Fault,Selfie Stick not invisible
+Selfie Stick Visibility,Accessory Fault,Selfie Stick not invisible
+Selfie Stick Visibility Issue,Accessory Fault,Selfie Stick not invisible
+Selfie Stick Visible,Accessory Fault,Selfie Stick not invisible
+Selfie Stick in Frame,Accessory Fault,Selfie Stick not invisible
+Selfie pole: Another term for a selfie stick,Accessory Fault,Selfie Stick not invisible
+Visible Selfie Stick,Accessory Fault,Selfie Stick not invisible
+camera and the selfie stick are not aligned in a straight line during installation,Accessory Fault,Selfie Stick not invisible
+missing selfie stick,Accessory Fault,Selfie Stick not invisible
+selfie stick evident,Accessory Fault,Selfie Stick not invisible
+selfie stick exposed,Accessory Fault,Selfie Stick not invisible
+selfie stick noticeable,Accessory Fault,Selfie Stick not invisible
+selfie stick visible,Accessory Fault,Selfie Stick not invisible
+stiching issue with selfie stick,Accessory Fault,Selfie Stick not invisible
+the bottom left corner of the photo shows an abnormal color/purple color,Accessory Fault,Selfie Stick not invisible
+【5】Ace When the shutter speed is set to 60s,Accessory Fault,Selfie Stick not invisible
+Insufficient card speed leads to the failure of single-lens stabilization,Image Fault,Stitching Line Fluctuate
+Line Discrepancy,Image Fault,Stitching Line Fluctuate
+Possible occurrences include stitching ghosting,Image Fault,Stitching Line Fluctuate
+Stitching Inconsistency,Image Fault,Stitching Line Fluctuate
+Stitching Line Alteration,Image Fault,Stitching Line Fluctuate
+Stitching Line Anomaly,Image Fault,Stitching Line Fluctuate
+Stitching Line Change,Image Fault,Stitching Line Fluctuate
+Stitching Line Deviance,Image Fault,Stitching Line Fluctuate
+Stitching Line Deviation,Image Fault,Stitching Line Fluctuate
+Stitching Line Discrepancy,Image Fault,Stitching Line Fluctuate
+Stitching Line Displacement,Image Fault,Stitching Line Fluctuate
+Stitching Line Drift,Image Fault,Stitching Line Fluctuate
+Stitching Line Error,Image Fault,Stitching Line Fluctuate
+Stitching Line Fluctuation,Image Fault,Stitching Line Fluctuate
+Stitching Line Inconsistency,Image Fault,Stitching Line Fluctuate
+Stitching Line Instability,Image Fault,Stitching Line Fluctuate
+Stitching Line Irregularity,Image Fault,Stitching Line Fluctuate
+Stitching Line Jitter,Image Fault,Stitching Line Fluctuate
+Stitching Line Misalignment,Image Fault,Stitching Line Fluctuate
+Stitching Line Movement,Image Fault,Stitching Line Fluctuate
+Stitching Line Oscillation,Image Fault,Stitching Line Fluctuate
+Stitching Line Shift,Image Fault,Stitching Line Fluctuate
+Stitching Line Undulation,Image Fault,Stitching Line Fluctuate
+Stitching Line Variation,Image Fault,Stitching Line Fluctuate
+Stitching Line Wobble,Image Fault,Stitching Line Fluctuate
+and black edges along the stitch lines,Image Fault,Stitching Line Fluctuate
+causing screen tearing,Image Fault,Stitching Line Fluctuate
+stitch line fluctuation,Image Fault,Stitching Line Fluctuate
+unstable Stitching line,Image Fault,Stitching Line Fluctuate
+weird Stitching line,Image Fault,Stitching Line Fluctuate
+Footage can be previewed on the device but cannot be viewed after connecting to the Insta360 app/computer,APP Fault,File Missing
+Footage cannot be previewed on the device but can be viewed after connecting to the Insta360 app/computer,APP Fault,File Missing
+Footage cannot be viewed on the device or after connecting to the Insta360 app/computer,APP Fault,File Missing
+Footage preview errors generally fall into the following three situations:,APP Fault,File Missing
+image can't be preview,APP Fault,File Missing
+lost file,APP Fault,File Missing
+video can't be preview,APP Fault,File Missing
+"Camera inside the Action Pod: The screen continuously displays ""Connecting""",Accessory Fault,Cannot connect to the Action Pod
+Camera outside the Action Pod: Bluetooth remote connection is lost,Accessory Fault,Cannot connect to the Action Pod
+"and the screen displays ""Disconnected. Please ensure the camera is powered on and within Bluetooth range of the Action Pod""",Accessory Fault,Cannot connect to the Action Pod
+can't connect to charging pod,Accessory Fault,Cannot connect to the Action Pod
+cannot connect to house,Accessory Fault,Cannot connect to the Action Pod
+connection rejection,Accessory Fault,Cannot connect to the Action Pod
+failed connection Action Pod,Accessory Fault,Cannot connect to the Action Pod
+Scenario 1: User reports wind noise in the video Note: Please respond according to the camera model,Core Fault,Audio Noise
+Scenario 2: User reports static or electrical noise in the video,Core Fault,Audio Noise
+Scenario 3: User reports fluctuating sound levels in the video,Core Fault,Audio Noise
+hissing noise,Core Fault,Audio Noise
+sound disruption,Core Fault,Audio Noise
+The battery drains when the camera is off,Core Fault,Battery Drain
+The battery drains when the camera is on and recording,Core Fault,Battery Drain
+The battery drains when the camera is on but not recording,Core Fault,Battery Drain
+failed battery,Core Fault,Battery Drain
+fast consumption,Core Fault,Battery Drain
+low battery,Core Fault,Battery Drain
+Being too close to the subject,Image Fault,Motion Blur
+Dirty or damaged lens (or possibly the Lens Guard),Image Fault,Motion Blur
+Lens defocusing,Image Fault,Motion Blur
+Motion blur,Image Fault,Motion Blur
+Noise in low light environments,Image Fault,Motion Blur
+among others,Image Fault,Motion Blur
+blurred movement,Image Fault,Motion Blur
+resulting in blurriness,Image Fault,Motion Blur
+several factors may cause the blurriness in images captured by the camera:,Image Fault,Motion Blur
+smeared image,Image Fault,Motion Blur
+within the minimum focusing distance,Image Fault,Motion Blur
+Footage can be previewed on the device but cannot be viewed after connecting to the Insta360 app/computer,Image Fault,Splashscreen
+Footage cannot be previewed on the device but can be viewed after connecting to the Insta360 app/computer,Image Fault,Splashscreen
+Footage cannot be viewed on the device or after connecting to the Insta360 app/computer,Image Fault,Splashscreen
+burst effect,Image Fault,Splashscreen
+image distorted,Image Fault,Splashscreen
+issue with image,Image Fault,Splashscreen
+Scenario 1: Overheating protection alert appears,Core Fault,Stop Recording Automatically
+Scenario 2: No overheating protection alert appears,Core Fault,Stop Recording Automatically
+delay recording,Core Fault,Stop Recording Automatically
+does not record,Core Fault,Stop Recording Automatically
+pause recording,Core Fault,Stop Recording Automatically
+If the camera is completely level while shooting: Proceed to Step Two,Image Fault,Image Not Leveled
+If the camera is not completely level while shooting:,Image Fault,Image Not Leveled
+Step One： Determine under what conditions (whether the camera is level or not) the horizontal misalignment/inversion/flip occurs:,Image Fault,Image Not Leveled
+Step Three： If the issue remains unresolved,Image Fault,Image Not Leveled
+Step Two: If the issue cannot be resolved through troubleshooting,Image Fault,Image Not Leveled
+distorted image,Image Fault,Image Not Leveled
+examine whether it is due to a gyroscope abnormality causing inaccurate data and provide a solution,Image Fault,Image Not Leveled
+provide feedback to FAE to determine if the camera needs to be sent back for further inspection. (Use your wording),Image Fault,Image Not Leveled
+skewed,Image Fault,Image Not Leveled
+tilted image,Image Fault,Image Not Leveled
+unbalanced image,Image Fault,Image Not Leveled
+uneven,Image Fault,Image Not Leveled
+Confirm if the button operation method is correct,Core Fault,Button not working
+Confirm whether the camera has been used underwater,Core Fault,Button not working
+If not used underwater: Confirm whether the camera is properly seated,Core Fault,Button not working
+If used underwater: If it doesn't work after drying,Core Fault,Button not working
+The camera is in the Action Pod,Core Fault,Button not working
+The camera is not in the Action Pod and the camera/pod buttons are malfunctioning: Attempt to reset Bluetooth and restore factory settings. If the issue persists,Core Fault,Button not working
+broken button,Core Fault,Button not working
+but the pod buttons are malfunctioning: Attempt to restore factory settings and clean the metal contacts. If the issue persists,Core Fault,Button not working
+button not responding,Core Fault,Button not working
+directly guide the user to send it in for repair,Core Fault,Button not working
+disabled button,Core Fault,Button not working
+guide the user to send it in for repair,Core Fault,Button not working
+If there is evidence of damage caused by external forces,Core Fault,Shaking sound
+If there is no indication of damage caused by external forces,Core Fault,Shaking sound
+Verify whether the camera has experienced any damage from external forces such as liquid exposure or falling incidents,Core Fault,Shaking sound
+along with sending a small gift based on the situation). However,Core Fault,Shaking sound
+along with the camera's serial number (SN),Core Fault,Shaking sound
+and guide them to send the camera for repair,Core Fault,Shaking sound
+guide the user to send the camera for repair,Core Fault,Shaking sound
+if it does impede normal operation,Core Fault,Shaking sound
+if the issue disrupts normal usage,Core Fault,Shaking sound
+it can be preliminarily determined as accidental damage. If the damage does not affect the camera's functionality,Core Fault,Shaking sound
+it is likely a product quality issue. If the issue does not affect the camera's performance,Core Fault,Shaking sound
+kindly ask the user to provide a video demonstrating the problem,Core Fault,Shaking sound
+rattles,Core Fault,Shaking sound
+rattling,Core Fault,Shaking sound
+the user can still use it (customer service may be provided,Core Fault,Shaking sound
+the user may continue to use it. However,Core Fault,Shaking sound
+trembling sound,Core Fault,Shaking sound
+Scenario 1: The stabilization effect is normal,Image Fault,Poor Stabilization
+Scenario 2: Abnormalstabilization effect,Image Fault,Poor Stabilization
+but not up to the user's expectations:,Image Fault,Poor Stabilization
+collect the original film feedback FAE,Image Fault,Poor Stabilization
+shaky stabilization,Image Fault,Poor Stabilization
+shaky video/ image,Image Fault,Poor Stabilization
+weak stabilization,Image Fault,Poor Stabilization
+Scenario 1: The user is filming non-nighttime sports scenes,Image Fault,Flicker
+Scenario 2: The user is filming nighttime sports scenes and needs to enable Jitter Blur Reduction/Low Light Stabilization,Image Fault,Flicker
+flaring issues,Image Fault,Flicker
+flashing,Image Fault,Flicker
+jagged patterns,Image Fault,Flicker
+4 / 9,APP Fault,Cannot connect to the App
+App error codes 9,APP Fault,Cannot connect to the App
+Special Case: Bluetooth connection error,APP Fault,Cannot connect to the App
+The phone can connect to the camera's WiFi,APP Fault,Cannot connect to the App
+The phone can find the camera's WiFi but cannot connect,APP Fault,Cannot connect to the App
+The phone cannot find the camera's WiFi,APP Fault,Cannot connect to the App
+but the App cannot connect,APP Fault,Cannot connect to the App
+can't connect,APP Fault,Cannot connect to the App
+can't connect to app,APP Fault,Cannot connect to the App
+can't connect to phone,APP Fault,Cannot connect to the App
+failed connection,APP Fault,Cannot connect to the App
+unable to connect to the app,APP Fault,Cannot connect to the App
+Blurred image,Image Fault,Footage review with mosaic pixelation
+During playback with the Action Pod,Image Fault,Footage review with mosaic pixelation
+abstract pixels,Image Fault,Footage review with mosaic pixelation
+checker pattern,Image Fault,Footage review with mosaic pixelation
+manifesting as brief pixelation. The quality of the final footage is unaffected. This is due to the limitations of the processor's performance,Image Fault,Footage review with mosaic pixelation
+particularly when scrubbing through the timeline,Image Fault,Footage review with mosaic pixelation
+which can constrain the quality of in-camera playback,Image Fault,Footage review with mosaic pixelation
+you may experience temporary image distortion,Image Fault,Footage review with mosaic pixelation
+Scenario 1: No sound during camera power on/off and operation:,Core Fault,No sound
+Scenario 2:No sound during video playback:,Core Fault,No sound
+quiet sound,Core Fault,No sound
+sound is muted,Core Fault,No sound
+video is muted,Core Fault,No sound
+video no sound,Core Fault,No sound
+vidoe no voice,Core Fault,No sound

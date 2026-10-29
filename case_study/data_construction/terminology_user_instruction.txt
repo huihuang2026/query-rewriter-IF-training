@@ -1,0 +1,87 @@
+For Insta360 support searches, normalize everyday symptom descriptions to the professional fault terminology below when the provided conversation supports the match. Include the relevant professional term alongside a short description of the customer's actual symptom. Return only the search query.
+
+Use the same terminology guide for every conversation. Select only relevant terms; do not list the catalogue in the query. Keep the product, platform, affected media or screen, confirmed diagnostic answers, and unsuccessful troubleshooting steps when they are present in the provided context.
+
+A professional fault term is a retrieval label, not a confirmed diagnosis. Do not invent a camera model, an intermittent symptom, a seam location, a cause, or information from outside the provided conversation. If the wording is ambiguous, preserve the observed symptom and qualify the professional term as a possible match rather than asserting a fault. If no term fits, keep the customer's description. Do not turn the query into an answer or a repair recommendation.
+
+Context-dependent mapping guide, based on the supplied Customer Description / Issue Type / Professional Fault Term table:
+- A black line, stripe or band in the middle of an image or video can be described as "stripe/band of screen". Keep whether the line is in a preview, recorded media or exported media only when the customer has confirmed it. Do not infer flickering from a static line.
+- A black line or shadow specifically at the stitching seam can use "Black Shadow at the Seam". A centre-image line alone does not establish that it is at a seam.
+- Flashing or flickering on the display can use "Screen Flicker". The words "black line" alone are insufficient to select this term, even though the table contains a broad matching description.
+- When the phone can find the camera's Wi-Fi but the app cannot connect, use "Can detect WiFi, but unable to connect to mobile APP". A confirmed connection to the camera's Wi-Fi with continued app failure supports the same term. Seeing a network is not proof that the phone is connected to it.
+- When the camera Wi-Fi network cannot be found at all, use "Unable to Detect Wi-Fi Signal". When a previously established app connection repeatedly drops, use "WiFi disconnect with app". Do not replace app-connection failure with either of these different symptoms.
+- If the conversation only establishes a general app-connection failure, "Cannot connect to the App" is available without assuming whether Wi-Fi is visible or connected.
+- Distinguish "Unable to detect Bluetooth" from "Can detect bluetooth but unable to connect to it" using the diagnostic answers.
+- Distinguish a computer that cannot recognize the camera ("Unable to Recognize Camera when Connected to Computer"), transfer trouble ("Abnormal data transmission when connecting to computer"), and a format prompt ("Prompt to format when connected to computer").
+
+Professional fault terminology from the supplied table (use the exact spelling of any term you select):
+
+APP Fault:
+- Abnormal data transmission when connecting to computer
+- Can detect WiFi, but unable to connect to mobile APP
+- Can detect bluetooth but unable to connect to it
+- Cannot connect to the App
+- File Missing
+- Prompt to format when connected to computer
+- Slow download speed
+- Unable to Detect Wi-Fi Signal
+- Unable to Recognize Camera when Connected to Computer
+- Unable to detect Bluetooth
+- WiFi disconnect with app
+
+Accessory Fault:
+- Cannot connect to the Action Pod
+- Selfie Stick not invisible
+- Stitching Issues at Dive Case Bottom
+
+Appearance Defect:
+- Filament in lens
+- Fog (Lens/Lens Guards)
+- Lens Crack/Break
+- Lens Guards Crack
+- Lens/Lens Guards Scratch Damage
+- Screen Crack
+- dust in lens
+- white dot in lens
+
+Core Fault:
+- Audio Noise
+- Battery Drain
+- Black screen
+- Button not working
+- Camera auto restart
+- Cannot Fully Charge
+- Charge Slow
+- Crash
+- Liquid ingress into camera
+- No sound
+- Overheat
+- Rapid Battery Drain/High Power Consumption
+- Shaking sound
+- Stop Recording Automatically
+- Unable to charge
+- camera auto shut-off
+- camera cannot power on
+
+Image Fault:
+- Abnormal Color Balance/Temperature
+- Black Shadow at the Seam
+- Black Spot/White Spot/Dead Pixel
+- Bright Seam / White Lines at Stitching
+- Exposure Issue
+- Flicker
+- Footage review with mosaic pixelation
+- Image Black and White
+- Image Distortion
+- Image Not Leveled
+- Lens Flare
+- Motion Blur
+- Poor Stabilization
+- Poor image quality
+- Screen Flicker
+- Splashscreen
+- Stitching Ghost / Blur
+- Stitching Line Fluctuate
+- Stitching Misalignment / Discontinuity
+- chromatic Aberration
+- stripe/band of screen

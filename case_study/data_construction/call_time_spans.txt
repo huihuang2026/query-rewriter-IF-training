@@ -1,0 +1,137 @@
+Call time spans for Keywords AI exports
+UTC timestamps end in Z; Shanghai timestamps use UTC+08:00.
+Suggested export windows include 120 seconds before and after each call.
+Filter exported logs by call ID and metadata.use_case = query_rewriter.
+Missing timestamps are reported explicitly; no time span is guessed.
+
+Call ID: call_5933a98a8b1925ee7f47be4063b
+Organization: org_fHPSSq4G2ef4z27l
+Call start (UTC):      2026-10-14T03:25:59.294Z
+Call start (Shanghai): 2026-10-14T11:25:59.294+08:00
+Call end   (UTC):      2026-10-14T03:27:59.681Z
+Call end   (Shanghai): 2026-10-14T11:27:59.681+08:00
+Duration: 120.387 seconds
+Export from (UTC): 2026-10-14T03:23:59.294Z
+Export to   (UTC): 2026-10-14T03:29:59.681Z
+
+Call ID: call_6d717fabfff7d93935428242d98
+Organization: org_fHPSSq4G2ef4z27l
+Call start (UTC):      2026-10-14T08:57:24.952Z
+Call start (Shanghai): 2026-10-14T16:57:24.952+08:00
+Call end   (UTC):      2026-10-14T09:00:13.755Z
+Call end   (Shanghai): 2026-10-14T17:00:13.755+08:00
+Duration: 168.803 seconds
+Export from (UTC): 2026-10-14T08:55:24.952Z
+Export to   (UTC): 2026-10-14T09:02:13.755Z
+
+Call ID: call_8aa8efbaa0eb9e64fc059bd2c4a
+Organization: org_fHPSSq4G2ef4z27l
+Call start (UTC):      2026-10-13T07:08:29.747Z
+Call start (Shanghai): 2026-10-13T15:08:29.747+08:00
+Call end   (UTC):      2026-10-13T07:09:28.149Z
+Call end   (Shanghai): 2026-10-13T15:09:28.149+08:00
+Duration: 58.402 seconds
+Export from (UTC): 2026-10-13T07:06:29.747Z
+Export to   (UTC): 2026-10-13T07:11:28.149Z
+
+Call ID: call_33457cb382388d2f0599f40e7a2
+Organization: org_fHPSSq4G2ef4z27l
+Call start (UTC):      2026-10-13T09:52:25.875Z
+Call start (Shanghai): 2026-10-13T17:52:25.875+08:00
+Call end   (UTC):      2026-10-13T09:56:50.604Z
+Call end   (Shanghai): 2026-10-13T17:56:50.604+08:00
+Duration: 264.729 seconds
+Export from (UTC): 2026-10-13T09:50:25.875Z
+Export to   (UTC): 2026-10-13T09:58:50.604Z
+
+Call ID: call_89bac8aaa7c1f4d637a9f2a6a91
+Organization: org_fHPSSq4G2ef4z27l
+Call start (UTC):      2026-10-13T07:12:37.381Z
+Call start (Shanghai): 2026-10-13T15:12:37.381+08:00
+Call end   (UTC):      2026-10-13T07:14:36.784Z
+Call end   (Shanghai): 2026-10-13T15:14:36.784+08:00
+Duration: 119.403 seconds
+Export from (UTC): 2026-10-13T07:10:37.381Z
+Export to   (UTC): 2026-10-13T07:16:36.784Z
+
+Call ID: call_8ca923d434350f6fda924cc22ff
+Organization: org_fHPSSq4G2ef4z27l
+Call start (UTC):      2026-10-14T10:00:39.025Z
+Call start (Shanghai): 2026-10-14T18:00:39.025+08:00
+Call end   (UTC):      2026-10-14T10:03:20.227Z
+Call end   (Shanghai): 2026-10-14T18:03:20.227+08:00
+Duration: 161.202 seconds
+Export from (UTC): 2026-10-14T09:58:39.025Z
+Export to   (UTC): 2026-10-14T10:05:20.227Z
+
+Call ID: call_a6476bb81e7277b3dbec64447ed
+Organization: org_fHPSSq4G2ef4z27l
+Call start (UTC):      2026-10-12T09:06:29.501Z
+Call start (Shanghai): 2026-10-12T17:06:29.501+08:00
+Call end   (UTC):      2026-10-12T09:09:54.622Z
+Call end   (Shanghai): 2026-10-12T17:09:54.622+08:00
+Duration: 205.121 seconds
+Export from (UTC): 2026-10-12T09:04:29.501Z
+Export to   (UTC): 2026-10-12T09:11:54.622Z
+
+Call ID: call_97b120465dd8a78feb3f577e283
+Organization: org_fHPSSq4G2ef4z27l
+Call start (UTC):      2026-10-13T07:38:25.757Z
+Call start (Shanghai): 2026-10-13T15:38:25.757+08:00
+Call end   (UTC):      2026-10-13T07:38:55.559Z
+Call end   (Shanghai): 2026-10-13T15:38:55.559+08:00
+Duration: 29.802 seconds
+Export from (UTC): 2026-10-13T07:36:25.757Z
+Export to   (UTC): 2026-10-13T07:40:55.559Z
+
+Call ID: call_57d30883073e0e8a56775624334
+Organization: org_fHPSSq4G2ef4z27l
+Call start (UTC):      2026-10-13T07:50:02.170Z
+Call start (Shanghai): 2026-10-13T15:50:02.170+08:00
+Call end   (UTC):      2026-10-13T07:52:33.364Z
+Call end   (Shanghai): 2026-10-13T15:52:33.364+08:00
+Duration: 151.194 seconds
+Export from (UTC): 2026-10-13T07:48:02.170Z
+Export to   (UTC): 2026-10-13T07:54:33.364Z
+
+Call ID: call_9bfd490cb5300f581a7747ac74b
+Organization: org_fHPSSq4G2ef4z27l
+Call start (UTC):      2026-10-13T07:35:03.967Z
+Call start (Shanghai): 2026-10-13T15:35:03.967+08:00
+Call end   (UTC):      2026-10-13T07:37:30.369Z
+Call end   (Shanghai): 2026-10-13T15:37:30.369+08:00
+Duration: 146.402 seconds
+Export from (UTC): 2026-10-13T07:33:03.967Z
+Export to   (UTC): 2026-10-13T07:39:30.369Z
+
+Call ID: call_3db1ac9d6c2ef35abf1a8026479
+Organization: org_fHPSSq4G2ef4z27l
+Call start (UTC):      2026-10-13T07:44:38.530Z
+Call start (Shanghai): 2026-10-13T15:44:38.530+08:00
+Call end   (UTC):      2026-10-13T07:46:53.933Z
+Call end   (Shanghai): 2026-10-13T15:46:53.933+08:00
+Duration: 135.403 seconds
+Export from (UTC): 2026-10-13T07:42:38.530Z
+Export to   (UTC): 2026-10-13T07:48:53.933Z
+
+Call ID: call_3643c8f4b7e75a67c009bcc09ac
+Organization: org_fHPSSq4G2ef4z27l
+Call start (UTC):      2026-10-13T07:51:09.020Z
+Call start (Shanghai): 2026-10-13T15:51:09.020+08:00
+Call end   (UTC):      2026-10-13T07:53:54.222Z
+Call end   (Shanghai): 2026-10-13T15:53:54.222+08:00
+Duration: 165.202 seconds
+Export from (UTC): 2026-10-13T07:49:09.020Z
+Export to   (UTC): 2026-10-13T07:55:54.222Z
+
+Call ID: call_e26836d7b834515d8104744c2ad
+Organization: org_fHPSSq4G2ef4z27l
+Call start (UTC):      2026-10-16T02:25:40.937Z
+Call start (Shanghai): 2026-10-16T10:25:40.937+08:00
+Call end   (UTC):      2026-10-16T02:26:40.345Z
+Call end   (Shanghai): 2026-10-16T10:26:40.345+08:00
+Duration: 59.408 seconds
+Export from (UTC): 2026-10-16T02:23:40.937Z
+Export to   (UTC): 2026-10-16T02:28:40.345Z
+
+Complete time spans: 13/13

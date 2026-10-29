@@ -1,0 +1,304 @@
+{
+  "requested_calls": 13,
+  "calls": [
+    {
+      "call_id": "call_5933a98a8b1925ee7f47be4063b",
+      "org_id": "org_fHPSSq4G2ef4z27l",
+      "files": {
+        "transcript.json": {
+          "status": "cached"
+        },
+        "retrieval.json": {
+          "status": "no_retained_url"
+        },
+        "node_transition.json": {
+          "status": "cached"
+        }
+      },
+      "transcript_entries": 46,
+      "logged_kb_ids": [],
+      "configured_candidate_kb_ids": [
+        "knowledge_base_c113c41c4ee37f7a"
+      ],
+      "status": "conversation_saved"
+    },
+    {
+      "call_id": "call_6d717fabfff7d93935428242d98",
+      "org_id": "org_fHPSSq4G2ef4z27l",
+      "files": {
+        "transcript.json": {
+          "status": "cached"
+        },
+        "retrieval.json": {
+          "status": "cached"
+        },
+        "node_transition.json": {
+          "status": "cached"
+        }
+      },
+      "transcript_entries": 43,
+      "logged_kb_ids": [
+        "knowledge_base_574738ccc5bbae85",
+        "knowledge_base_72b9c7f6b04141d9"
+      ],
+      "configured_candidate_kb_ids": [
+        "knowledge_base_9aaa22a2ce5f3e8f",
+        "knowledge_base_c113c41c4ee37f7a"
+      ],
+      "status": "conversation_saved"
+    },
+    {
+      "call_id": "call_8aa8efbaa0eb9e64fc059bd2c4a",
+      "org_id": "org_fHPSSq4G2ef4z27l",
+      "files": {
+        "transcript.json": {
+          "status": "cached"
+        },
+        "retrieval.json": {
+          "status": "cached"
+        },
+        "node_transition.json": {
+          "status": "cached"
+        }
+      },
+      "transcript_entries": 13,
+      "logged_kb_ids": [
+        "knowledge_base_72b9c7f6b04141d9"
+      ],
+      "configured_candidate_kb_ids": [
+        "knowledge_base_c113c41c4ee37f7a"
+      ],
+      "status": "conversation_saved"
+    },
+    {
+      "call_id": "call_33457cb382388d2f0599f40e7a2",
+      "org_id": "org_fHPSSq4G2ef4z27l",
+      "files": {
+        "transcript.json": {
+          "status": "cached"
+        },
+        "retrieval.json": {
+          "status": "cached"
+        },
+        "node_transition.json": {
+          "status": "cached"
+        }
+      },
+      "transcript_entries": 69,
+      "logged_kb_ids": [
+        "knowledge_base_574738ccc5bbae85"
+      ],
+      "configured_candidate_kb_ids": [
+        "knowledge_base_c113c41c4ee37f7a"
+      ],
+      "status": "conversation_saved"
+    },
+    {
+      "call_id": "call_89bac8aaa7c1f4d637a9f2a6a91",
+      "org_id": "org_fHPSSq4G2ef4z27l",
+      "files": {
+        "transcript.json": {
+          "status": "cached"
+        },
+        "retrieval.json": {
+          "status": "cached"
+        },
+        "node_transition.json": {
+          "status": "cached"
+        }
+      },
+      "transcript_entries": 49,
+      "logged_kb_ids": [
+        "knowledge_base_72b9c7f6b04141d9"
+      ],
+      "configured_candidate_kb_ids": [
+        "knowledge_base_c113c41c4ee37f7a"
+      ],
+      "status": "conversation_saved"
+    },
+    {
+      "call_id": "call_8ca923d434350f6fda924cc22ff",
+      "org_id": "org_fHPSSq4G2ef4z27l",
+      "files": {
+        "transcript.json": {
+          "status": "cached"
+        },
+        "retrieval.json": {
+          "status": "cached"
+        },
+        "node_transition.json": {
+          "status": "cached"
+        }
+      },
+      "transcript_entries": 31,
+      "logged_kb_ids": [
+        "knowledge_base_574738ccc5bbae85"
+      ],
+      "configured_candidate_kb_ids": [
+        "knowledge_base_9aaa22a2ce5f3e8f",
+        "knowledge_base_c113c41c4ee37f7a"
+      ],
+      "status": "conversation_saved"
+    },
+    {
+      "call_id": "call_a6476bb81e7277b3dbec64447ed",
+      "org_id": "org_fHPSSq4G2ef4z27l",
+      "files": {
+        "transcript.json": {
+          "status": "cached"
+        },
+        "retrieval.json": {
+          "status": "cached"
+        },
+        "node_transition.json": {
+          "status": "cached"
+        }
+      },
+      "transcript_entries": 62,
+      "logged_kb_ids": [
+        "knowledge_base_574738ccc5bbae85"
+      ],
+      "configured_candidate_kb_ids": [
+        "knowledge_base_c113c41c4ee37f7a"
+      ],
+      "status": "conversation_saved"
+    },
+    {
+      "call_id": "call_97b120465dd8a78feb3f577e283",
+      "org_id": "org_fHPSSq4G2ef4z27l",
+      "files": {
+        "transcript.json": {
+          "status": "cached"
+        },
+        "retrieval.json": {
+          "status": "no_retained_url"
+        },
+        "node_transition.json": {
+          "status": "cached"
+        }
+      },
+      "transcript_entries": 10,
+      "logged_kb_ids": [],
+      "configured_candidate_kb_ids": [
+        "knowledge_base_c113c41c4ee37f7a"
+      ],
+      "status": "conversation_saved"
+    },
+    {
+      "call_id": "call_57d30883073e0e8a56775624334",
+      "org_id": "org_fHPSSq4G2ef4z27l",
+      "files": {
+        "transcript.json": {
+          "status": "cached"
+        },
+        "retrieval.json": {
+          "status": "cached"
+        },
+        "node_transition.json": {
+          "status": "cached"
+        }
+      },
+      "transcript_entries": 27,
+      "logged_kb_ids": [
+        "knowledge_base_c113c41c4ee37f7a"
+      ],
+      "configured_candidate_kb_ids": [
+        "knowledge_base_c113c41c4ee37f7a"
+      ],
+      "status": "conversation_saved"
+    },
+    {
+      "call_id": "call_9bfd490cb5300f581a7747ac74b",
+      "org_id": "org_fHPSSq4G2ef4z27l",
+      "files": {
+        "transcript.json": {
+          "status": "cached"
+        },
+        "retrieval.json": {
+          "status": "cached"
+        },
+        "node_transition.json": {
+          "status": "cached"
+        }
+      },
+      "transcript_entries": 20,
+      "logged_kb_ids": [
+        "knowledge_base_72b9c7f6b04141d9"
+      ],
+      "configured_candidate_kb_ids": [
+        "knowledge_base_c113c41c4ee37f7a"
+      ],
+      "status": "conversation_saved"
+    },
+    {
+      "call_id": "call_3db1ac9d6c2ef35abf1a8026479",
+      "org_id": "org_fHPSSq4G2ef4z27l",
+      "files": {
+        "transcript.json": {
+          "status": "cached"
+        },
+        "retrieval.json": {
+          "status": "cached"
+        },
+        "node_transition.json": {
+          "status": "cached"
+        }
+      },
+      "transcript_entries": 31,
+      "logged_kb_ids": [
+        "knowledge_base_574738ccc5bbae85"
+      ],
+      "configured_candidate_kb_ids": [
+        "knowledge_base_c113c41c4ee37f7a"
+      ],
+      "status": "conversation_saved"
+    },
+    {
+      "call_id": "call_3643c8f4b7e75a67c009bcc09ac",
+      "org_id": "org_fHPSSq4G2ef4z27l",
+      "files": {
+        "transcript.json": {
+          "status": "cached"
+        },
+        "retrieval.json": {
+          "status": "cached"
+        },
+        "node_transition.json": {
+          "status": "cached"
+        }
+      },
+      "transcript_entries": 45,
+      "logged_kb_ids": [
+        "knowledge_base_72b9c7f6b04141d9"
+      ],
+      "configured_candidate_kb_ids": [
+        "knowledge_base_c113c41c4ee37f7a"
+      ],
+      "status": "conversation_saved"
+    },
+    {
+      "call_id": "call_e26836d7b834515d8104744c2ad",
+      "org_id": "org_fHPSSq4G2ef4z27l",
+      "files": {
+        "transcript.json": {
+          "status": "cached"
+        },
+        "retrieval.json": {
+          "status": "cached"
+        },
+        "node_transition.json": {
+          "status": "cached"
+        }
+      },
+      "transcript_entries": 19,
+      "logged_kb_ids": [
+        "knowledge_base_574738ccc5bbae85"
+      ],
+      "configured_candidate_kb_ids": [
+        "knowledge_base_9aaa22a2ce5f3e8f",
+        "knowledge_base_c113c41c4ee37f7a"
+      ],
+      "status": "conversation_saved"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+﻿问题分类,Topic（用户问的问题）,测试人,Session ID,AI答复准确性评分,AI答复问题点,问题点说明（如有知识内容缺失，请备注写明）,ASR识别,TTS播报,打断交互,应答延时,,Retell,,,,,,,
+Zendesk随机抽取,Issue Description: customer said he recently purchased the X5 standard battery from Amazon and the manufacture date is Jan 2025 and customer is not happy about it as he thinks it's an old battery and also customer He's having a hard time extracting batteries from X5 Utility Fast Charge Case,Lewis,call_5933a98a8b1925ee7f47be4063b,10,答复错误,该问题未成功检索知识库直接转人工，但转人工失败，没有提前进行非人工时间判断或者,10,10,10,10,,没有办法判断工作时间,TODO verify needed or not,,,,,,
+Zendesk随机抽取,"Product model: X4 + App
+Issue / request: Abnormal video orientation during preview files on Insta360 cloud ",Randle,call_6d717fabfff7d93935428242d98,5,有知识拒答,画面颠倒的问题，AI能正常解答，但是当我说注意到画面中有黑线，AI答复说没有排错方案，需要转人工。这个应该属于拼接问题，用户表达为“black line”，知识库表达为“stitching”,5,10,10,10,,针对 stitching 提示词调整,,,,,,,
+Zendesk随机抽取,Issue / request: User has his camera damaged and wanted to get it repaired using the warranty but apparently he didnt purchased any additional warranty. User mentioned that he purchased an additional warranty from the company he bought the camera from.,Grace,call_8aa8efbaa0eb9e64fc059bd2c4a,0,有知识拒答,After-Sales Service Policy,10,10,10,10,,提示词调整,,,,,,,
+Zendesk随机抽取,Issue : How to login with cloud ,Sonia,call_33457cb382388d2f0599f40e7a2,5,答复错误,"关于已购买云服务但是登陆后无法查看云空间，2C英文知识库给的是：<Insta360+: Unable to View Cloud Media or Subscription Information After Logging in to an Account with an Active Cloud-storage Plan>说要先确认账号绑定的状态
+  swipe down from the top of the screen to access the ""Shortcut"" menu > swipe right to find ""Sync Settings""> tap the ""Personal Center"" icon in the top right corner to view the account bound to the camera.
+但是机器人回复是同步云端
+1. On your X three, swipe down from the top of the camera screen.
+2. On the X three, tap “Sync files to the cloud.”",10,10,10,10,,,TODO KB,,,,,,
+Zendesk随机抽取,"SN: IAHEA2510H4RQW
+Issue Description: Camera lens damage and could like to fix it under the warranty 
+Solution provided: Adv to send for repair as customer don't want to use replacement lens kit. ",Grace,call_89bac8aaa7c1f4d637a9f2a6a91,0,有知识拒答,A Guide to Insta360 Mail-in Repair Service,10,10,10,10,,,TODO KB,,,,,,
+Zendesk随机抽取,"Product model: App
+Issue / request: User is using an android tablet which he couldn't use it in landscape mode",Randle,call_8ca923d434350f6fda924cc22ff,0,答复错误,安卓平板不兼容app,10,10,10,10,,,TODO KB,,,,,,
+Zendesk随机抽取,"Issue : X6 connectiong - ( Procord)
+Outcome : marrarob1717@gmail.com",Mobo,call_a6476bb81e7277b3dbec64447ed,5,答复错误,关于苹果手机操作那段的排障没有找到对应知识，而且一直在说自己不知道步骤，需要转人工,10,10,10,10,,,TODO KB,,,,,,
+高频产品咨询问题,相机被偷了,Mobo,call_97b120465dd8a78feb3f577e283,0,有知识拒答,有相关知识，但AI直接引导转人工了General FAQs for Insta360 devices- What should I do if my Insta360 device is lost and it does not support Apple Find My?,10,10,10,10,,调整 edge prompt,,,,,,,
+高频产品咨询问题,X5兼容的SD卡规格,Mobo,call_57d30883073e0e8a56775624334,0,答复错误,"1. AI推荐的兼容SD卡条件不全
+2. X5最大兼容SD卡内存为1TB，但AI说是512GB
+知识名称：X5:  Storage Compatibility
+X Series: Memory Card Compatibility FAQ",10,10,10,10,,pre-sale includes troubleshooting KB,,,,,,,
+高频产品咨询问题,X5享受哪些维修权益,Grace,call_9bfd490cb5300f581a7747ac74b,0,有知识拒答,"第一次识别问题错误
+Insta360+: Cloud Service Benefits",5,10,10,10,,提示词调整,,,,,,,
+高频产品咨询问题,怎么升级相机固件,Grace,call_3db1ac9d6c2ef35abf1a8026479,0,有知识拒答,Luna Series: Check and Update Firmware Version,10,10,10,10,,fixed by mention model name during troubleshooting,,,,,,,
+维修类问题,询问自己的相机是否在保修期内？能否免费维修？,Grace,call_3643c8f4b7e75a67c009bcc09ac,0,答复错误,答非所问 问是否可保修 一直要帮我转人工,10,10,10,10,,,TODO KB,,,,,,
+,My intar360 x4 was stolen. I have the serial number and proof of purchase. Please help me blacklist/ lock the camera,Mobo,call_e26836d7b834515d8104744c2ad,5,有知识拒答,直接转人工了,10,10,10,10,,,TODO KB,,,,,,

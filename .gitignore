@@ -1,0 +1,60 @@
+# Local Python environments
+/.venv/
+/.venv-finetune/
+
+# Model weights, checkpoints, generated data and evaluation outputs
+/ckpts/
+/models/
+/outputs/
+/logs/
+/data/*
+!/data/query_rewriter_exported_sample10k_random1k_filtered.json
+
+# Separate projects and unused training setup
+/retell-backend/
+/retrieval_eval/
+/unsloth-finetune/
+
+# Archived files at any depth
+trash-bin/
+
+# Generated case-study artifacts (keep source code and curated test sets)
+/case_study/output/
+/case_study/data_construction/calls/
+/case_study/data_construction/records/
+/case_study/data_construction/keyword_exports/
+/case_study/data_construction/*-urls.txt
+
+# Local scratch samples
+/test.json
+/test.sjon
+
+# Python and training caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+unsloth_compiled_cache/
+.cache/
+wandb/
+
+# Local credentials (credentials embedded in scripts must be removed separately)
+/api-key.txt
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Runtime/editor/OS artifacts
+*.log
+*.pid
+*.pid.lock
+*.csv.lock
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+__MACOSX/
