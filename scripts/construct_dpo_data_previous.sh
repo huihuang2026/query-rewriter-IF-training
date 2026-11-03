@@ -13,7 +13,9 @@ if [[ "${1:-}" == --help ]]; then
     exit 0
 fi
 
-export GEMINI_API_KEY="${GEMINI_API_KEY:-YOUR_GEMINI_API_KEY}"
+if [[ -f "$HOME/api-key.txt" ]]; then
+    source "$HOME/api-key.txt"
+fi
 
 python_bin="$HOME/miniconda3/bin/python"
 prepare_python="$PWD/.venv-finetune/bin/python"

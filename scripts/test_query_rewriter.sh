@@ -19,7 +19,9 @@ if [[ "${1:-}" == --help ]]; then
     exit 0
 fi
 
-export OPENAI_API_KEY="${OPENAI_API_KEY:-YOUR_OPENAI_API_KEY}"
+if [[ -f "$HOME/api-key.txt" ]]; then
+    source "$HOME/api-key.txt"
+fi
 
 # Full model names resolve directly; adapters use the shared Qwen base model.
 model="models/$model_name"

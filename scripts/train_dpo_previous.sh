@@ -72,7 +72,9 @@ seed=42
 
 # Step 3: Evaluate the trained DPO adapter after all training workers exit.
 # For evaluation only, comment out Steps 1 and 2, keeping the model/path settings above.
-export OPENAI_API_KEY="${OPENAI_API_KEY:-YOUR_OPENAI_API_KEY}"
+if [[ -f "$HOME/api-key.txt" ]]; then
+    source "$HOME/api-key.txt"
+fi
 test_python="$HOME/miniconda3/bin/python"
 judge_model="gpt-6-astra"
 test_limit="NULL"

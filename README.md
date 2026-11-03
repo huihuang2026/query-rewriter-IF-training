@@ -48,9 +48,23 @@ export OPENAI_API_KEY="YOUR_OPENAI_API_KEY"
 export GEMINI_API_KEY="YOUR_GEMINI_API_KEY"
 ```
 
-If you already keep these exports in the ignored local `api-key.txt`, load it with `source api-key.txt` from the workspace root.
+Keep these exports in `~/api-key.txt`, outside the repository, with permissions `600` (`chmod 600 ~/api-key.txt`). The API-using shell scripts load this file automatically when it exists. To load the keys manually, run `source "$HOME/api-key.txt"`. You can also supply the environment variables directly when the file is absent.
 
 **Shell files are editable experiment recipes.** Enable the stages you want by uncommenting their command blocks. Some stages are deliberately commented out after earlier runs; invoking a shell does not necessarily execute the entire pipeline. Run the commands below from the repository root, in the required dependency order.
+
+### W&B training charts
+
+`scripts/train_dpo_combined.sh` enables W&B logging to `damian796-personal/query-rewriter-IF-training`, using the model name as the run name. Log in once from the repository root:
+
+```bash
+.venv-finetune/bin/wandb login
+```
+
+Install `wandb` in the training environment when setting up another machine. Alternatively, export `WANDB_API_KEY` in `~/api-key.txt`. Entity and project names do not replace authentication.
+
+Both `scripts/src/train_dpo.py` and `scripts/src/train_sft.py` accept `--report-to wandb` and an optional `--run-name`. Other training shells can enable logging by passing `--report-to wandb`. Charts include training loss and learning rate, plus the reward metrics emitted by DPOTrainer. Metrics are logged every 10 optimizer steps; distributed training creates one run on the main process. Checkpoint uploads are disabled by default. The separate post-training query evaluations still write their existing local outputs, rather than W&B metrics.
+
+Use `--report-to none` to disable tracking, or `WANDB_MODE=offline` to record locally. Each invocation creates a fresh W&B run by default, including when resuming a training checkpoint.
 
 ## Test and seed data
 

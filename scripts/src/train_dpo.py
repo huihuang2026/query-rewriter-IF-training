@@ -37,7 +37,7 @@ def validate_pair(row):
     return {field: row[field] for field in ("prompt", "chosen", "rejected")}
 
 
-def preference_examples(input_path, tokenizer, max_length, input_signature=None):
+def preference_examples(input_path, tokenizer, max_length, input_signature=None, strict_pairs=False):
     """Filter whole pairs before TRL tokenization; never truncate either branch."""
     # input_signature participates in the Datasets cache key, so a newly prepared
     # file at the same path cannot silently reuse an older training dataset.
@@ -51,7 +51,8 @@ def preference_examples(input_path, tokenizer, max_length, input_signature=None)
             pair = validate_pair(row)
             if normalized(pair["chosen"][0]["content"]) == normalized(pair["rejected"][0]["content"]):
                 identical += 1
-                continue
+                if not strict_pairs:
+                    continue
             prompt_ids = tokenizer.apply_chat_template(
                 pair["prompt"], tokenize=True, add_generation_prompt=True,
                 enable_thinking=False, return_dict=False)
@@ -62,13 +63,15 @@ def preference_examples(input_path, tokenizer, max_length, input_signature=None)
             if any(ids[:len(prompt_ids)] != prompt_ids for ids in full_ids):
                 raise ValueError("Chat template changes the prompt prefix when an answer is appended")
             if any(len(ids) > max_length for ids in full_ids):
+                if strict_pairs:
+                    raise ValueError("Pair exceeds max length; refusing to change the controlled sample")
                 oversized += 1
                 continue
             kept += 1
             yield {**pair, "chat_template_kwargs": {"enable_thinking": False}}
         except (ValueError, TypeError, AttributeError) as error:
             raise ValueError(f"{input_path}: record {total}: {error}") from error
-    print(f"DPO pairs: {kept:,}/{total:,} | Identical skipped: {identical:,} | "
+    print(f"DPO pairs: {kept:,}/{total:,} | Identical {'retained' if strict_pairs else 'skipped'}: {identical:,} | "
           f"Overlength skipped: {oversized:,}", flush=True)
     if not kept:
         raise ValueError("No usable DPO pairs fit the requested sequence length")
@@ -104,13 +107,16 @@ def config_arguments(args, bf16, num_pairs):
         output_dir=str(args.output_dir), num_train_epochs=args.epochs, max_steps=args.max_steps,
         per_device_train_batch_size=args.batch_size,
         gradient_accumulation_steps=args.gradient_accumulation,
-        learning_rate=args.learning_rate, beta=args.beta, loss_type="sigmoid",
+        learning_rate=args.learning_rate, beta=args.beta,
+        loss_type=["sigmoid", "sft"] if args.sft_loss_weight > 0 else "sigmoid",
+        loss_weights=[1.0, args.sft_loss_weight] if args.sft_loss_weight > 0 else None,
         warmup_steps=math.ceil(total_steps * 0.03), lr_scheduler_type="linear", weight_decay=0.01,
         optim="adamw_torch", bf16=bf16, fp16=not bf16,
         gradient_checkpointing=args.gradient_checkpointing,
         ddp_find_unused_parameters=False, eval_strategy="no", do_eval=False,
         save_strategy="epoch", save_total_limit=3, logging_steps=10, logging_first_step=True,
-        report_to="none", seed=args.seed, max_length=args.max_seq_length,
+        report_to=args.report_to, run_name=args.run_name or args.output_dir.name,
+        seed=args.seed, max_length=args.max_seq_length,
         # Both complete branches were checked above; the collator will not truncate them.
         truncation_mode="keep_start", disable_dropout=True,
         precompute_ref_log_probs=False, activation_offloading=False,
@@ -118,6 +124,11 @@ def config_arguments(args, bf16, num_pairs):
 
 
 def train(args):
+    # Trainer's W&B callback initializes/logs only on the global main process.
+    if args.report_to == "wandb":
+        os.environ.setdefault("WANDB_ENTITY", "damian796-personal")
+        os.environ.setdefault("WANDB_PROJECT", "query-rewriter-IF-training")
+        os.environ.setdefault("WANDB_LOG_MODEL", "false")
     import torch
     if not torch.cuda.is_available():
         raise ValueError("DPO training requires CUDA GPUs")
@@ -152,6 +163,7 @@ def train(args):
     dataset = Dataset.from_generator(preference_examples, gen_kwargs={
         "input_path": str(args.input), "tokenizer": tokenizer, "max_length": args.max_seq_length,
         "input_signature": (stat.st_size, stat.st_mtime_ns),
+        "strict_pairs": args.strict_pairs,
     }).shuffle(seed=args.seed)
     config = DPOConfig(**config_arguments(args, bf16, len(dataset)))
     # For an already trained PEFT model, current TRL clones default -> ref and
@@ -163,6 +175,7 @@ def train(args):
     world_size = int(os.environ.get("WORLD_SIZE", "1"))
     if trainer.is_world_process_zero():
         print(f"SFT initialization and frozen reference: {args.sft_adapter}", flush=True)
+        print(f"Loss: DPO + {args.sft_loss_weight:g} * chosen-answer SFT", flush=True)
         print(f"DPO pairs: {len(dataset):,} | GPUs: {world_size} | Effective batch: "
               f"{args.batch_size * args.gradient_accumulation * world_size} preference pairs", flush=True)
         print("Each preference pair contains one chosen and one rejected answer.", flush=True)
@@ -192,6 +205,13 @@ def positive_float(value):
     return number
 
 
+def nonnegative_float(value):
+    number = float(value)
+    if not math.isfinite(number) or number < 0:
+        raise argparse.ArgumentTypeError("must be finite and nonnegative")
+    return number
+
+
 def parse_args(argv=None):
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--input", type=Path, default=DEFAULT_INPUT,
@@ -205,12 +225,19 @@ def parse_args(argv=None):
     parser.add_argument("--gradient-accumulation", type=positive, default=4)
     parser.add_argument("--learning-rate", type=positive_float, default=5e-6)
     parser.add_argument("--beta", type=positive_float, default=0.1, help="DPO reference regularization strength")
+    parser.add_argument("--sft-loss-weight", type=nonnegative_float, default=0.0,
+                        help="Chosen-answer SFT loss weight added to DPO; 0 keeps DPO only")
+    parser.add_argument("--strict-pairs", action="store_true",
+                        help="Keep identical pairs and fail on overlength pairs to preserve a controlled sample")
     parser.add_argument("--max-seq-length", type=positive, default=4096)
     parser.add_argument("--gradient-checkpointing", action="store_true",
                         help="Optional GPU activation recomputation; disabled by default for speed")
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--max-steps", type=positive, default=-1, help="Override epochs for a short run")
     parser.add_argument("--resume-from-checkpoint", type=Path)
+    parser.add_argument("--report-to", choices=("none", "wandb"), default="none",
+                        help="Enable W&B training charts with --report-to wandb")
+    parser.add_argument("--run-name", help="W&B display name; defaults to the output directory name")
     args = parser.parse_args(argv)
     if not args.input.is_file():
         parser.error(f"DPO training file not found: {args.input}")

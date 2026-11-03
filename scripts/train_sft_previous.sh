@@ -66,7 +66,9 @@ if ! flock -n 9; then
     exit 1
 fi
 
-export OPENAI_API_KEY="${OPENAI_API_KEY:-YOUR_OPENAI_API_KEY}"
+if [[ -f "$HOME/api-key.txt" ]]; then
+    source "$HOME/api-key.txt"
+fi
 
 # # Generate with and without user instructions in one inference run.
 # CUDA_VISIBLE_DEVICES="$test_gpu" "$test_python" scripts/src/test_query_rewriter.py generate \

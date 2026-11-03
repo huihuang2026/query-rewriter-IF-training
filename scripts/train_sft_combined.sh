@@ -68,7 +68,9 @@ test_python="$HOME/miniconda3/bin/python"
 judge_model="gpt-6-astra"
 test_limit="NULL"
 test_gpu=4
-export OPENAI_API_KEY="${OPENAI_API_KEY:-YOUR_OPENAI_API_KEY}"
+if [[ -f "$HOME/api-key.txt" ]]; then
+    source "$HOME/api-key.txt"
+fi
 test_name="${test_file##*/}"
 output_prefix="outputs/${test_name%.json}_${model_name}"
 mkdir -p outputs

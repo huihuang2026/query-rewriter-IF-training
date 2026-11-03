@@ -512,10 +512,17 @@ def generation_config(args):
     weights = args.sft_adapter / "adapter_model.safetensors"
     if not adapter.is_file() or not weights.is_file():
         raise ValueError(f"SFT LoRA adapter not found: {args.sft_adapter}")
-    return {"model": str(args.model.resolve()), "sft_adapter": str(args.sft_adapter.resolve()),
+    config = {"model": str(args.model.resolve()), "sft_adapter": str(args.sft_adapter.resolve()),
               "adapter_config_hash": file_hash(adapter), "adapter_weights_hash": file_hash(weights),
               "model_name": args.model_name, "max_model_len": args.max_model_len,
               "max_new_tokens": args.max_new_tokens, "temperature": 0}
+    # Preserve fingerprints of existing generation caches at the default setting.
+    penalty = getattr(args, "repetition_penalty", 1.0)
+    if not math.isfinite(penalty) or penalty < 1.0:
+        raise ValueError("repetition penalty must be finite and >= 1")
+    if penalty != 1.0:
+        config["repetition_penalty"] = penalty
+    return config
 
 
 def visible_gpu_ids(count):
@@ -556,7 +563,8 @@ def generate_replicas(args, config, saved, pending):
                            "--model", str(args.model.resolve()), "--sft-adapter", str(args.sft_adapter.resolve()),
                            "--model-name", args.model_name, "--max-model-len", str(args.max_model_len),
                            "--max-new-tokens", str(args.max_new_tokens), "--num-gpus", "1",
-                           "--tensor-parallel-size", "1"]
+                           "--tensor-parallel-size", "1",
+                           "--repetition-penalty", str(getattr(args, "repetition_penalty", 1.0))]
                 environment = {**os.environ, "CUDA_VISIBLE_DEVICES": gpu, "PYTHONUNBUFFERED": "1"}
                 process = subprocess.Popen(command, env=environment, start_new_session=True)
                 workers.append({"process": process, "output": output_path, "gpu": gpu,
@@ -632,7 +640,8 @@ def generate(args):
                 enable_lora=True, max_lora_rank=rank, tensor_parallel_size=args.tensor_parallel_size)
     tokenizer = model.get_tokenizer()
     request = LoRARequest(args.model_name, 1, str(args.sft_adapter.resolve()))
-    parameters = SamplingParams(temperature=0, max_tokens=args.max_new_tokens)
+    parameters = SamplingParams(temperature=0, max_tokens=args.max_new_tokens,
+                                repetition_penalty=getattr(args, "repetition_penalty", 1.0))
     try:
         with args.output.open("a", encoding="utf-8") as handle:
             runnable, texts, skipped = [], [], []
@@ -860,9 +869,13 @@ def anonymous_answers(row, seed):
     return prompt, {"A": order[0], "B": order[1]}
 
 
+# Rejudge entry points may opt into an explicit no-retrieval outcome.
+COMPARISON_OUTCOMES = ("A", "B", "tie")
+
+
 def validate_comparison(value):
-    if not isinstance(value, dict) or value.get("winner") not in ("A", "B", "tie"):
-        raise ValueError("Comparison winner must be A, B, or tie")
+    if not isinstance(value, dict) or value.get("winner") not in COMPARISON_OUTCOMES:
+        raise ValueError(f"Comparison winner must be one of {COMPARISON_OUTCOMES}")
     if not isinstance(value.get("reason"), str) or not value["reason"].strip():
         raise ValueError("Comparison must provide a reason")
     return {"reason": value["reason"], "winner": value["winner"]}
@@ -880,9 +893,9 @@ def comparison_verdict(row):
     if set(mapping) != {"A", "B"} or set(mapping.values()) != {"gemini", "sft"}:
         raise ValueError("Comparison answer mapping is invalid")
     anonymous = value.get("anonymous_winner")
-    if anonymous not in ("A", "B", "tie"):
+    if anonymous not in COMPARISON_OUTCOMES:
         raise ValueError("Anonymous comparison verdict is invalid")
-    winner = "tie" if anonymous == "tie" else mapping[anonymous]
+    winner = mapping[anonymous] if anonymous in ("A", "B") else anonymous
     if value.get("winner") != winner:
         raise ValueError("Comparison verdict does not match the anonymous answer mapping")
     return winner
@@ -963,7 +976,7 @@ def compare(args):
     saved = load_journal(args.output)
     state, clients, lock = threading.local(), [], threading.Lock()
     schema = {"type": "object", "properties": {"reason": {"type": "string"},
-              "winner": {"type": "string", "enum": ["A", "B", "tie"]}},
+              "winner": {"type": "string", "enum": list(COMPARISON_OUTCOMES)}},
               "required": ["reason", "winner"], "additionalProperties": False}
 
     def client():
@@ -1011,7 +1024,9 @@ def compare(args):
                     result.update(gemini_query=query, gemini_model=teacher_model,
                                   gemini_prompt_hash=teacher_prompt_hash(result["source"]))
             prompt, mapping = anonymous_answers(result, args.seed)
-            if normalized(result["gemini_query"]) == normalized(result["generated_query"]):
+            # The quality rejudge must classify retrieval need even for equal answers.
+            if ("retrieval_unnecessary" not in COMPARISON_OUTCOMES
+                    and normalized(result["gemini_query"]) == normalized(result["generated_query"])):
                 verdict = {"reason": "The two responses are identical after whitespace normalization.", "winner": "tie"}
             else:
                 response = request_with_retries(client(), model=args.judge_model, contents=prompt,
@@ -1019,7 +1034,7 @@ def compare(args):
                         response_json_schema=schema, max_output_tokens=args.max_output_tokens,
                         thinking_config=types.ThinkingConfig(thinking_level=args.thinking_level), temperature=0))
                 verdict = validate_comparison(json.loads(response.text or ""))
-            winner = "tie" if verdict["winner"] == "tie" else mapping[verdict["winner"]]
+            winner = mapping[verdict["winner"]] if verdict["winner"] in ("A", "B") else verdict["winner"]
             result["response_comparison"] = {"reason": verdict["reason"], "winner": winner,
                 "criterion": comparison_criterion(row),
                 "anonymous_winner": verdict["winner"], "answer_sources": mapping,
@@ -1071,9 +1086,11 @@ def compare(args):
         group = verdicts[mode]
         eligible_count = stats["by_mode"][mode]["eligible"]
         percent = 100 * group["gemini"] / eligible_count if eligible_count else 0
+        unnecessary = (f"| Retrieval unnecessary={group['retrieval_unnecessary']:,} "
+                       if "retrieval_unnecessary" in COMPARISON_OUTCOMES else "")
         print(f"  {label}: Gemini wins kept for preparation={group['gemini']:,}/{eligible_count:,} "
               f"({percent:.1f}%) | SFT wins={group['sft']:,} | Ties={group['tie']:,} "
-              f"| Failed={group['failed']:,}", flush=True)
+              f"{unnecessary}| Failed={group['failed']:,}", flush=True)
 
 
 def report_preparation_counts(groups, args):
@@ -1152,7 +1169,7 @@ def prepare(args):
             counts["missing_or_invalid_comparison"] += 1
             continue
         if winner != "gemini":
-            counts["tie" if winner == "tie" else "sft_better"] += 1
+            counts[winner if winner in ("tie", "retrieval_unnecessary") else "sft_better"] += 1
             continue
         negative, applicability = candidate_scores(row)
         pair = {
@@ -1264,6 +1281,8 @@ def main():
     generation.add_argument("--model-name", default="Qwen3-4B-Instruct-2507-self_instruct_scored_5_5-LoRA")
     generation.add_argument("--max-model-len", type=positive, default=4096)
     generation.add_argument("--max-new-tokens", type=positive, default=512)
+    generation.add_argument("--repetition-penalty", type=float, default=1.0,
+                            help="Repetition penalty >= 1; default preserves existing decoding")
     generation.add_argument("--tensor-parallel-size", type=positive, default=1)
     generation.add_argument("--num-gpus", type=positive, default=1,
                             help="Independent one-GPU vLLM replicas; each submits its shard in one call")

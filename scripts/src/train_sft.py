@@ -142,7 +142,8 @@ def training_arguments(args, bf16):
             "ddp_find_unused_parameters": False,
             "eval_strategy": "no", "do_eval": False, "save_strategy": "epoch",
             "save_total_limit": 3, "load_best_model_at_end": False,
-            "report_to": "none", "seed": args.seed, "packing": False,
+            "report_to": args.report_to, "run_name": args.run_name or args.output_dir.name,
+            "seed": args.seed, "packing": False,
             "max_length": args.max_seq_length,
             # Explicit labels already mask all prompt tokens; do not mask twice.
             "completion_only_loss": False, "assistant_only_loss": False,
@@ -151,6 +152,11 @@ def training_arguments(args, bf16):
 
 
 def train(args):
+    # Trainer's W&B callback initializes/logs only on the global main process.
+    if args.report_to == "wandb":
+        os.environ.setdefault("WANDB_ENTITY", "damian796-personal")
+        os.environ.setdefault("WANDB_PROJECT", "query-rewriter-IF-training")
+        os.environ.setdefault("WANDB_LOG_MODEL", "false")
     import torch
 
     if int(os.environ.get("WORLD_SIZE", "1")) > 1:
@@ -245,6 +251,9 @@ def parse_args():
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--max-steps", type=positive, default=-1, help="Optional short training run instead of all epochs")
     parser.add_argument("--resume-from-checkpoint")
+    parser.add_argument("--report-to", choices=("none", "wandb"), default="none",
+                        help="Enable W&B training charts with --report-to wandb")
+    parser.add_argument("--run-name", help="W&B display name; defaults to the output directory name")
     parser.add_argument("--merge-lora", action="store_true")
     args = parser.parse_args()
     if args.output_dir is None:

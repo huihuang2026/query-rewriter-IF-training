@@ -30,7 +30,9 @@ workers=10
 quality_score=3 # Keep scores strictly above this cutoff.
 model="gpt-6-luna"
 
-export OPENAI_API_KEY="${OPENAI_API_KEY:-YOUR_OPENAI_API_KEY}"
+if [[ -f "$HOME/api-key.txt" ]]; then
+    source "$HOME/api-key.txt"
+fi
 
 # Prepare the initial review pool here when it has not been created yet.
 if [[ ! -s "$input_file" ]]; then

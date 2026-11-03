@@ -45,7 +45,9 @@ echo "Training $model_name on $num_gpus GPUs; effective batch: $((num_gpus * bat
 
 # Step 2: Evaluate the trained adapter after all training workers exit.
 # Evaluation credentials are configured here, as in train_dpo_exported.sh.
-export OPENAI_API_KEY="${OPENAI_API_KEY:-YOUR_OPENAI_API_KEY}"
+if [[ -f "$HOME/api-key.txt" ]]; then
+    source "$HOME/api-key.txt"
+fi
 test_python="$HOME/miniconda3/bin/python"
 judge_model="gpt-6-astra"
 test_limit="NULL"
