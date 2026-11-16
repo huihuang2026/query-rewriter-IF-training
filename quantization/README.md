@@ -18,7 +18,7 @@ uv venv --python 3.12 .venv
 uv pip install --python .venv/bin/python -r quantization/requirements-vllm.txt
 ```
 
-All server/client pairs use checkpoints and their bundled tokenizers under `cpkts/`.
+Server/client pairs use the checkpoint paths and bundled tokenizers configured in their scripts; the NVFP4 pair uses `ckpts/`.
 All servers use GPU 0 on this machine. Run one server at a time: stop the previous
 server before starting another, since each reserves 90% of GPU memory.
 
@@ -30,12 +30,12 @@ Edit the paths and sample count in `quantize_nvfp4.sh`, then run
 `bash quantization/quantize_nvfp4.sh`. It calls the Python quantizer described below.
 
 `quantize_nvfp4.py` loads an already merged BF16 checkpoint (by default the
-train02 `-BF16` model in `cpkts/`) and applies LLM Compressor's standard
+train02 `-BF16` model in `ckpts/`) and applies LLM Compressor's standard
 `QuantizationModifier(scheme="NVFP4")` recipe. This is **W4A4 floating point**,
 with groups of 16; it differs from the GPTQ INT4 W4A16 recipe. `lm_head` stays
 BF16 and KV-cache quantization is not enabled. The result is saved in
 compressed-tensors format alongside the tokenizer and a quantization manifest.
-The default output is `cpkts/<train02-name>-NVFP4`; existing outputs are refused.
+The default output is `ckpts/<train02-name>-NVFP4`; existing outputs are refused.
 
 This recipe requires **calibration data** to estimate activation global scales.
 Use representative training conversations, including both user-instruction
@@ -96,7 +96,7 @@ There is a server/client pair for each format:
 After NVFP4 quantization completes, run `bash quantization/serve_nvfp4.sh` and
 wait for readiness, then run `bash quantization/benchmark_nvfp4.sh` in another
 terminal. The server selects `--linear-backend auto` and loads
-`cpkts/<train02-name>-NVFP4`. Results are saved under
+`ckpts/<train02-name>-NVFP4`. Results are saved under
 `outputs/quantization/speed/nvfp4_auto/`.
 
 `serve_original.sh` serves the existing merged BF16 model at `cpkts/<train02-name>-BF16`. Its optional merge command is commented out; enable it only when the original base model, adapter, and quantization environment are available. The helper `merge_original.py` uses the same BF16 base/adapter merge procedure as the two quantizers. This makes the baseline a full model and avoids runtime LoRA overhead affecting the comparison. All server scripts set `CUDA_VISIBLE_DEVICES=0`; edit it for another machine.

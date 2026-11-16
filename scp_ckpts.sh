@@ -3,8 +3,8 @@
 set -euo pipefail
 
 source_dir="/home/huanghui/WorkSpace/ckpts"
-remote_host="" # Set to your SSH alias or username@hostname.
-remote_dir="" # Set to the absolute destination path, e.g. /home/user/other-repo/ckpts.
+remote_host="213.239.190.206" # Set to your SSH alias or username@hostname.
+remote_dir="/home/huanghui/query-rewriter-IF-training/cpkts" # Set to the absolute destination path, e.g. /home/user/other-repo/ckpts.
 ssh_port=22
 
 : "${remote_host:?Set remote_host before running this script}"

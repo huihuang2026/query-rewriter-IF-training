@@ -125,7 +125,7 @@ def quantize(args, samples, metadata):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--model-path", type=Path, default=ROOT / "cpkts" / f"{MODEL_NAME}-BF16",
+    parser.add_argument("--model-path", type=Path, default=ROOT / "ckpts" / f"{MODEL_NAME}-BF16",
                         help="Local merged, unquantized checkpoint; do not pass FP8/INT4 weights")
     parser.add_argument("--calibration-file", type=Path, required=True,
                         help="Training calibration JSONL from sample_calibration.py")
