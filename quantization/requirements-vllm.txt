@@ -1,0 +1,2 @@
+# Serving and speed benchmarks; separate from the quantization environment.
+vllm[bench]==0.31.0

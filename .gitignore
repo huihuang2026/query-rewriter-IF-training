@@ -5,6 +5,7 @@
 
 # Model weights, checkpoints, generated data and evaluation outputs
 /ckpts/
+/cpkts/
 /models/
 /outputs/
 /logs/

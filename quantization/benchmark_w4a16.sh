@@ -3,32 +3,33 @@
 set -euo pipefail
 cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.."
 
-python_bin="$HOME/miniconda3/bin/python" # vLLM environment.
-# One-time benchmark dependencies (already installed on this machine):
-# "$python_bin" -m pip install pandas matplotlib seaborn datasets scipy plotly
+python_bin="$PWD/.venv/bin/python" # Local vLLM environment.
+export PATH="$(dirname -- "$python_bin"):$PATH"
+# Install dependencies with uv using quantization/requirements-vllm.txt; see README.md.
 checkpoint="Qwen3-4B-final-train02-700K-SFT-previous-DPO-length-control-source20K-IF4-CP4-withinst-noinst-len1.0-sft1.0-1epoch"
 model_name="${checkpoint}-W4A16-GPTQ-calib10240"
 host="127.0.0.1"
 port=8000
 model_label="W4A16"
 test_file="data/query_rewriter_exported_sample10k_random1k_filtered.json"
-tokenizer="models/Qwen3-4B-Instruct-2507"
+tokenizer="cpkts/$model_name"
 result_dir="outputs/quantization/speed/w4a16"
-benchmark_file="${result_dir}/test_prompts.jsonl"
 num_prompts=1032 # All 516 test conversations, each with and without instructions.
 max_new_tokens=256
 warmup_requests=10
 seed=42
-run_timestamp="$(date +%Y%m%d_%H%M%S)"
+run_timestamp="$(date +%Y%m%d_%H%M%S_%N)"
+benchmark_file="${result_dir}/test_prompts_${run_timestamp}.jsonl"
 preparation_log="${result_dir}/prepare_${run_timestamp}.log"
 mkdir -p "$result_dir"
+cp -- "$PWD/quantization/benchmark_w4a16.sh" "${result_dir}/benchmark_${run_timestamp}.sh"
 
 # 1. Prepare both instruction conditions once for all three rates.
 "$python_bin" -u quantization/prepare_speed_data.py \
     --input "$test_file" --output "$benchmark_file" \
     --tokenizer "$tokenizer" --max-new-tokens "$max_new_tokens" > "$preparation_log"
 
-# 2. Benchmark one rate, then print/save its four latency metrics.
+# 2. Benchmark one rate, then print/save its six latency metrics.
 # No client concurrency cap. Each run finishes before the next rate starts.
 # Warmups are excluded; responses stop normally at EOS.
 run_benchmark() {
@@ -44,8 +45,8 @@ run_benchmark() {
         --custom-output-len "$max_new_tokens" --temperature 0 --seed "$seed" \
         --extra-body '{"add_special_tokens": false}' \
         --request-rate "$request_rate" --num-warmups "$warmup_requests" \
-        --percentile-metrics ttft,tpot --metric-percentiles 95 --disable-tqdm \
-        --save-result --result-dir "$result_dir" --result-filename "$result_file" --label "qps${request_rate}" \
+        --percentile-metrics ttft,tpot,e2el --metric-percentiles 95 --disable-tqdm \
+        --save-result --save-detailed --result-dir "$result_dir" --result-filename "$result_file" --label "qps${request_rate}" \
         > "$log_file"
 
     "$python_bin" -u quantization/report_speed.py \
