@@ -408,9 +408,9 @@ def extract(args):
           f"generation prompts: {conditioned + len(output):,}; missing teacher answers: {missing:,}: {args.output}", flush=True)
 
 
-def generation_rows(path, seed=42):
+def generation_rows(path, seed=42, input_limit=None):
     """Expand each group into a base prompt and one selected conditioned prompt."""
-    for row in records(path):
+    for row in islice(records(path), input_limit):
         if "unused_instructions" not in row:
             instruction_mode(row)
             yield row
@@ -449,7 +449,11 @@ def load_journal(path):
 
 def stage_rows(args, config, saved, completed, stats=None, compatible=None, eligible=None):
     seen = set()
-    inputs = generation_rows(args.input, args.seed) if args.command == "generate" else records(args.input)
+    conversation_limit = getattr(args, "conversation_limit", None)
+    inputs = generation_rows(args.input, args.seed, input_limit=conversation_limit) if args.command == "generate" else records(args.input)
+    selected_mode = getattr(args, "instruction_mode", "both")
+    if args.command == "generate" and selected_mode != "both":
+        inputs = (row for row in inputs if instruction_mode(row) == selected_mode)
     for row in islice(inputs, args.limit):
         key = row["record_id"]
         if key in seen:
@@ -486,6 +490,9 @@ def stage_rows(args, config, saved, completed, stats=None, compatible=None, elig
     # Keep records outside a limited run intact for a subsequent full resume.
     if args.limit is None:
         obsolete = saved.keys() - seen
+        if conversation_limit is not None and obsolete:
+            raise ValueError("Saved generation contains records outside the requested conversation prefix; "
+                             "increase the conversation limit or use a different output file")
         for key in obsolete:
             del saved[key]
         if obsolete:
@@ -1219,6 +1226,13 @@ def prepare(args):
                 counts[f"length_ratio_exceeded_{mode}"] += 1
                 groups[mode]["ratio_filtered"] += 1
                 continue
+            if any(len(tokenizer.apply_chat_template(
+                    pair["prompt"] + pair[field], tokenize=True,
+                    enable_thinking=False, return_dict=False)) > getattr(args, "max_seq_length", 4096)
+                    for field in ("chosen", "rejected")):
+                counts["overlength_pair"] += 1
+                groups[mode]["overlength_pair"] += 1
+                continue
             pair["length_selection"] = {
                 "chosen_tokens": chosen_length, "rejected_tokens": rejected_length,
                 "ratio": ratio, "max_ratio": maximum,
@@ -1276,6 +1290,10 @@ def main():
     generation.add_argument("--input", type=Path, default=DATA / "query_rewriter_self_instruct_unused_instructions.json")
     generation.add_argument("--output", type=Path, default=DATA / "query_rewriter_self_instruct_unused_generated.json")
     generation.add_argument("--seed", type=int, default=42, help="Selection seed for older inputs containing multiple unused variants")
+    generation.add_argument("--conversation-limit", type=parse_limit, default=None,
+                            help="Use the first N source conversations before expanding instruction conditions; NULL uses all")
+    generation.add_argument("--instruction-mode", choices=["both", WITH_INSTRUCTION, WITHOUT_INSTRUCTION],
+                            default="both", help="Instruction condition to generate")
     generation.add_argument("--model", type=Path, default=ROOT / "models/Qwen3-4B-Instruct-2507")
     generation.add_argument("--sft-adapter", type=Path, default=ROOT / "ckpts/Qwen3-4B-Instruct-2507-self_instruct_scored_5_5-LoRA/final")
     generation.add_argument("--model-name", default="Qwen3-4B-Instruct-2507-self_instruct_scored_5_5-LoRA")
@@ -1316,6 +1334,8 @@ def main():
                            help="Maximum model instruction-following score with user instructions")
     filtering.add_argument("--tokenizer", type=Path, default=ROOT / "models/Qwen3-4B-Instruct-2507")
     filtering.add_argument("--tokenize-batch-size", type=positive, default=1000)
+    filtering.add_argument("--max-seq-length", type=positive, default=4096,
+                           help="Drop pairs if either complete prompt/answer branch exceeds this limit")
     filtering.add_argument("--max-with-instruction-length-ratio", type=nonnegative_ratio, default=0.8,
                            help="Maximum Gemini/model response token ratio with user instructions; 0 excludes this group")
     filtering.add_argument("--max-without-instruction-length-ratio", type=nonnegative_ratio, default=0.8,

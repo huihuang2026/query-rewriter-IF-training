@@ -208,6 +208,11 @@ def train(args):
     if not len(dataset):
         raise ValueError("No examples fit the requested sequence length")
     dataset = dataset.shuffle(seed=args.seed)
+    if args.sample_size is not None:
+        if args.sample_size > len(dataset):
+            raise ValueError(f"Requested {args.sample_size:,} examples but only {len(dataset):,} are available")
+        dataset = dataset.select(range(args.sample_size))
+        print(f"Randomly sampled {len(dataset):,} training examples (seed={args.seed})")
     config = SFTConfig(**training_arguments(args, bf16))
     trainer = SFTTrainer(model=model, processing_class=tokenizer, train_dataset=dataset,
                         args=config, data_collator=DataCollatorForSeq2Seq(
@@ -249,6 +254,7 @@ def parse_args():
     parser.add_argument("--lora-alpha", type=positive, default=32)
     parser.add_argument("--lora-target-modules", default="q_proj,k_proj,v_proj,o_proj,gate_proj,up_proj,down_proj")
     parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument("--sample-size", type=positive, help="Randomly sample this many training examples")
     parser.add_argument("--max-steps", type=positive, default=-1, help="Optional short training run instead of all epochs")
     parser.add_argument("--resume-from-checkpoint")
     parser.add_argument("--report-to", choices=("none", "wandb"), default="none",

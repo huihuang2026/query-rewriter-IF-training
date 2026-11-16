@@ -7,7 +7,7 @@ python_bin="${PYTHON_BIN:-$HOME/miniconda3/bin/python}"
 
 dpo_model_name="Qwen3-4B-Instruct-2507-700K-SFT-34K-DPO-app5-rej2-17K-DPO-length-control"
 dpo_base_model="$workspace_dir/models/Qwen3-4B-Instruct-2507"
-dpo_adapter="$workspace_dir/ckpts/$dpo_model_name/final"
+dpo_adapter="$workspace_dir/ckpts/final-round/$dpo_model_name/final"
 query_model_name="Query-Rewrite-Qwen3-4B-2507"
 query_model="$workspace_dir/models/$query_model_name"
 
@@ -18,7 +18,7 @@ export TOKENIZERS_PARALLELISM=false
 # Explicit options retain single-model mode; no arguments run both models below.
 if [[ "${1:-}" == --help || "${1:-}" == -h ]]; then
     echo "With no arguments, runs these models sequentially on GPU ${CUDA_VISIBLE_DEVICES}:"
-    echo "  $workspace_dir/ckpts/$dpo_model_name (final LoRA adapter)"
+    echo "  $workspace_dir/ckpts/final-round/$dpo_model_name (final LoRA adapter)"
     echo "  $query_model"
     echo "Both write model columns to case_study/output/retrieval_issue_testset_no_analysis.csv; reruns overwrite them."
     echo "Explicit options below run a single model instead."

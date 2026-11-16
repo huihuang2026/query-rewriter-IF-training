@@ -1102,7 +1102,7 @@ def main():
                         nargs="?", default="construct",
                         help="construct-inst generates instructions only; construct-resp answers input instructions; "
                              "construct/instructions run both stages; dedup removes overlaps; score evaluates existing pairs")
-    parser.add_argument("--input", type=Path, default=ROOT / "data/Query-Rewriter-Dataset/query_rewriter_gemini_annotated_cleaned.jsonl")
+    parser.add_argument("--input", type=Path, default=ROOT / "data/query_rewriter_gemini_annotated_cleaned.jsonl")
     parser.add_argument("--seeds", type=Path, default=ROOT / "data/query_rewriter_exported_customer_max10_processed.json")
     parser.add_argument("--test", type=Path, default=ROOT / "data/query_rewriter_exported_sample10k_random1k_filtered.json")
     parser.add_argument("--output-dir", type=Path, default=ROOT / "data")

@@ -1,6 +1,7 @@
 # Local Python environments
 /.venv/
 /.venv-finetune/
+/.venv-quantization/
 
 # Model weights, checkpoints, generated data and evaluation outputs
 /ckpts/
@@ -11,12 +12,14 @@
 !/data/query_rewriter_exported_sample10k_random1k_filtered.json
 
 # Separate projects and unused training setup
+/query-rewrite-int4-gptq/
 /retell-backend/
 /retrieval_eval/
 /unsloth-finetune/
 
 # Archived files at any depth
 trash-bin/
+/scripts/trash-bin02/
 
 # Generated case-study artifacts (keep source code and curated test sets)
 /case_study/output/
@@ -42,6 +45,7 @@ wandb/
 
 # Local credentials (credentials embedded in scripts must be removed separately)
 /api-key.txt
+/.envs.apikeys
 .env
 .env.*
 !.env.example

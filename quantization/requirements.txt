@@ -1,0 +1,3 @@
+# Other dependencies (torch, transformers, datasets, etc.) come from llmcompressor.
+llmcompressor==0.15.0
+peft==0.21.2

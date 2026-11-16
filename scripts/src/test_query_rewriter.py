@@ -147,7 +147,7 @@ def instruction_scope(row):
 
 def judge_input(row):
     query = row.get("generated_query")
-    if not isinstance(query, str) or not query.strip():
+    if not isinstance(query, str):
         raise ValueError(f"Missing generated_query for record {row.get('record_id')}")
     fields = {"conversation": row["source"]["user_content"],
               "full_instruction": row["source"]["system_prompt"],
@@ -298,11 +298,14 @@ def score(args):
 
     def assess(row, metric=None):
         quality_input, instruction_input = judge_input(row)
-        if not hasattr(state, "client"):
-            state.client = OpenAI(api_key=key, timeout=120, max_retries=2)
-            with lock:
-                clients.append(state.client)
         def judge(prompt, schema):
+            # An empty model response is a scored failure, not a missing dataset row.
+            if not row['generated_query'].strip():
+                return {'reason': 'The model generated an empty search query.', 'score': 0}
+            if not hasattr(state, "client"):
+                state.client = OpenAI(api_key=key, timeout=120, max_retries=2)
+                with lock:
+                    clients.append(state.client)
             response = state.client.responses.parse(
                 model=args.judge_model, input=prompt, text_format=schema,
                 max_output_tokens=args.max_output_tokens, store=False
@@ -446,8 +449,8 @@ def calculate(args):
             f"Core Results: without-inst quality: {average_score('Whole set', 'query_quality')} | "
             f"without-inst length: {average_length('without_user_instruction')} | "
             f"with-inst IF: {average_score('Whole set', 'instruction_following')} | "
-            f"with-inst length: {average_length('with_user_instruction')} | "
-            f"retrieval-need with-inst IF: {average_score('Necessary retrieval', 'instruction_following')}"
+            f"retrieval-need with-inst IF: {average_score('Necessary retrieval', 'instruction_following')} | "
+            f"with-inst length: {average_length('with_user_instruction')}"
         )
     if scopes and not quality_only:
         print(f"Instruction-following targets: {dict(scopes)}")

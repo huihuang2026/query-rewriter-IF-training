@@ -17,7 +17,7 @@ from pathlib import Path
 from prepare_sft_data import normalized, records, valid_query
 
 ROOT = Path(__file__).resolve().parents[2]
-SFT_NAME = "Qwen3-4B-Instruct-2507-self_instruct_summary_1_all-LoRA"
+SFT_NAME = "Qwen3-4B-Instruct-2507-700K-SFT-self_instruct_summary"
 DEFAULT_INPUT = ROOT / "data/query_rewriter_self_instruct_dpo_train.json"
 DEFAULT_ADAPTER = ROOT / "ckpts" / SFT_NAME / "final"
 
