@@ -5,7 +5,8 @@ cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.."
 
 export CUDA_VISIBLE_DEVICES=1
 python_bin="$PWD/.venv-quantization/bin/python"
-test_python="$HOME/miniconda3/bin/python" # vLLM/OpenAI environment, separate from llmcompressor.
+test_python="$PWD/.venv/bin/python" # Local vLLM/OpenAI environment, separate from llmcompressor.
+export PATH="$(dirname -- "$test_python"):$PATH"
 base_model="models/Qwen3-4B-Instruct-2507"
 model_name="Qwen3-4B-final-train02-700K-SFT-previous-DPO-length-control-source20K-IF4-CP4-withinst-noinst-len1.0-sft1.0-1epoch"
 adapter="ckpts/$model_name/final"

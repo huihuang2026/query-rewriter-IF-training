@@ -50,7 +50,7 @@ def report(path, label):
         value = result.get(key)
         if not isinstance(value, (int, float)) or not math.isfinite(value) or value < 0:
             raise ValueError(f"Missing/invalid metric {key}; inspect {path}")
-        values.append(f"{value:.3f}")
+        values.append(f"{value:.2f}")
     print(f"{label} — {result['request_rate']} requests/sec target")
     print()
     print("| " + " | ".join(header for header, _ in METRICS) + " |")

@@ -9,6 +9,8 @@
 /models/
 /outputs/
 /logs/
+/investigation/
+/debugging.md
 /data/*
 !/data/query_rewriter_exported_sample10k_random1k_filtered.json
 
